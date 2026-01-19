@@ -4,6 +4,7 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Worker 监控面板</title>
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ctext y='.9em' font-size='90'%3E%E2%9A%A1%3C/text%3E%3C/svg%3E">
   <script src="https://cdn.jsdelivr.net/npm/echarts@5.4.3/dist/echarts.min.js"></script>
 
   <style>
@@ -89,6 +90,57 @@
     .icon.spin {
       transform: rotate(180deg);
     }
+
+    /* ===== 浅色模式：区间按钮层级更清晰 ===== */
+    .controls .btn{
+      background: #ffffff;
+      border: 1px solid #e5e7eb;
+      color: #374151;
+    }
+
+    .controls .btn:hover:not(.active){
+      background: #f9fafb;
+      border-color: #d1d5db;
+    }
+
+    /* 选中态：橙色 + 轻微投影 */
+    .controls .btn.active{
+      background: var(--primary);
+      border-color: var(--primary);
+      color: #ffffff;
+      font-weight: 700;
+      box-shadow: 0 4px 10px rgba(243,128,32,0.30);
+    }
+
+    /* ✅ 深色模式下：按钮更好区分选中态 */
+    html[data-theme="dark"] .controls .btn{
+      background: rgba(255,255,255,0.04);
+      border: 1px solid rgba(255,255,255,0.10);
+      color: #cbd5e1;
+    }
+
+    html[data-theme="dark"] .controls .btn:hover:not(.active){
+      background: rgba(255,255,255,0.08);
+      border-color: rgba(255,255,255,0.18);
+    }
+
+    /* 选中态：更亮 + 边框更明显 + 发光一点 */
+    html[data-theme="dark"] .controls .btn.active{
+      background: var(--primary);
+      border-color: rgba(255,255,255,0.22);
+      color: #0b1220;                 /* 让字更清晰 */
+      font-weight: 700;
+      box-shadow: 0 0 0 3px rgba(243,128,32,0.25);
+    }
+
+    /* ✅ 深色模式下也要保持红/绿语义色 */
+    html[data-theme="dark"] .stat-value.text-red { color: #ef4444 !important; }
+    html[data-theme="dark"] .stat-value.text-green { color: #10b981 !important; }
+
+    /* ✅ 可选优化：主题切换更丝滑（新增） */
+    body, .quota-card, .stat-card, #chart-container, .last-update, .btn, .icon-btn {
+      transition: background-color 200ms ease, color 200ms ease, border-color 200ms ease, box-shadow 200ms ease;
+    }
   </style>
 </head>
 
@@ -120,9 +172,10 @@
     </div>
 
     <div class="controls">
-      <button class="btn active" onclick="setRange('24h')">最近 24 小时</button>
-      <button class="btn" onclick="setRange('7d')">最近 7 天</button>
-      <button class="btn" onclick="setRange('30d')">最近 30 天</button>
+      <!-- ✅ 建议修改：加 data-range，setRange 会精确匹配按钮 -->
+      <button class="btn active" data-range="24h" onclick="setRange('24h')">最近 24 小时</button>
+      <button class="btn" data-range="7d" onclick="setRange('7d')">最近 7 天</button>
+      <button class="btn" data-range="30d" onclick="setRange('30d')">最近 30 天</button>
     </div>
 
     <div class="grid">
@@ -150,7 +203,7 @@
     const DAILY_LIMIT = 100000;
 
     // ================
-    // 主题切换（新增）
+    // 主题切换
     // ================
     let theme = 'light';
 
@@ -181,11 +234,13 @@
     function applyTheme(t) {
       document.documentElement.setAttribute('data-theme', t);
       const icon = document.getElementById('theme-icon');
+      const btn = document.getElementById('theme-toggle');
       icon.textContent = (t === 'dark') ? '☀️' : '🌙';
+      btn.title = (t === 'dark') ? '当前：深色（点击切换）' : '当前：浅色（点击切换）';
     }
 
     function init() {
-      initTheme();   // ✅ 新增
+      initTheme();
       refreshData();
     }
 
@@ -196,10 +251,8 @@
           return res.json();
         })
         .then(jsonResponse => {
-          // 1) 兼容新旧结构：数组 or { data, updatedAt }
           rawData = Array.isArray(jsonResponse) ? jsonResponse : (jsonResponse.data || []);
 
-          // 2) 更新时间显示：优先用 updatedAt
           if (jsonResponse.updatedAt) {
             const serverTime = new Date(jsonResponse.updatedAt);
             document.getElementById('update-time').innerText = '数据更新于: ' + serverTime.toLocaleString();
@@ -233,19 +286,24 @@
       document.getElementById('quota-percent').innerText = percent + '%';
       document.getElementById('quota-detail').innerText = `${todayRequests.toLocaleString()} / ${DAILY_LIMIT.toLocaleString()}`;
 
-      // 超过 80% 变红
-      if (percent > 80) bar.style.background = '#ef4444';
-      else bar.style.background = 'linear-gradient(90deg, #F38020, #f9a056)';
+      // ✅ 可选优化：超过 80% 变红，并同步左边框（新增）
+      const card = document.querySelector('.quota-card');
+      if (percent > 80) {
+        bar.style.background = '#ef4444';
+        card.style.borderLeftColor = '#ef4444';
+      } else {
+        bar.style.background = 'linear-gradient(90deg, #F38020, #f9a056)';
+        card.style.borderLeftColor = 'var(--primary)';
+      }
     }
 
     function setRange(range) {
       currentRange = range;
-      document.querySelectorAll('.btn').forEach(b => b.classList.remove('active'));
 
-      const btns = document.querySelectorAll('.btn');
-      if (range === '24h') btns[0].classList.add('active');
-      if (range === '7d') btns[1].classList.add('active');
-      if (range === '30d') btns[2].classList.add('active');
+      // ✅ 建议修改：按 data-range 精确匹配 active 按钮（新增）
+      document.querySelectorAll('.btn').forEach(b => b.classList.remove('active'));
+      const activeBtn = document.querySelector(`.btn[data-range="${range}"]`);
+      if (activeBtn) activeBtn.classList.add('active');
 
       const now = new Date();
       let startTime = new Date();
@@ -302,7 +360,6 @@
       if (chartInstance) chartInstance.dispose();
       chartInstance = echarts.init(document.getElementById('chart-container'));
 
-      // 根据主题调整 ECharts 配色（新增）
       const isDark = document.documentElement.getAttribute('data-theme') === 'dark';
       const axisText = isDark ? '#cbd5e1' : '#374151';
       const titleText = isDark ? '#e5e7eb' : '#111827';
@@ -317,7 +374,8 @@
           backgroundColor: tooltipBg,
           borderColor: gridLine,
           textStyle: { color: titleText },
-          valueFormatter: (value) => Math.floor(value)
+          valueFormatter: (value) => Math.floor(value),
+          extraCssText: 'border-radius:10px; box-shadow:0 10px 30px rgba(0,0,0,0.25); padding:10px 12px;'
         },
         legend: { data: ['总请求', '错误'], bottom: 0, textStyle: { color: axisText } },
         grid: { left: '3%', right: '4%', bottom: '10%', containLabel: true },
