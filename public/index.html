@@ -1,264 +1,372 @@
 <!DOCTYPE html>
 <html lang="zh-CN">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Worker 监控面板</title>
-    <script src="https://cdn.jsdelivr.net/npm/echarts@5.4.3/dist/echarts.min.js"></script>
-    <style>
-        :root { --primary: #F38020; --bg: #f3f4f6; --card: #ffffff; --text: #1f2937; }
-        body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; background: var(--bg); color: var(--text); margin: 0; padding: 20px; }
-        .container { max-width: 1200px; margin: 0 auto; }
-        
-        .header { display: flex; justify-content: space-between; align-items: center; margin-bottom: 24px; flex-wrap: wrap; gap: 10px; }
-        .header h1 { margin: 0; font-size: 24px; display: flex; align-items: center; gap: 8px; }
-        
-        .last-update { font-size: 13px; color: #6b7280; background: #e5e7eb; padding: 6px 12px; border-radius: 20px; }
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Worker 监控面板</title>
+  <script src="https://cdn.jsdelivr.net/npm/echarts@5.4.3/dist/echarts.min.js"></script>
 
-        .quota-card { background: var(--card); padding: 20px; border-radius: 12px; box-shadow: 0 1px 3px rgba(0,0,0,0.05); margin-bottom: 24px; border-left: 5px solid var(--primary); }
-        .quota-header { display: flex; justify-content: space-between; margin-bottom: 10px; font-weight: 600; font-size: 16px; }
-        .progress-bg { height: 20px; background: #e5e7eb; border-radius: 10px; overflow: hidden; position: relative; }
-        .progress-bar { height: 100%; background: linear-gradient(90deg, #F38020, #f9a056); width: 0%; transition: width 1s ease; border-radius: 10px; }
-        .quota-text { display: flex; justify-content: space-between; font-size: 13px; color: #6b7280; margin-top: 6px; }
+  <style>
+    :root { --primary: #F38020; --bg: #f3f4f6; --card: #ffffff; --text: #1f2937; }
+    body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; background: var(--bg); color: var(--text); margin: 0; padding: 20px; }
+    .container { max-width: 1200px; margin: 0 auto; }
 
-        .controls { display: flex; gap: 10px; margin-bottom: 15px; }
-        .btn { border: none; background: #fff; padding: 8px 16px; border-radius: 6px; cursor: pointer; font-size: 14px; color: #666; transition: 0.2s; box-shadow: 0 1px 2px rgba(0,0,0,0.05); }
-        .btn.active { background: var(--primary); color: white; font-weight: 500; }
-        .btn:hover:not(.active) { background: #f9fafb; }
+    .header { display: flex; justify-content: space-between; align-items: center; margin-bottom: 24px; flex-wrap: wrap; gap: 10px; }
+    .header h1 { margin: 0; font-size: 24px; display: flex; align-items: center; gap: 8px; }
 
-        .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 16px; margin-bottom: 24px; }
-        .stat-card { background: var(--card); padding: 20px; border-radius: 12px; box-shadow: 0 1px 3px rgba(0,0,0,0.05); }
-        .stat-title { color: #6b7280; font-size: 13px; margin-bottom: 8px; text-transform: uppercase; letter-spacing: 0.5px; }
-        .stat-value { font-size: 28px; font-weight: 700; color: #111827; }
-        .text-green { color: #10b981; } .text-red { color: #ef4444; }
+    .last-update { font-size: 13px; color: #6b7280; background: #e5e7eb; padding: 6px 12px; border-radius: 20px; }
 
-        #chart-container { background: var(--card); padding: 20px; border-radius: 12px; box-shadow: 0 1px 3px rgba(0,0,0,0.05); height: 450px; }
-    </style>
+    .quota-card { background: var(--card); padding: 20px; border-radius: 12px; box-shadow: 0 1px 3px rgba(0,0,0,0.05); margin-bottom: 24px; border-left: 5px solid var(--primary); }
+    .quota-header { display: flex; justify-content: space-between; margin-bottom: 10px; font-weight: 600; font-size: 16px; }
+    .progress-bg { height: 20px; background: #e5e7eb; border-radius: 10px; overflow: hidden; position: relative; }
+    .progress-bar { height: 100%; background: linear-gradient(90deg, #F38020, #f9a056); width: 0%; transition: width 1s ease; border-radius: 10px; }
+    .quota-text { display: flex; justify-content: space-between; font-size: 13px; color: #6b7280; margin-top: 6px; }
+
+    .controls { display: flex; gap: 10px; margin-bottom: 15px; }
+    .btn { border: none; background: #fff; padding: 8px 16px; border-radius: 6px; cursor: pointer; font-size: 14px; color: #666; transition: 0.2s; box-shadow: 0 1px 2px rgba(0,0,0,0.05); }
+    .btn.active { background: var(--primary); color: white; font-weight: 500; }
+    .btn:hover:not(.active) { background: #f9fafb; }
+
+    .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 16px; margin-bottom: 24px; }
+    .stat-card { background: var(--card); padding: 20px; border-radius: 12px; box-shadow: 0 1px 3px rgba(0,0,0,0.05); }
+    .stat-title { color: #6b7280; font-size: 13px; margin-bottom: 8px; text-transform: uppercase; letter-spacing: 0.5px; }
+    .stat-value { font-size: 28px; font-weight: 700; color: #111827; }
+    .text-green { color: #10b981; } .text-red { color: #ef4444; }
+
+    #chart-container { background: var(--card); padding: 20px; border-radius: 12px; box-shadow: 0 1px 3px rgba(0,0,0,0.05); height: 450px; }
+
+    /* =========================
+       主题切换（新增）
+       ========================= */
+    html[data-theme="dark"] {
+      --bg: #0b1220;
+      --card: #0f172a;
+      --text: #e5e7eb;
+    }
+
+    html[data-theme="dark"] .last-update { background: rgba(255,255,255,0.08); color: #cbd5e1; }
+    html[data-theme="dark"] .btn { background: rgba(255,255,255,0.06); color: #cbd5e1; }
+    html[data-theme="dark"] .btn:hover:not(.active) { background: rgba(255,255,255,0.10); }
+    html[data-theme="dark"] .progress-bg { background: rgba(255,255,255,0.10); }
+    html[data-theme="dark"] .stat-title { color: #94a3b8; }
+    html[data-theme="dark"] .stat-value { color: #f1f5f9; }
+
+    .header-right {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+    }
+
+    .icon-btn {
+      width: 40px;
+      height: 36px;
+      border: none;
+      border-radius: 10px;
+      background: #fff;
+      cursor: pointer;
+      box-shadow: 0 1px 2px rgba(0,0,0,0.05);
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      transition: transform 0.12s ease, background 0.2s ease;
+      user-select: none;
+      -webkit-tap-highlight-color: transparent;
+    }
+    .icon-btn:hover { transform: translateY(-1px); }
+    .icon-btn:active { transform: translateY(0); }
+
+    html[data-theme="dark"] .icon-btn { background: rgba(255,255,255,0.06); }
+
+    .icon {
+      font-size: 18px;
+      line-height: 1;
+      display: inline-block;
+      transform-origin: 50% 50%;
+      transition: transform 280ms ease;
+    }
+
+    /* 点击时的旋转动画（新增） */
+    .icon.spin {
+      transform: rotate(180deg);
+    }
+  </style>
 </head>
+
 <body>
-    <div class="container">
-        <div class="header">
-            <h1><span style="color:var(--primary)">⚡</span> Cloudflare Worker 监控</h1>
-            <span id="update-time" class="last-update">载入中...</span>
-        </div>
+  <div class="container">
+    <div class="header">
+      <h1><span style="color:var(--primary)">⚡</span> Cloudflare Worker 监控</h1>
 
-        <div class="quota-card">
-            <div class="quota-header">
-                <span>今日请求用量 (UTC)</span>
-                <span id="quota-percent">0%</span>
-            </div>
-            <div class="progress-bg">
-                <div id="quota-bar" class="progress-bar"></div>
-            </div>
-            <div class="quota-text">
-                <span id="quota-detail">0 / 100,000</span>
-                <span>重置时间: 00:00 UTC</span>
-            </div>
-        </div>
-
-        <div class="controls">
-            <button class="btn active" onclick="setRange('24h')">最近 24 小时</button>
-            <button class="btn" onclick="setRange('7d')">最近 7 天</button>
-            <button class="btn" onclick="setRange('30d')">最近 30 天</button>
-        </div>
-
-        <div class="grid">
-            <div class="stat-card">
-                <div class="stat-title">区间总请求数</div>
-                <div class="stat-value" id="disp-req">-</div>
-            </div>
-            <div class="stat-card">
-                <div class="stat-title">区间错误数</div>
-                <div class="stat-value text-red" id="disp-err">-</div>
-            </div>
-            <div class="stat-card">
-                <div class="stat-title">平均每小时请求</div>
-                <div class="stat-value" id="disp-avg">-</div>
-            </div>
-        </div>
-
-        <div id="chart-container"></div>
+      <div class="header-right">
+        <button id="theme-toggle" class="icon-btn" type="button" aria-label="切换主题" title="切换主题">
+          <span id="theme-icon" class="icon" aria-hidden="true">🌙</span>
+        </button>
+        <span id="update-time" class="last-update">载入中...</span>
+      </div>
     </div>
 
-    <script>
-        let rawData = [];
-        let chartInstance = null;
-        let currentRange = '24h';
-        const DAILY_LIMIT = 100000;
+    <div class="quota-card">
+      <div class="quota-header">
+        <span>今日请求用量 (UTC)</span>
+        <span id="quota-percent">0%</span>
+      </div>
+      <div class="progress-bg">
+        <div id="quota-bar" class="progress-bar"></div>
+      </div>
+      <div class="quota-text">
+        <span id="quota-detail">0 / 100,000</span>
+        <span>重置时间: 00:00 UTC</span>
+      </div>
+    </div>
 
-        function init() {
-            refreshData();
+    <div class="controls">
+      <button class="btn active" onclick="setRange('24h')">最近 24 小时</button>
+      <button class="btn" onclick="setRange('7d')">最近 7 天</button>
+      <button class="btn" onclick="setRange('30d')">最近 30 天</button>
+    </div>
+
+    <div class="grid">
+      <div class="stat-card">
+        <div class="stat-title">区间总请求数</div>
+        <div class="stat-value" id="disp-req">-</div>
+      </div>
+      <div class="stat-card">
+        <div class="stat-title">区间错误数</div>
+        <div class="stat-value text-red" id="disp-err">-</div>
+      </div>
+      <div class="stat-card">
+        <div class="stat-title">平均每小时请求</div>
+        <div class="stat-value" id="disp-avg">-</div>
+      </div>
+    </div>
+
+    <div id="chart-container"></div>
+  </div>
+
+  <script>
+    let rawData = [];
+    let chartInstance = null;
+    let currentRange = '24h';
+    const DAILY_LIMIT = 100000;
+
+    // ================
+    // 主题切换（新增）
+    // ================
+    let theme = 'light';
+
+    function initTheme() {
+      const saved = localStorage.getItem('theme');
+      const prefersDark = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches;
+      theme = saved || (prefersDark ? 'dark' : 'light');
+
+      applyTheme(theme);
+
+      const btn = document.getElementById('theme-toggle');
+      const icon = document.getElementById('theme-icon');
+
+      btn.addEventListener('click', () => {
+        // icon 旋转一下
+        icon.classList.add('spin');
+        window.setTimeout(() => icon.classList.remove('spin'), 300);
+
+        theme = (theme === 'dark') ? 'light' : 'dark';
+        localStorage.setItem('theme', theme);
+        applyTheme(theme);
+
+        // 主题切换后重绘图表，适配文字/背景
+        setRange(currentRange);
+      });
+    }
+
+    function applyTheme(t) {
+      document.documentElement.setAttribute('data-theme', t);
+      const icon = document.getElementById('theme-icon');
+      icon.textContent = (t === 'dark') ? '☀️' : '🌙';
+    }
+
+    function init() {
+      initTheme();   // ✅ 新增
+      refreshData();
+    }
+
+    function refreshData() {
+      fetch('./data.json?t=' + new Date().getTime())
+        .then(res => {
+          if (!res.ok) throw new Error("HTTP " + res.status);
+          return res.json();
+        })
+        .then(jsonResponse => {
+          // 1) 兼容新旧结构：数组 or { data, updatedAt }
+          rawData = Array.isArray(jsonResponse) ? jsonResponse : (jsonResponse.data || []);
+
+          // 2) 更新时间显示：优先用 updatedAt
+          if (jsonResponse.updatedAt) {
+            const serverTime = new Date(jsonResponse.updatedAt);
+            document.getElementById('update-time').innerText = '数据更新于: ' + serverTime.toLocaleString();
+          } else {
+            document.getElementById('update-time').innerText = '最后同步: ' + new Date().toLocaleString();
+          }
+
+          try {
+            calculateTodayQuota();
+            setRange(currentRange);
+          } catch (e) {
+            console.error("Render error:", e);
+          }
+        })
+        .catch(err => {
+          console.error(err);
+          document.getElementById('update-time').innerText = '数据同步失败';
+        });
+    }
+
+    function calculateTodayQuota() {
+      const todayStr = new Date().toISOString().split('T')[0];
+      const todayRequests = rawData
+        .filter(item => item.dimensions.datetime.startsWith(todayStr))
+        .reduce((sum, item) => sum + item.sum.requests, 0);
+
+      const percent = Math.min((todayRequests / DAILY_LIMIT) * 100, 100).toFixed(1);
+      const bar = document.getElementById('quota-bar');
+
+      bar.style.width = percent + '%';
+      document.getElementById('quota-percent').innerText = percent + '%';
+      document.getElementById('quota-detail').innerText = `${todayRequests.toLocaleString()} / ${DAILY_LIMIT.toLocaleString()}`;
+
+      // 超过 80% 变红
+      if (percent > 80) bar.style.background = '#ef4444';
+      else bar.style.background = 'linear-gradient(90deg, #F38020, #f9a056)';
+    }
+
+    function setRange(range) {
+      currentRange = range;
+      document.querySelectorAll('.btn').forEach(b => b.classList.remove('active'));
+
+      const btns = document.querySelectorAll('.btn');
+      if (range === '24h') btns[0].classList.add('active');
+      if (range === '7d') btns[1].classList.add('active');
+      if (range === '30d') btns[2].classList.add('active');
+
+      const now = new Date();
+      let startTime = new Date();
+
+      if (range === '24h') startTime.setTime(now.getTime() - 24 * 60 * 60 * 1000);
+      else if (range === '7d') startTime.setDate(now.getDate() - 7);
+      else startTime.setDate(now.getDate() - 30);
+
+      const filtered = rawData.filter(item => new Date(item.dimensions.datetime) >= startTime);
+
+      const map = {};
+      filtered.forEach(item => {
+        const d = new Date(item.dimensions.datetime);
+        let key;
+
+        if (range === '24h') key = `${d.getMonth() + 1}/${d.getDate()} ${d.getHours()}:00`;
+        else key = d.toISOString().split('T')[0];
+
+        if (!map[key]) map[key] = { req: 0, err: 0 };
+        map[key].req += item.sum.requests;
+        map[key].err += item.sum.errors;
+      });
+
+      const sortedKeys = Object.keys(map).sort((a, b) => {
+        if (range === '24h') {
+          const parseTime = (str) => {
+            const [datePart, timePart] = str.split(' ');
+            const [m, d] = datePart.split('/');
+            const [h] = timePart.split(':');
+            const year = new Date().getFullYear();
+            return new Date(year, m - 1, d, h).getTime();
+          };
+          return parseTime(a) - parseTime(b);
         }
+        return a.localeCompare(b);
+      });
 
-        function refreshData() {
-            fetch('./data.json?t=' + new Date().getTime())
-                .then(res => {
-                    if (!res.ok) throw new Error("HTTP " + res.status);
-                    return res.json();
-                })
-                .then(jsonResponse => {
-                    // 👇👇👇 修改点：适配新的数据结构 👇👇👇
-                    // 1. 如果是旧格式(数组)，直接用；如果是新格式(对象)，取 .data
-                    rawData = Array.isArray(jsonResponse) ? jsonResponse : jsonResponse.data;
-                    
-                    // 2. 处理时间显示
-                    if (jsonResponse.updatedAt) {
-                        const serverTime = new Date(jsonResponse.updatedAt);
-                        document.getElementById('update-time').innerText = '数据更新于: ' + serverTime.toLocaleString();
-                    } else {
-                        // 兼容旧数据，没有时间戳时显示当前时间
-                        document.getElementById('update-time').innerText = '最后同步: ' + new Date().toLocaleString();
-                    }
-                    // 👆👆👆 修改点结束 👆👆👆
+      const requests = sortedKeys.map(k => map[k].req);
+      const errors = sortedKeys.map(k => map[k].err);
 
-                    try {
-                        calculateTodayQuota();
-                        setRange(currentRange); 
-                    } catch (e) {
-                        console.error("Render error:", e);
-                    }
-                })
-                .catch(err => {
-                    console.error(err);
-                    document.getElementById('update-time').innerText = '数据同步失败';
-                });
-        }
+      const totalReq = requests.reduce((a, b) => a + b, 0);
+      const totalErr = errors.reduce((a, b) => a + b, 0);
 
-        function calculateTodayQuota() {
-            const todayStr = new Date().toISOString().split('T')[0];
-            const todayRequests = rawData
-                .filter(item => item.dimensions.datetime.startsWith(todayStr))
-                .reduce((sum, item) => sum + item.sum.requests, 0);
+      document.getElementById('disp-req').innerText = totalReq.toLocaleString();
+      document.getElementById('disp-err').innerText = totalErr.toLocaleString();
 
-            const percent = Math.min((todayRequests / DAILY_LIMIT) * 100, 100).toFixed(1);
-            document.getElementById('quota-bar').style.width = percent + '%';
-            document.getElementById('quota-percent').innerText = percent + '%';
-            document.getElementById('quota-detail').innerText = `${todayRequests.toLocaleString()} / ${DAILY_LIMIT.toLocaleString()}`;
-            
-            if (percent > 80) document.getElementById('quota-bar').style.backgroundColor = '#ef4444';
-        }
+      const avg = sortedKeys.length > 0 ? Math.round(totalReq / sortedKeys.length) : 0;
+      document.getElementById('disp-avg').innerText = avg.toLocaleString();
 
-        function setRange(range) {
-            currentRange = range;
-            document.querySelectorAll('.btn').forEach(b => b.classList.remove('active'));
-            
-            const btns = document.querySelectorAll('.btn');
-            if(range === '24h') btns[0].classList.add('active');
-            if(range === '7d') btns[1].classList.add('active');
-            if(range === '30d') btns[2].classList.add('active');
+      renderChart(sortedKeys, requests, errors, range);
+    }
 
-            const now = new Date();
-            let startTime = new Date();
-            
-            if (range === '24h') startTime.setTime(now.getTime() - 24 * 60 * 60 * 1000);
-            else if (range === '7d') startTime.setDate(now.getDate() - 7);
-            else startTime.setDate(now.getDate() - 30);
+    function renderChart(labels, reqData, errData, range) {
+      if (chartInstance) chartInstance.dispose();
+      chartInstance = echarts.init(document.getElementById('chart-container'));
 
-            const filtered = rawData.filter(item => new Date(item.dimensions.datetime) >= startTime);
+      // 根据主题调整 ECharts 配色（新增）
+      const isDark = document.documentElement.getAttribute('data-theme') === 'dark';
+      const axisText = isDark ? '#cbd5e1' : '#374151';
+      const titleText = isDark ? '#e5e7eb' : '#111827';
+      const gridLine = isDark ? 'rgba(255,255,255,0.10)' : '#e5e7eb';
+      const tooltipBg = isDark ? '#0b1220' : '#ffffff';
 
-            const map = {};
-            filtered.forEach(item => {
-                const d = new Date(item.dimensions.datetime);
-                let key;
-                if (range === '24h') {
-                    key = `${d.getMonth()+1}/${d.getDate()} ${d.getHours()}:00`;
-                } else {
-                    key = d.toISOString().split('T')[0];
-                }
+      const option = {
+        title: { text: '请求趋势', left: 'center', textStyle: { color: titleText } },
+        tooltip: {
+          trigger: 'axis',
+          axisPointer: { type: 'cross' },
+          backgroundColor: tooltipBg,
+          borderColor: gridLine,
+          textStyle: { color: titleText },
+          valueFormatter: (value) => Math.floor(value)
+        },
+        legend: { data: ['总请求', '错误'], bottom: 0, textStyle: { color: axisText } },
+        grid: { left: '3%', right: '4%', bottom: '10%', containLabel: true },
+        xAxis: {
+          type: 'category',
+          data: labels,
+          axisLabel: {
+            interval: range === '30d' ? 2 : 'auto',
+            rotate: range === '24h' ? 45 : 0,
+            color: axisText
+          },
+          axisLine: { lineStyle: { color: gridLine } }
+        },
+        yAxis: {
+          type: 'value',
+          minInterval: 1,
+          axisLabel: { formatter: (value) => Math.floor(value), color: axisText },
+          splitLine: { lineStyle: { color: gridLine } },
+          axisLine: { lineStyle: { color: gridLine } },
+          axisPointer: { label: { formatter: (params) => Math.floor(params.value) } }
+        },
+        series: [
+          {
+            name: '总请求',
+            type: 'line',
+            smooth: true,
+            data: reqData,
+            areaStyle: {
+              color: new echarts.graphic.LinearGradient(0, 0, 0, 1, [
+                { offset: 0, color: 'rgba(243, 128, 32, 0.4)' },
+                { offset: 1, color: 'rgba(243, 128, 32, 0.05)' }
+              ])
+            },
+            itemStyle: { color: '#F38020' }
+          },
+          {
+            name: '错误',
+            type: 'bar',
+            data: errData,
+            itemStyle: { color: '#ef4444' }
+          }
+        ]
+      };
 
-                if (!map[key]) map[key] = { req: 0, err: 0 };
-                map[key].req += item.sum.requests;
-                map[key].err += item.sum.errors;
-            });
+      chartInstance.setOption(option);
+      window.onresize = () => chartInstance.resize();
+    }
 
-            const sortedKeys = Object.keys(map).sort((a, b) => {
-               if (range === '24h') {
-                   const parseTime = (str) => {
-                       const [datePart, timePart] = str.split(' ');
-                       const [m, d] = datePart.split('/');
-                       const [h] = timePart.split(':');
-                       const year = new Date().getFullYear(); 
-                       return new Date(year, m-1, d, h).getTime();
-                   };
-                   return parseTime(a) - parseTime(b);
-               }
-               return a.localeCompare(b);
-            });
-
-            const requests = sortedKeys.map(k => map[k].req);
-            const errors = sortedKeys.map(k => map[k].err);
-
-            const totalReq = requests.reduce((a, b) => a + b, 0);
-            const totalErr = errors.reduce((a, b) => a + b, 0);
-            document.getElementById('disp-req').innerText = totalReq.toLocaleString();
-            document.getElementById('disp-err').innerText = totalErr.toLocaleString();
-            
-            const avg = sortedKeys.length > 0 ? Math.round(totalReq / sortedKeys.length) : 0;
-            document.getElementById('disp-avg').innerText = avg.toLocaleString();
-
-            renderChart(sortedKeys, requests, errors, range);
-        }
-
-        function renderChart(labels, reqData, errData, range) {
-            if (chartInstance) chartInstance.dispose();
-            chartInstance = echarts.init(document.getElementById('chart-container'));
-
-            const option = {
-                title: { text: '请求趋势', left: 'center' },
-                tooltip: { 
-                    trigger: 'axis', 
-                    axisPointer: { type: 'cross' },
-                    valueFormatter: (value) => Math.floor(value) 
-                },
-                legend: { data: ['总请求', '错误'], bottom: 0 },
-                grid: { left: '3%', right: '4%', bottom: '10%', containLabel: true },
-                xAxis: {
-                    type: 'category',
-                    data: labels,
-                    axisLabel: { 
-                        interval: range === '30d' ? 2 : 'auto', 
-                        rotate: range === '24h' ? 45 : 0 
-                    }
-                },
-                yAxis: { 
-                    type: 'value',
-                    minInterval: 1,
-                    axisLabel: { formatter: (value) => Math.floor(value) },
-                    axisPointer: {
-                        label: {
-                            formatter: function(params) {
-                                return Math.floor(params.value);
-                            }
-                        }
-                    }
-                },
-                series: [
-                    {
-                        name: '总请求',
-                        type: 'line',
-                        smooth: true,
-                        data: reqData,
-                        areaStyle: {
-                            color: new echarts.graphic.LinearGradient(0, 0, 0, 1, [
-                                { offset: 0, color: 'rgba(243, 128, 32, 0.4)' },
-                                { offset: 1, color: 'rgba(243, 128, 32, 0.05)' }
-                            ])
-                        },
-                        itemStyle: { color: '#F38020' }
-                    },
-                    {
-                        name: '错误',
-                        type: 'bar',
-                        data: errData,
-                        itemStyle: { color: '#ef4444' }
-                    }
-                ]
-            };
-            chartInstance.setOption(option);
-            window.onresize = chartInstance.resize;
-        }
-
-        init();
-    </script>
+    init();
+  </script>
 </body>
 </html>
