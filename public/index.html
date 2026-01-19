@@ -26,7 +26,8 @@
     .controls { display: flex; gap: 10px; margin-bottom: 15px; }
     .btn { border: none; background: #fff; padding: 8px 16px; border-radius: 6px; cursor: pointer; font-size: 14px; color: #666; transition: 0.2s; box-shadow: 0 1px 2px rgba(0,0,0,0.05); }
     .btn.active { background: var(--primary); color: white; font-weight: 500; }
-    .btn:hover:not(.active) { background: #f9fafb; }
+    .btn:disabled { opacity: 0.45; cursor: not-allowed; box-shadow: none; }
+    .btn:hover:not(.active):not(:disabled) { background: #f9fafb; }
 
     .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 16px; margin-bottom: 24px; }
     .stat-card { background: var(--card); padding: 20px; border-radius: 12px; box-shadow: 0 1px 3px rgba(0,0,0,0.05); }
@@ -47,7 +48,8 @@
 
     html[data-theme="dark"] .last-update { background: rgba(255,255,255,0.08); color: #cbd5e1; }
     html[data-theme="dark"] .btn { background: rgba(255,255,255,0.06); color: #cbd5e1; }
-    html[data-theme="dark"] .btn:hover:not(.active) { background: rgba(255,255,255,0.10); }
+    html[data-theme="dark"] .btn:disabled { opacity: 0.35; }
+    html[data-theme="dark"] .btn:hover:not(.active):not(:disabled) { background: rgba(255,255,255,0.10); }
     html[data-theme="dark"] .progress-bg { background: rgba(255,255,255,0.10); }
     html[data-theme="dark"] .stat-title { color: #94a3b8; }
     html[data-theme="dark"] .stat-value { color: #f1f5f9; }
@@ -173,9 +175,9 @@
 
     <div class="controls">
       <!-- ✅ 建议修改：加 data-range，setRange 会精确匹配按钮 -->
-      <button class="btn active" data-range="24h" onclick="setRange('24h')">最近 24 小时</button>
-      <button class="btn" data-range="7d" onclick="setRange('7d')">最近 7 天</button>
-      <button class="btn" data-range="30d" onclick="setRange('30d')">最近 30 天</button>
+      <button class="btn active" data-range="24h" onclick="setRange('24h')" disabled>最近 24 小时</button>
+      <button class="btn" data-range="7d" onclick="setRange('7d')" disabled>最近 7 天</button>
+      <button class="btn" data-range="30d" onclick="setRange('30d')" disabled>最近 30 天</button>
     </div>
 
     <div class="grid">
@@ -198,22 +200,69 @@
 
   <script>
     let rawData = [];
+    let dataReady = false;
     let chartInstance = null;
     let currentRange = '24h';
     const DAILY_LIMIT = 100000;
 
     // ================
-    // 主题切换
+    // 主题切换：跟随系统 + 仅在“反系统”时保存覆盖
     // ================
     let theme = 'light';
+    let mediaQuery = null;
+
+    function getSystemTheme() {
+      return window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
+    }
+
+    // 读取覆盖：只认 'dark'/'light'，否则视为无覆盖
+    function getSavedOverride() {
+      const v = localStorage.getItem('theme');
+      return (v === 'dark' || v === 'light') ? v : null;
+    }
+
+    function applyTheme(t) {
+      document.documentElement.setAttribute('data-theme', t);
+
+      const icon = document.getElementById('theme-icon');
+      const btn = document.getElementById('theme-toggle');
+      icon.textContent = (t === 'dark') ? '☀️' : '🌙';
+
+      // title 体现当前状态：跟随 or 覆盖
+      const sys = getSystemTheme();
+      const override = getSavedOverride();
+      const modeText = override ? '已手动覆盖' : '跟随系统';
+      btn.title = `当前：${t === 'dark' ? '深色' : '浅色'}（${modeText}）`;
+    }
+
+    function syncThemeFromSystem() {
+      // 没有覆盖时，才跟随系统
+      const override = getSavedOverride();
+      if (!override) {
+        theme = getSystemTheme();
+        applyTheme(theme);
+        // 主题变化时重绘图表（可选但建议）
+        if (dataReady) setRange(currentRange);
+      }
+    }
 
     function initTheme() {
-      const saved = localStorage.getItem('theme');
-      const prefersDark = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches;
-      theme = saved || (prefersDark ? 'dark' : 'light');
+      const sys = getSystemTheme();
+      const override = getSavedOverride();
 
+      // 初始：有覆盖用覆盖；否则跟随系统
+      theme = override || sys;
       applyTheme(theme);
 
+      // 监听系统主题变化：仅在“无覆盖”时才自动跟随
+      mediaQuery = window.matchMedia('(prefers-color-scheme: dark)');
+      const handler = () => syncThemeFromSystem();
+
+      // 兼容旧浏览器 addListener
+      if (mediaQuery.addEventListener) mediaQuery.addEventListener('change', handler);
+      else if (mediaQuery.addListener) mediaQuery.addListener(handler);
+
+      // 点击切换：只有“与系统相反”才保存覆盖；否则清除覆盖回到跟随
       const btn = document.getElementById('theme-toggle');
       const icon = document.getElementById('theme-icon');
 
@@ -222,21 +271,24 @@
         icon.classList.add('spin');
         window.setTimeout(() => icon.classList.remove('spin'), 300);
 
-        theme = (theme === 'dark') ? 'light' : 'dark';
-        localStorage.setItem('theme', theme);
+        const sysTheme = getSystemTheme();
+        const next = (document.documentElement.getAttribute('data-theme') === 'dark') ? 'light' : 'dark';
+
+        // 核心规则：
+        // - next != sysTheme  => 保存覆盖
+        // - next == sysTheme  => 清除覆盖（跟随系统）
+        if (next !== sysTheme) {
+          localStorage.setItem('theme', next);
+        } else {
+          localStorage.removeItem('theme');
+        }
+
+        theme = next;
         applyTheme(theme);
 
-        // 主题切换后重绘图表，适配文字/背景
-        setRange(currentRange);
+        // 重绘图表
+        if (dataReady) setRange(currentRange);
       });
-    }
-
-    function applyTheme(t) {
-      document.documentElement.setAttribute('data-theme', t);
-      const icon = document.getElementById('theme-icon');
-      const btn = document.getElementById('theme-toggle');
-      icon.textContent = (t === 'dark') ? '☀️' : '🌙';
-      btn.title = (t === 'dark') ? '当前：深色（点击切换）' : '当前：浅色（点击切换）';
     }
 
     function init() {
@@ -252,6 +304,9 @@
         })
         .then(jsonResponse => {
           rawData = Array.isArray(jsonResponse) ? jsonResponse : (jsonResponse.data || []);
+          dataReady = true;
+
+          document.querySelectorAll('.btn').forEach(b => b.disabled = false);
 
           if (jsonResponse.updatedAt) {
             const serverTime = new Date(jsonResponse.updatedAt);
@@ -298,6 +353,7 @@
     }
 
     function setRange(range) {
+      if (!dataReady) return; // 数据未准备好时不执行
       currentRange = range;
 
       // ✅ 建议修改：按 data-range 精确匹配 active 按钮（新增）
