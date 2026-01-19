@@ -37,3 +37,4 @@ jobs:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./public
           # 这样会把 index.html 和 data.json 都推送到 gh-pages 分支
+          cname: workers-usage.265209.xyz
