@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-02-21T15:14:27.919Z",
+  "updatedAt": "2026-02-21T15:41:48.257Z",
   "data": [
     {
       "dimensions": {
@@ -213,8 +213,8 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-02-16T19:09:49Z",
-        "scriptName": "private-config"
+        "datetime": "2026-02-20T03:00:59Z",
+        "scriptName": "subscription-manager"
       },
       "sum": {
         "errors": 0,
@@ -223,8 +223,8 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-02-20T03:00:59Z",
-        "scriptName": "subscription-manager"
+        "datetime": "2026-02-16T19:09:49Z",
+        "scriptName": "private-config"
       },
       "sum": {
         "errors": 0,
@@ -1603,12 +1603,12 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-02-17T17:33:59Z",
-        "scriptName": "emby"
+        "datetime": "2026-01-30T11:42:45Z",
+        "scriptName": "private-config"
       },
       "sum": {
         "errors": 0,
-        "requests": 5
+        "requests": 1
       }
     },
     {
@@ -1623,12 +1623,12 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-01-30T11:42:45Z",
-        "scriptName": "private-config"
+        "datetime": "2026-02-17T17:33:59Z",
+        "scriptName": "emby"
       },
       "sum": {
         "errors": 0,
-        "requests": 1
+        "requests": 5
       }
     },
     {
@@ -1703,8 +1703,8 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-02-03T21:13:15Z",
-        "scriptName": "private-config"
+        "datetime": "2026-02-09T03:41:11Z",
+        "scriptName": "subscription-manager"
       },
       "sum": {
         "errors": 0,
@@ -1713,8 +1713,8 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-02-09T03:41:11Z",
-        "scriptName": "subscription-manager"
+        "datetime": "2026-02-03T21:13:15Z",
+        "scriptName": "private-config"
       },
       "sum": {
         "errors": 0,
@@ -2023,8 +2023,8 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-01-23T15:29:52Z",
-        "scriptName": "subscription-manager"
+        "datetime": "2026-02-18T17:24:01Z",
+        "scriptName": "emby"
       },
       "sum": {
         "errors": 0,
@@ -2043,8 +2043,8 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-02-18T17:24:01Z",
-        "scriptName": "emby"
+        "datetime": "2026-01-23T15:29:52Z",
+        "scriptName": "subscription-manager"
       },
       "sum": {
         "errors": 0,
@@ -2693,7 +2693,7 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-02-14T20:00:03Z",
+        "datetime": "2026-01-23T15:42:39Z",
         "scriptName": "subscription-manager"
       },
       "sum": {
@@ -2703,7 +2703,7 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-01-23T15:42:39Z",
+        "datetime": "2026-02-14T20:00:03Z",
         "scriptName": "subscription-manager"
       },
       "sum": {
@@ -2883,16 +2883,6 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-01-22T17:34:06Z",
-        "scriptName": "subscription-manager"
-      },
-      "sum": {
-        "errors": 0,
-        "requests": 1
-      }
-    },
-    {
-      "dimensions": {
         "datetime": "2026-01-23T13:37:08Z",
         "scriptName": "subscription-manager"
       },
@@ -2905,6 +2895,16 @@
       "dimensions": {
         "datetime": "2026-02-13T06:35:24Z",
         "scriptName": "emby"
+      },
+      "sum": {
+        "errors": 0,
+        "requests": 1
+      }
+    },
+    {
+      "dimensions": {
+        "datetime": "2026-01-22T17:34:06Z",
+        "scriptName": "subscription-manager"
       },
       "sum": {
         "errors": 0,
@@ -2963,22 +2963,22 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-01-31T19:05:45Z",
-        "scriptName": "private-config"
-      },
-      "sum": {
-        "errors": 0,
-        "requests": 4
-      }
-    },
-    {
-      "dimensions": {
         "datetime": "2026-01-27T01:23:57Z",
         "scriptName": "private-config"
       },
       "sum": {
         "errors": 0,
         "requests": 6
+      }
+    },
+    {
+      "dimensions": {
+        "datetime": "2026-01-31T19:05:45Z",
+        "scriptName": "private-config"
+      },
+      "sum": {
+        "errors": 0,
+        "requests": 4
       }
     },
     {
@@ -3123,7 +3123,7 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-02-09T23:13:44Z",
+        "datetime": "2026-02-08T18:06:06Z",
         "scriptName": "emby"
       },
       "sum": {
@@ -3133,7 +3133,7 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-02-08T18:06:06Z",
+        "datetime": "2026-02-09T23:13:44Z",
         "scriptName": "emby"
       },
       "sum": {
@@ -3244,16 +3244,6 @@
     {
       "dimensions": {
         "datetime": "2026-02-18T02:00:46Z",
-        "scriptName": "subscription-manager"
-      },
-      "sum": {
-        "errors": 0,
-        "requests": 1
-      }
-    },
-    {
-      "dimensions": {
-        "datetime": "2026-01-22T15:16:40Z",
         "scriptName": "subscription-manager"
       },
       "sum": {
@@ -3393,22 +3383,22 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-01-22T17:12:14Z",
-        "scriptName": "subscription-manager"
-      },
-      "sum": {
-        "errors": 0,
-        "requests": 1
-      }
-    },
-    {
-      "dimensions": {
         "datetime": "2026-02-14T16:55:55Z",
         "scriptName": "emby"
       },
       "sum": {
         "errors": 0,
         "requests": 6
+      }
+    },
+    {
+      "dimensions": {
+        "datetime": "2026-01-22T17:12:14Z",
+        "scriptName": "subscription-manager"
+      },
+      "sum": {
+        "errors": 0,
+        "requests": 1
       }
     },
     {
@@ -4403,8 +4393,8 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-02-07T10:05:42Z",
-        "scriptName": "subscription-manager"
+        "datetime": "2026-01-30T11:48:39Z",
+        "scriptName": "emby"
       },
       "sum": {
         "errors": 0,
@@ -4423,8 +4413,8 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-01-30T11:48:39Z",
-        "scriptName": "emby"
+        "datetime": "2026-02-07T10:05:42Z",
+        "scriptName": "subscription-manager"
       },
       "sum": {
         "errors": 0,
@@ -4853,8 +4843,8 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-01-23T12:49:24Z",
-        "scriptName": "subscription-manager"
+        "datetime": "2026-01-26T05:46:38Z",
+        "scriptName": "emby"
       },
       "sum": {
         "errors": 0,
@@ -4863,8 +4853,8 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-01-26T05:46:38Z",
-        "scriptName": "emby"
+        "datetime": "2026-01-23T12:49:24Z",
+        "scriptName": "subscription-manager"
       },
       "sum": {
         "errors": 0,
@@ -4973,22 +4963,22 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-02-15T19:13:17Z",
-        "scriptName": "subscription-manager"
-      },
-      "sum": {
-        "errors": 0,
-        "requests": 2
-      }
-    },
-    {
-      "dimensions": {
         "datetime": "2026-01-23T16:04:38Z",
         "scriptName": "subscription-manager"
       },
       "sum": {
         "errors": 0,
         "requests": 1
+      }
+    },
+    {
+      "dimensions": {
+        "datetime": "2026-02-15T19:13:17Z",
+        "scriptName": "subscription-manager"
+      },
+      "sum": {
+        "errors": 0,
+        "requests": 2
       }
     },
     {
@@ -5503,8 +5493,8 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-01-23T16:25:04Z",
-        "scriptName": "subscription-manager"
+        "datetime": "2026-02-14T16:43:09Z",
+        "scriptName": "emby"
       },
       "sum": {
         "errors": 0,
@@ -5513,8 +5503,8 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-02-14T16:43:09Z",
-        "scriptName": "emby"
+        "datetime": "2026-01-23T16:25:04Z",
+        "scriptName": "subscription-manager"
       },
       "sum": {
         "errors": 0,
@@ -5529,16 +5519,6 @@
       "sum": {
         "errors": 0,
         "requests": 1
-      }
-    },
-    {
-      "dimensions": {
-        "datetime": "2026-02-06T11:10:36Z",
-        "scriptName": "private-config"
-      },
-      "sum": {
-        "errors": 0,
-        "requests": 25
       }
     },
     {
@@ -5563,6 +5543,16 @@
     },
     {
       "dimensions": {
+        "datetime": "2026-02-06T11:10:36Z",
+        "scriptName": "private-config"
+      },
+      "sum": {
+        "errors": 0,
+        "requests": 25
+      }
+    },
+    {
+      "dimensions": {
         "datetime": "2026-02-07T09:42:09Z",
         "scriptName": "emby"
       },
@@ -5583,22 +5573,22 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-01-28T19:00:27Z",
-        "scriptName": "subscription-manager"
-      },
-      "sum": {
-        "errors": 0,
-        "requests": 1
-      }
-    },
-    {
-      "dimensions": {
         "datetime": "2026-01-30T19:42:09Z",
         "scriptName": "private-config"
       },
       "sum": {
         "errors": 0,
         "requests": 20
+      }
+    },
+    {
+      "dimensions": {
+        "datetime": "2026-01-28T19:00:27Z",
+        "scriptName": "subscription-manager"
+      },
+      "sum": {
+        "errors": 0,
+        "requests": 1
       }
     },
     {
@@ -6253,7 +6243,7 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-02-14T02:00:33Z",
+        "datetime": "2026-01-23T08:16:49Z",
         "scriptName": "subscription-manager"
       },
       "sum": {
@@ -6263,7 +6253,7 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-01-23T08:16:49Z",
+        "datetime": "2026-02-14T02:00:33Z",
         "scriptName": "subscription-manager"
       },
       "sum": {
@@ -6293,8 +6283,8 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-01-23T22:28:07Z",
-        "scriptName": "subscription-manager"
+        "datetime": "2026-01-27T22:01:40Z",
+        "scriptName": "private-config"
       },
       "sum": {
         "errors": 0,
@@ -6303,8 +6293,8 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-01-27T22:01:40Z",
-        "scriptName": "private-config"
+        "datetime": "2026-01-23T22:28:07Z",
+        "scriptName": "subscription-manager"
       },
       "sum": {
         "errors": 0,
@@ -6433,8 +6423,8 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-01-23T08:34:35Z",
-        "scriptName": "subscription-manager"
+        "datetime": "2026-01-27T01:27:12Z",
+        "scriptName": "emby"
       },
       "sum": {
         "errors": 0,
@@ -6443,8 +6433,8 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-01-27T01:27:12Z",
-        "scriptName": "emby"
+        "datetime": "2026-01-23T08:34:35Z",
+        "scriptName": "subscription-manager"
       },
       "sum": {
         "errors": 0,
@@ -6713,22 +6703,22 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-01-30T00:11:09Z",
-        "scriptName": "emby"
-      },
-      "sum": {
-        "errors": 0,
-        "requests": 7
-      }
-    },
-    {
-      "dimensions": {
         "datetime": "2026-02-20T02:29:40Z",
         "scriptName": "emby"
       },
       "sum": {
         "errors": 0,
         "requests": 1
+      }
+    },
+    {
+      "dimensions": {
+        "datetime": "2026-01-30T00:11:09Z",
+        "scriptName": "emby"
+      },
+      "sum": {
+        "errors": 0,
+        "requests": 7
       }
     },
     {
@@ -6893,12 +6883,12 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-01-23T11:47:04Z",
-        "scriptName": "subscription-manager"
+        "datetime": "2026-02-14T16:55:47Z",
+        "scriptName": "emby"
       },
       "sum": {
         "errors": 0,
-        "requests": 1
+        "requests": 11
       }
     },
     {
@@ -6913,18 +6903,18 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-02-14T16:55:47Z",
+        "datetime": "2026-02-13T06:40:38Z",
         "scriptName": "emby"
       },
       "sum": {
         "errors": 0,
-        "requests": 11
+        "requests": 1
       }
     },
     {
       "dimensions": {
-        "datetime": "2026-02-13T06:40:38Z",
-        "scriptName": "emby"
+        "datetime": "2026-01-23T11:47:04Z",
+        "scriptName": "subscription-manager"
       },
       "sum": {
         "errors": 0,
@@ -7763,8 +7753,8 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-02-18T17:28:20Z",
-        "scriptName": "emby"
+        "datetime": "2026-02-09T14:57:37Z",
+        "scriptName": "private-config"
       },
       "sum": {
         "errors": 0,
@@ -7773,8 +7763,8 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-02-09T14:57:37Z",
-        "scriptName": "private-config"
+        "datetime": "2026-02-18T17:28:20Z",
+        "scriptName": "emby"
       },
       "sum": {
         "errors": 0,
@@ -7963,6 +7953,16 @@
     },
     {
       "dimensions": {
+        "datetime": "2026-02-16T02:55:57Z",
+        "scriptName": "emby"
+      },
+      "sum": {
+        "errors": 0,
+        "requests": 3
+      }
+    },
+    {
+      "dimensions": {
         "datetime": "2026-02-13T14:17:26Z",
         "scriptName": "subscription-manager"
       },
@@ -7979,16 +7979,6 @@
       "sum": {
         "errors": 0,
         "requests": 12
-      }
-    },
-    {
-      "dimensions": {
-        "datetime": "2026-02-16T02:55:57Z",
-        "scriptName": "emby"
-      },
-      "sum": {
-        "errors": 0,
-        "requests": 3
       }
     },
     {
@@ -8273,16 +8263,6 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-01-22T15:34:58Z",
-        "scriptName": "subscription-manager"
-      },
-      "sum": {
-        "errors": 0,
-        "requests": 1
-      }
-    },
-    {
-      "dimensions": {
         "datetime": "2026-02-13T14:09:42Z",
         "scriptName": "subscription-manager"
       },
@@ -8483,22 +8463,22 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-02-14T14:03:50Z",
-        "scriptName": "subscription-manager"
-      },
-      "sum": {
-        "errors": 0,
-        "requests": 6
-      }
-    },
-    {
-      "dimensions": {
         "datetime": "2026-02-18T06:52:11Z",
         "scriptName": "subscription-manager"
       },
       "sum": {
         "errors": 0,
         "requests": 1
+      }
+    },
+    {
+      "dimensions": {
+        "datetime": "2026-02-14T14:03:50Z",
+        "scriptName": "subscription-manager"
+      },
+      "sum": {
+        "errors": 0,
+        "requests": 6
       }
     },
     {
@@ -8653,7 +8633,7 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-02-15T17:36:37Z",
+        "datetime": "2026-02-16T13:00:07Z",
         "scriptName": "subscription-manager"
       },
       "sum": {
@@ -8663,7 +8643,7 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-02-16T13:00:07Z",
+        "datetime": "2026-02-15T17:36:37Z",
         "scriptName": "subscription-manager"
       },
       "sum": {
@@ -9083,7 +9063,7 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-01-23T14:19:57Z",
+        "datetime": "2026-01-23T17:58:28Z",
         "scriptName": "subscription-manager"
       },
       "sum": {
@@ -9103,17 +9083,7 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-01-23T17:58:28Z",
-        "scriptName": "subscription-manager"
-      },
-      "sum": {
-        "errors": 0,
-        "requests": 1
-      }
-    },
-    {
-      "dimensions": {
-        "datetime": "2026-02-16T03:00:23Z",
+        "datetime": "2026-01-23T14:19:57Z",
         "scriptName": "subscription-manager"
       },
       "sum": {
@@ -9124,6 +9094,16 @@
     {
       "dimensions": {
         "datetime": "2026-02-02T05:00:30Z",
+        "scriptName": "subscription-manager"
+      },
+      "sum": {
+        "errors": 0,
+        "requests": 1
+      }
+    },
+    {
+      "dimensions": {
+        "datetime": "2026-02-16T03:00:23Z",
         "scriptName": "subscription-manager"
       },
       "sum": {
@@ -9393,22 +9373,22 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-02-18T18:26:50Z",
-        "scriptName": "emby"
-      },
-      "sum": {
-        "errors": 0,
-        "requests": 7
-      }
-    },
-    {
-      "dimensions": {
         "datetime": "2026-01-23T22:24:28Z",
         "scriptName": "subscription-manager"
       },
       "sum": {
         "errors": 0,
         "requests": 1
+      }
+    },
+    {
+      "dimensions": {
+        "datetime": "2026-02-18T18:26:50Z",
+        "scriptName": "emby"
+      },
+      "sum": {
+        "errors": 0,
+        "requests": 7
       }
     },
     {
@@ -9673,22 +9653,22 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-01-30T19:09:51Z",
-        "scriptName": "emby"
-      },
-      "sum": {
-        "errors": 0,
-        "requests": 17
-      }
-    },
-    {
-      "dimensions": {
         "datetime": "2026-02-13T15:19:55Z",
         "scriptName": "subscription-manager"
       },
       "sum": {
         "errors": 0,
         "requests": 29
+      }
+    },
+    {
+      "dimensions": {
+        "datetime": "2026-01-30T19:09:51Z",
+        "scriptName": "emby"
+      },
+      "sum": {
+        "errors": 0,
+        "requests": 17
       }
     },
     {
@@ -9993,8 +9973,8 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-02-16T16:10:02Z",
-        "scriptName": "private-config"
+        "datetime": "2026-01-23T11:21:40Z",
+        "scriptName": "subscription-manager"
       },
       "sum": {
         "errors": 0,
@@ -10013,18 +9993,8 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-01-23T11:21:40Z",
-        "scriptName": "subscription-manager"
-      },
-      "sum": {
-        "errors": 0,
-        "requests": 1
-      }
-    },
-    {
-      "dimensions": {
-        "datetime": "2026-01-22T15:28:52Z",
-        "scriptName": "subscription-manager"
+        "datetime": "2026-02-16T16:10:02Z",
+        "scriptName": "private-config"
       },
       "sum": {
         "errors": 0,
@@ -10099,16 +10069,6 @@
       "sum": {
         "errors": 0,
         "requests": 2
-      }
-    },
-    {
-      "dimensions": {
-        "datetime": "2026-01-22T15:19:43Z",
-        "scriptName": "subscription-manager"
-      },
-      "sum": {
-        "errors": 0,
-        "requests": 1
       }
     },
     {
@@ -10653,8 +10613,8 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-01-23T09:45:11Z",
-        "scriptName": "subscription-manager"
+        "datetime": "2026-02-03T20:26:08Z",
+        "scriptName": "emby"
       },
       "sum": {
         "errors": 0,
@@ -10663,8 +10623,8 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-02-03T20:26:08Z",
-        "scriptName": "emby"
+        "datetime": "2026-01-23T09:45:11Z",
+        "scriptName": "subscription-manager"
       },
       "sum": {
         "errors": 0,
@@ -10733,8 +10693,8 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-01-23T18:32:12Z",
-        "scriptName": "subscription-manager"
+        "datetime": "2026-01-27T18:06:56Z",
+        "scriptName": "private-config"
       },
       "sum": {
         "errors": 0,
@@ -10743,8 +10703,8 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-01-27T18:06:56Z",
-        "scriptName": "private-config"
+        "datetime": "2026-01-23T18:32:12Z",
+        "scriptName": "subscription-manager"
       },
       "sum": {
         "errors": 0,
@@ -11013,22 +10973,22 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-02-14T21:16:19Z",
-        "scriptName": "emby"
-      },
-      "sum": {
-        "errors": 0,
-        "requests": 7
-      }
-    },
-    {
-      "dimensions": {
         "datetime": "2026-02-18T17:21:15Z",
         "scriptName": "emby"
       },
       "sum": {
         "errors": 0,
         "requests": 1
+      }
+    },
+    {
+      "dimensions": {
+        "datetime": "2026-02-14T21:16:19Z",
+        "scriptName": "emby"
+      },
+      "sum": {
+        "errors": 0,
+        "requests": 7
       }
     },
     {
@@ -12033,7 +11993,7 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-02-15T18:27:06Z",
+        "datetime": "2026-02-18T19:34:40Z",
         "scriptName": "subscription-manager"
       },
       "sum": {
@@ -12043,7 +12003,7 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-02-18T19:34:40Z",
+        "datetime": "2026-02-15T18:27:06Z",
         "scriptName": "subscription-manager"
       },
       "sum": {
@@ -12373,12 +12333,12 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-02-17T01:58:21Z",
-        "scriptName": "private-config"
+        "datetime": "2026-01-23T17:02:19Z",
+        "scriptName": "subscription-manager"
       },
       "sum": {
         "errors": 0,
-        "requests": 2
+        "requests": 1
       }
     },
     {
@@ -12393,12 +12353,12 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-01-23T17:02:19Z",
-        "scriptName": "subscription-manager"
+        "datetime": "2026-02-17T01:58:21Z",
+        "scriptName": "private-config"
       },
       "sum": {
         "errors": 0,
-        "requests": 1
+        "requests": 2
       }
     },
     {
@@ -12473,22 +12433,22 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-02-15T02:47:42Z",
-        "scriptName": "private-config"
-      },
-      "sum": {
-        "errors": 0,
-        "requests": 24
-      }
-    },
-    {
-      "dimensions": {
         "datetime": "2026-01-25T04:02:28Z",
         "scriptName": "private-config"
       },
       "sum": {
         "errors": 0,
         "requests": 5
+      }
+    },
+    {
+      "dimensions": {
+        "datetime": "2026-02-15T02:47:42Z",
+        "scriptName": "private-config"
+      },
+      "sum": {
+        "errors": 0,
+        "requests": 24
       }
     },
     {
@@ -12943,12 +12903,12 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-02-10T05:43:13Z",
-        "scriptName": "emby"
+        "datetime": "2026-01-22T16:29:03Z",
+        "scriptName": "subscription-manager"
       },
       "sum": {
         "errors": 0,
-        "requests": 3
+        "requests": 1
       }
     },
     {
@@ -12963,12 +12923,12 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-01-22T16:29:03Z",
-        "scriptName": "subscription-manager"
+        "datetime": "2026-02-10T05:43:13Z",
+        "scriptName": "emby"
       },
       "sum": {
         "errors": 0,
-        "requests": 1
+        "requests": 3
       }
     },
     {
@@ -13083,8 +13043,8 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-01-23T13:16:51Z",
-        "scriptName": "subscription-manager"
+        "datetime": "2026-02-14T18:20:50Z",
+        "scriptName": "emby"
       },
       "sum": {
         "errors": 0,
@@ -13093,8 +13053,8 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-02-14T18:20:50Z",
-        "scriptName": "emby"
+        "datetime": "2026-01-23T13:16:51Z",
+        "scriptName": "subscription-manager"
       },
       "sum": {
         "errors": 0,
@@ -13743,16 +13703,6 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-01-22T15:35:58Z",
-        "scriptName": "subscription-manager"
-      },
-      "sum": {
-        "errors": 0,
-        "requests": 1
-      }
-    },
-    {
-      "dimensions": {
         "datetime": "2026-01-30T20:07:45Z",
         "scriptName": "private-config"
       },
@@ -13883,16 +13833,6 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-01-23T14:47:41Z",
-        "scriptName": "subscription-manager"
-      },
-      "sum": {
-        "errors": 0,
-        "requests": 1
-      }
-    },
-    {
-      "dimensions": {
         "datetime": "2026-02-14T17:31:54Z",
         "scriptName": "emby"
       },
@@ -13903,7 +13843,7 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-01-23T15:05:20Z",
+        "datetime": "2026-01-23T14:47:41Z",
         "scriptName": "subscription-manager"
       },
       "sum": {
@@ -13919,6 +13859,16 @@
       "sum": {
         "errors": 0,
         "requests": 15
+      }
+    },
+    {
+      "dimensions": {
+        "datetime": "2026-01-23T15:05:20Z",
+        "scriptName": "subscription-manager"
+      },
+      "sum": {
+        "errors": 0,
+        "requests": 1
       }
     },
     {
@@ -14593,7 +14543,7 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-01-23T13:13:46Z",
+        "datetime": "2026-01-23T21:47:06Z",
         "scriptName": "subscription-manager"
       },
       "sum": {
@@ -14613,7 +14563,7 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-01-23T21:47:06Z",
+        "datetime": "2026-01-23T13:13:46Z",
         "scriptName": "subscription-manager"
       },
       "sum": {
@@ -14973,16 +14923,6 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-01-22T15:27:21Z",
-        "scriptName": "subscription-manager"
-      },
-      "sum": {
-        "errors": 0,
-        "requests": 1
-      }
-    },
-    {
-      "dimensions": {
         "datetime": "2026-01-23T20:23:55Z",
         "scriptName": "subscription-manager"
       },
@@ -15173,22 +15113,22 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-02-14T11:02:16Z",
-        "scriptName": "subscription-manager"
-      },
-      "sum": {
-        "errors": 0,
-        "requests": 1
-      }
-    },
-    {
-      "dimensions": {
         "datetime": "2026-01-24T05:03:13Z",
         "scriptName": "emby"
       },
       "sum": {
         "errors": 0,
         "requests": 18
+      }
+    },
+    {
+      "dimensions": {
+        "datetime": "2026-02-14T11:02:16Z",
+        "scriptName": "subscription-manager"
+      },
+      "sum": {
+        "errors": 0,
+        "requests": 1
       }
     },
     {
@@ -15283,22 +15223,22 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-01-23T10:17:12Z",
-        "scriptName": "subscription-manager"
-      },
-      "sum": {
-        "errors": 0,
-        "requests": 1
-      }
-    },
-    {
-      "dimensions": {
         "datetime": "2026-01-31T09:33:17Z",
         "scriptName": "emby"
       },
       "sum": {
         "errors": 0,
         "requests": 2
+      }
+    },
+    {
+      "dimensions": {
+        "datetime": "2026-01-23T10:17:12Z",
+        "scriptName": "subscription-manager"
+      },
+      "sum": {
+        "errors": 0,
+        "requests": 1
       }
     },
     {
@@ -15323,8 +15263,8 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-02-09T03:42:25Z",
-        "scriptName": "subscription-manager"
+        "datetime": "2026-02-09T19:38:11Z",
+        "scriptName": "emby"
       },
       "sum": {
         "errors": 0,
@@ -15333,8 +15273,8 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-02-09T19:38:11Z",
-        "scriptName": "emby"
+        "datetime": "2026-02-09T03:42:25Z",
+        "scriptName": "subscription-manager"
       },
       "sum": {
         "errors": 0,
@@ -15609,16 +15549,6 @@
       "sum": {
         "errors": 0,
         "requests": 6
-      }
-    },
-    {
-      "dimensions": {
-        "datetime": "2026-01-22T15:33:56Z",
-        "scriptName": "subscription-manager"
-      },
-      "sum": {
-        "errors": 0,
-        "requests": 1
       }
     },
     {
@@ -16263,8 +16193,8 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-01-23T00:24:23Z",
-        "scriptName": "emby"
+        "datetime": "2026-01-23T15:25:16Z",
+        "scriptName": "subscription-manager"
       },
       "sum": {
         "errors": 0,
@@ -16273,8 +16203,8 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-01-23T15:25:16Z",
-        "scriptName": "subscription-manager"
+        "datetime": "2026-01-23T00:24:23Z",
+        "scriptName": "emby"
       },
       "sum": {
         "errors": 0,
@@ -16383,22 +16313,22 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-01-26T07:54:17Z",
-        "scriptName": "emby"
-      },
-      "sum": {
-        "errors": 0,
-        "requests": 1
-      }
-    },
-    {
-      "dimensions": {
         "datetime": "2026-02-16T00:17:41Z",
         "scriptName": "emby"
       },
       "sum": {
         "errors": 0,
         "requests": 4
+      }
+    },
+    {
+      "dimensions": {
+        "datetime": "2026-01-26T07:54:17Z",
+        "scriptName": "emby"
+      },
+      "sum": {
+        "errors": 0,
+        "requests": 1
       }
     },
     {
@@ -17433,22 +17363,22 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-02-13T15:19:48Z",
-        "scriptName": "subscription-manager"
-      },
-      "sum": {
-        "errors": 0,
-        "requests": 16
-      }
-    },
-    {
-      "dimensions": {
         "datetime": "2026-01-23T13:33:04Z",
         "scriptName": "subscription-manager"
       },
       "sum": {
         "errors": 0,
         "requests": 1
+      }
+    },
+    {
+      "dimensions": {
+        "datetime": "2026-02-13T15:19:48Z",
+        "scriptName": "subscription-manager"
+      },
+      "sum": {
+        "errors": 0,
+        "requests": 16
       }
     },
     {
@@ -18063,22 +17993,22 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-02-09T22:32:28Z",
-        "scriptName": "emby"
-      },
-      "sum": {
-        "errors": 0,
-        "requests": 1
-      }
-    },
-    {
-      "dimensions": {
         "datetime": "2026-02-12T20:45:45Z",
         "scriptName": "subscription-manager"
       },
       "sum": {
         "errors": 0,
         "requests": 3
+      }
+    },
+    {
+      "dimensions": {
+        "datetime": "2026-02-09T22:32:28Z",
+        "scriptName": "emby"
+      },
+      "sum": {
+        "errors": 0,
+        "requests": 1
       }
     },
     {
@@ -18783,22 +18713,22 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-02-15T02:47:33Z",
-        "scriptName": "private-config"
-      },
-      "sum": {
-        "errors": 0,
-        "requests": 29
-      }
-    },
-    {
-      "dimensions": {
         "datetime": "2026-02-02T08:57:23Z",
         "scriptName": "subscription-manager"
       },
       "sum": {
         "errors": 0,
         "requests": 166
+      }
+    },
+    {
+      "dimensions": {
+        "datetime": "2026-02-15T02:47:33Z",
+        "scriptName": "private-config"
+      },
+      "sum": {
+        "errors": 0,
+        "requests": 29
       }
     },
     {
@@ -18983,22 +18913,22 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-02-14T16:27:42Z",
-        "scriptName": "emby"
-      },
-      "sum": {
-        "errors": 0,
-        "requests": 8
-      }
-    },
-    {
-      "dimensions": {
         "datetime": "2026-02-15T01:53:43Z",
         "scriptName": "emby"
       },
       "sum": {
         "errors": 0,
         "requests": 2
+      }
+    },
+    {
+      "dimensions": {
+        "datetime": "2026-02-14T16:27:42Z",
+        "scriptName": "emby"
+      },
+      "sum": {
+        "errors": 0,
+        "requests": 8
       }
     },
     {
@@ -19173,8 +19103,8 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-02-18T00:00:12Z",
-        "scriptName": "subscription-manager"
+        "datetime": "2026-02-11T20:53:59Z",
+        "scriptName": "private-config"
       },
       "sum": {
         "errors": 0,
@@ -19183,8 +19113,8 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-02-11T20:53:59Z",
-        "scriptName": "private-config"
+        "datetime": "2026-02-18T00:00:12Z",
+        "scriptName": "subscription-manager"
       },
       "sum": {
         "errors": 0,
@@ -19243,7 +19173,7 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-01-23T18:37:19Z",
+        "datetime": "2026-01-23T16:20:33Z",
         "scriptName": "subscription-manager"
       },
       "sum": {
@@ -19253,7 +19183,7 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-01-23T16:20:33Z",
+        "datetime": "2026-01-23T18:37:19Z",
         "scriptName": "subscription-manager"
       },
       "sum": {
@@ -19343,8 +19273,8 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-02-03T21:12:13Z",
-        "scriptName": "private-config"
+        "datetime": "2026-02-14T17:18:53Z",
+        "scriptName": "emby"
       },
       "sum": {
         "errors": 0,
@@ -19353,8 +19283,8 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-02-14T17:18:53Z",
-        "scriptName": "emby"
+        "datetime": "2026-02-03T21:12:13Z",
+        "scriptName": "private-config"
       },
       "sum": {
         "errors": 0,
@@ -19413,8 +19343,8 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-02-08T23:00:23Z",
-        "scriptName": "subscription-manager"
+        "datetime": "2026-01-22T17:54:18Z",
+        "scriptName": "emby"
       },
       "sum": {
         "errors": 0,
@@ -19423,8 +19353,8 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-01-22T17:54:18Z",
-        "scriptName": "emby"
+        "datetime": "2026-02-08T23:00:23Z",
+        "scriptName": "subscription-manager"
       },
       "sum": {
         "errors": 0,
@@ -19543,8 +19473,8 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-02-12T13:00:33Z",
-        "scriptName": "subscription-manager"
+        "datetime": "2026-01-26T02:24:17Z",
+        "scriptName": "emby"
       },
       "sum": {
         "errors": 0,
@@ -19553,8 +19483,8 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-01-26T02:24:17Z",
-        "scriptName": "emby"
+        "datetime": "2026-02-12T13:00:33Z",
+        "scriptName": "subscription-manager"
       },
       "sum": {
         "errors": 0,
@@ -19733,22 +19663,22 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-02-07T22:53:28Z",
-        "scriptName": "emby"
-      },
-      "sum": {
-        "errors": 0,
-        "requests": 4
-      }
-    },
-    {
-      "dimensions": {
         "datetime": "2026-01-23T21:02:53Z",
         "scriptName": "subscription-manager"
       },
       "sum": {
         "errors": 0,
         "requests": 1
+      }
+    },
+    {
+      "dimensions": {
+        "datetime": "2026-02-07T22:53:28Z",
+        "scriptName": "emby"
+      },
+      "sum": {
+        "errors": 0,
+        "requests": 4
       }
     },
     {
@@ -19773,7 +19703,7 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-01-23T08:47:17Z",
+        "datetime": "2026-01-23T13:27:28Z",
         "scriptName": "subscription-manager"
       },
       "sum": {
@@ -19783,7 +19713,7 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-01-23T13:27:28Z",
+        "datetime": "2026-01-23T08:47:17Z",
         "scriptName": "subscription-manager"
       },
       "sum": {
@@ -19853,22 +19783,22 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-01-23T01:01:27Z",
-        "scriptName": "emby"
-      },
-      "sum": {
-        "errors": 0,
-        "requests": 2
-      }
-    },
-    {
-      "dimensions": {
         "datetime": "2026-01-23T09:02:32Z",
         "scriptName": "subscription-manager"
       },
       "sum": {
         "errors": 0,
         "requests": 1
+      }
+    },
+    {
+      "dimensions": {
+        "datetime": "2026-01-23T01:01:27Z",
+        "scriptName": "emby"
+      },
+      "sum": {
+        "errors": 0,
+        "requests": 2
       }
     },
     {
@@ -20763,22 +20693,22 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-02-14T16:27:32Z",
-        "scriptName": "emby"
-      },
-      "sum": {
-        "errors": 0,
-        "requests": 6
-      }
-    },
-    {
-      "dimensions": {
         "datetime": "2026-01-23T14:41:51Z",
         "scriptName": "subscription-manager"
       },
       "sum": {
         "errors": 0,
         "requests": 1
+      }
+    },
+    {
+      "dimensions": {
+        "datetime": "2026-02-14T16:27:32Z",
+        "scriptName": "emby"
+      },
+      "sum": {
+        "errors": 0,
+        "requests": 6
       }
     },
     {
@@ -21063,22 +20993,22 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-01-27T01:24:19Z",
-        "scriptName": "private-config"
-      },
-      "sum": {
-        "errors": 0,
-        "requests": 33
-      }
-    },
-    {
-      "dimensions": {
         "datetime": "2026-02-09T18:56:39Z",
         "scriptName": "private-config"
       },
       "sum": {
         "errors": 0,
         "requests": 1
+      }
+    },
+    {
+      "dimensions": {
+        "datetime": "2026-01-27T01:24:19Z",
+        "scriptName": "private-config"
+      },
+      "sum": {
+        "errors": 0,
+        "requests": 33
       }
     },
     {
@@ -21163,8 +21093,8 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-02-20T08:30:30Z",
-        "scriptName": "emby"
+        "datetime": "2026-01-23T15:53:23Z",
+        "scriptName": "subscription-manager"
       },
       "sum": {
         "errors": 0,
@@ -21173,8 +21103,8 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-01-23T15:53:23Z",
-        "scriptName": "subscription-manager"
+        "datetime": "2026-02-20T08:30:30Z",
+        "scriptName": "emby"
       },
       "sum": {
         "errors": 0,
@@ -21194,16 +21124,6 @@
     {
       "dimensions": {
         "datetime": "2026-01-22T17:49:21Z",
-        "scriptName": "subscription-manager"
-      },
-      "sum": {
-        "errors": 0,
-        "requests": 1
-      }
-    },
-    {
-      "dimensions": {
-        "datetime": "2026-01-22T15:25:19Z",
         "scriptName": "subscription-manager"
       },
       "sum": {
@@ -21653,8 +21573,8 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-02-16T02:55:50Z",
-        "scriptName": "emby"
+        "datetime": "2026-02-15T19:14:36Z",
+        "scriptName": "subscription-manager"
       },
       "sum": {
         "errors": 0,
@@ -21663,8 +21583,8 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-02-15T19:14:36Z",
-        "scriptName": "subscription-manager"
+        "datetime": "2026-02-16T02:55:50Z",
+        "scriptName": "emby"
       },
       "sum": {
         "errors": 0,
@@ -21793,7 +21713,7 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-01-23T11:55:12Z",
+        "datetime": "2026-01-23T20:55:37Z",
         "scriptName": "subscription-manager"
       },
       "sum": {
@@ -21803,7 +21723,7 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-01-23T20:55:37Z",
+        "datetime": "2026-01-23T11:55:12Z",
         "scriptName": "subscription-manager"
       },
       "sum": {
@@ -22243,22 +22163,22 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-01-24T20:54:13Z",
-        "scriptName": "private-config"
-      },
-      "sum": {
-        "errors": 0,
-        "requests": 1
-      }
-    },
-    {
-      "dimensions": {
         "datetime": "2026-01-24T05:03:14Z",
         "scriptName": "emby"
       },
       "sum": {
         "errors": 0,
         "requests": 25
+      }
+    },
+    {
+      "dimensions": {
+        "datetime": "2026-01-24T20:54:13Z",
+        "scriptName": "private-config"
+      },
+      "sum": {
+        "errors": 0,
+        "requests": 1
       }
     },
     {
@@ -22353,8 +22273,8 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-02-09T11:06:44Z",
-        "scriptName": "emby"
+        "datetime": "2026-01-29T09:07:27Z",
+        "scriptName": "private-config"
       },
       "sum": {
         "errors": 0,
@@ -22363,8 +22283,8 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-01-29T09:07:27Z",
-        "scriptName": "private-config"
+        "datetime": "2026-02-09T11:06:44Z",
+        "scriptName": "emby"
       },
       "sum": {
         "errors": 0,
@@ -22403,7 +22323,7 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-02-01T20:53:30Z",
+        "datetime": "2026-02-18T21:55:45Z",
         "scriptName": "subscription-manager"
       },
       "sum": {
@@ -22413,7 +22333,7 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-02-18T21:55:45Z",
+        "datetime": "2026-02-01T20:53:30Z",
         "scriptName": "subscription-manager"
       },
       "sum": {
@@ -22663,16 +22583,6 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-01-22T15:24:18Z",
-        "scriptName": "subscription-manager"
-      },
-      "sum": {
-        "errors": 0,
-        "requests": 1
-      }
-    },
-    {
-      "dimensions": {
         "datetime": "2026-02-18T18:26:43Z",
         "scriptName": "emby"
       },
@@ -22683,22 +22593,22 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-02-15T18:25:04Z",
-        "scriptName": "subscription-manager"
-      },
-      "sum": {
-        "errors": 0,
-        "requests": 2
-      }
-    },
-    {
-      "dimensions": {
         "datetime": "2026-01-23T10:22:47Z",
         "scriptName": "subscription-manager"
       },
       "sum": {
         "errors": 0,
         "requests": 1
+      }
+    },
+    {
+      "dimensions": {
+        "datetime": "2026-02-15T18:25:04Z",
+        "scriptName": "subscription-manager"
+      },
+      "sum": {
+        "errors": 0,
+        "requests": 2
       }
     },
     {
@@ -23023,22 +22933,22 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-02-18T20:39:42Z",
-        "scriptName": "private-config"
-      },
-      "sum": {
-        "errors": 0,
-        "requests": 1
-      }
-    },
-    {
-      "dimensions": {
         "datetime": "2026-02-08T18:07:30Z",
         "scriptName": "emby"
       },
       "sum": {
         "errors": 0,
         "requests": 9
+      }
+    },
+    {
+      "dimensions": {
+        "datetime": "2026-02-18T20:39:42Z",
+        "scriptName": "private-config"
+      },
+      "sum": {
+        "errors": 0,
+        "requests": 1
       }
     },
     {
@@ -23134,16 +23044,6 @@
     {
       "dimensions": {
         "datetime": "2026-01-23T13:54:55Z",
-        "scriptName": "subscription-manager"
-      },
-      "sum": {
-        "errors": 0,
-        "requests": 1
-      }
-    },
-    {
-      "dimensions": {
-        "datetime": "2026-01-22T15:23:48Z",
         "scriptName": "subscription-manager"
       },
       "sum": {
@@ -23723,22 +23623,22 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-02-05T11:32:53Z",
-        "scriptName": "private-config"
-      },
-      "sum": {
-        "errors": 0,
-        "requests": 1
-      }
-    },
-    {
-      "dimensions": {
         "datetime": "2026-02-20T19:02:56Z",
         "scriptName": "webui-health-check"
       },
       "sum": {
         "errors": 0,
         "requests": 191
+      }
+    },
+    {
+      "dimensions": {
+        "datetime": "2026-02-05T11:32:53Z",
+        "scriptName": "private-config"
+      },
+      "sum": {
+        "errors": 0,
+        "requests": 1
       }
     },
     {
@@ -24003,22 +23903,22 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-02-13T17:39:39Z",
-        "scriptName": "private-config"
-      },
-      "sum": {
-        "errors": 0,
-        "requests": 2
-      }
-    },
-    {
-      "dimensions": {
         "datetime": "2026-01-22T19:30:21Z",
         "scriptName": "subscription-manager"
       },
       "sum": {
         "errors": 0,
         "requests": 1
+      }
+    },
+    {
+      "dimensions": {
+        "datetime": "2026-02-13T17:39:39Z",
+        "scriptName": "private-config"
+      },
+      "sum": {
+        "errors": 0,
+        "requests": 2
       }
     },
     {
@@ -24034,16 +23934,6 @@
     {
       "dimensions": {
         "datetime": "2026-01-23T15:13:52Z",
-        "scriptName": "subscription-manager"
-      },
-      "sum": {
-        "errors": 0,
-        "requests": 1
-      }
-    },
-    {
-      "dimensions": {
-        "datetime": "2026-01-22T15:24:48Z",
         "scriptName": "subscription-manager"
       },
       "sum": {
@@ -24843,7 +24733,7 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-01-23T13:24:33Z",
+        "datetime": "2026-01-23T10:04:59Z",
         "scriptName": "subscription-manager"
       },
       "sum": {
@@ -24853,7 +24743,7 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-01-23T10:04:59Z",
+        "datetime": "2026-01-23T13:24:33Z",
         "scriptName": "subscription-manager"
       },
       "sum": {
@@ -26093,7 +25983,7 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-02-15T19:06:06Z",
+        "datetime": "2026-02-15T20:42:22Z",
         "scriptName": "subscription-manager"
       },
       "sum": {
@@ -26103,7 +25993,7 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-02-15T20:42:22Z",
+        "datetime": "2026-02-15T19:06:06Z",
         "scriptName": "subscription-manager"
       },
       "sum": {
@@ -26183,22 +26073,22 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-02-08T18:13:03Z",
-        "scriptName": "emby"
-      },
-      "sum": {
-        "errors": 0,
-        "requests": 1
-      }
-    },
-    {
-      "dimensions": {
         "datetime": "2026-02-18T08:23:21Z",
         "scriptName": "private-config"
       },
       "sum": {
         "errors": 0,
         "requests": 3
+      }
+    },
+    {
+      "dimensions": {
+        "datetime": "2026-02-08T18:13:03Z",
+        "scriptName": "emby"
+      },
+      "sum": {
+        "errors": 0,
+        "requests": 1
       }
     },
     {
@@ -26503,7 +26393,7 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-01-27T21:04:14Z",
+        "datetime": "2026-01-22T17:52:24Z",
         "scriptName": "subscription-manager"
       },
       "sum": {
@@ -26513,7 +26403,7 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-01-22T17:52:24Z",
+        "datetime": "2026-01-27T21:04:14Z",
         "scriptName": "subscription-manager"
       },
       "sum": {
@@ -26663,16 +26553,6 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-02-13T06:35:47Z",
-        "scriptName": "emby"
-      },
-      "sum": {
-        "errors": 0,
-        "requests": 1
-      }
-    },
-    {
-      "dimensions": {
         "datetime": "2026-02-14T16:59:25Z",
         "scriptName": "emby"
       },
@@ -26683,7 +26563,7 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-01-26T07:53:57Z",
+        "datetime": "2026-02-13T06:35:47Z",
         "scriptName": "emby"
       },
       "sum": {
@@ -26694,6 +26574,16 @@
     {
       "dimensions": {
         "datetime": "2026-02-14T17:03:15Z",
+        "scriptName": "emby"
+      },
+      "sum": {
+        "errors": 0,
+        "requests": 1
+      }
+    },
+    {
+      "dimensions": {
+        "datetime": "2026-01-26T07:53:57Z",
         "scriptName": "emby"
       },
       "sum": {
@@ -27323,22 +27213,22 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-02-02T07:55:26Z",
-        "scriptName": "private-config"
-      },
-      "sum": {
-        "errors": 0,
-        "requests": 5
-      }
-    },
-    {
-      "dimensions": {
         "datetime": "2026-01-23T13:19:55Z",
         "scriptName": "subscription-manager"
       },
       "sum": {
         "errors": 0,
         "requests": 1
+      }
+    },
+    {
+      "dimensions": {
+        "datetime": "2026-02-02T07:55:26Z",
+        "scriptName": "private-config"
+      },
+      "sum": {
+        "errors": 0,
+        "requests": 5
       }
     },
     {
@@ -27423,22 +27313,22 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-02-15T19:08:22Z",
-        "scriptName": "subscription-manager"
-      },
-      "sum": {
-        "errors": 0,
-        "requests": 2
-      }
-    },
-    {
-      "dimensions": {
         "datetime": "2026-01-30T11:54:05Z",
         "scriptName": "private-config"
       },
       "sum": {
         "errors": 0,
         "requests": 4
+      }
+    },
+    {
+      "dimensions": {
+        "datetime": "2026-02-15T19:08:22Z",
+        "scriptName": "subscription-manager"
+      },
+      "sum": {
+        "errors": 0,
+        "requests": 2
       }
     },
     {
@@ -27803,7 +27693,7 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-02-16T09:00:06Z",
+        "datetime": "2026-02-02T11:00:27Z",
         "scriptName": "subscription-manager"
       },
       "sum": {
@@ -27813,7 +27703,7 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-02-02T11:00:27Z",
+        "datetime": "2026-02-16T09:00:06Z",
         "scriptName": "subscription-manager"
       },
       "sum": {
@@ -29913,8 +29803,8 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-02-11T23:31:41Z",
-        "scriptName": "emby"
+        "datetime": "2026-01-23T14:02:01Z",
+        "scriptName": "subscription-manager"
       },
       "sum": {
         "errors": 0,
@@ -29923,8 +29813,8 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-01-23T14:02:01Z",
-        "scriptName": "subscription-manager"
+        "datetime": "2026-02-11T23:31:41Z",
+        "scriptName": "emby"
       },
       "sum": {
         "errors": 0,
@@ -29973,7 +29863,7 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-01-23T09:30:27Z",
+        "datetime": "2026-01-23T13:34:48Z",
         "scriptName": "subscription-manager"
       },
       "sum": {
@@ -29983,7 +29873,7 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-01-23T13:34:48Z",
+        "datetime": "2026-01-23T09:30:27Z",
         "scriptName": "subscription-manager"
       },
       "sum": {
@@ -30673,7 +30563,7 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-01-22T19:58:13Z",
+        "datetime": "2026-01-23T18:43:57Z",
         "scriptName": "subscription-manager"
       },
       "sum": {
@@ -30683,7 +30573,7 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-01-23T18:43:57Z",
+        "datetime": "2026-01-22T19:58:13Z",
         "scriptName": "subscription-manager"
       },
       "sum": {
@@ -31203,22 +31093,22 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-01-22T17:48:00Z",
-        "scriptName": "emby"
-      },
-      "sum": {
-        "errors": 0,
-        "requests": 7
-      }
-    },
-    {
-      "dimensions": {
         "datetime": "2026-02-06T16:43:52Z",
         "scriptName": "webui-health-check"
       },
       "sum": {
         "errors": 0,
         "requests": 8
+      }
+    },
+    {
+      "dimensions": {
+        "datetime": "2026-01-22T17:48:00Z",
+        "scriptName": "emby"
+      },
+      "sum": {
+        "errors": 0,
+        "requests": 7
       }
     },
     {
@@ -31593,7 +31483,7 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-02-13T12:40:31Z",
+        "datetime": "2026-01-24T03:37:53Z",
         "scriptName": "emby"
       },
       "sum": {
@@ -31603,7 +31493,7 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-01-24T03:37:53Z",
+        "datetime": "2026-02-13T12:40:31Z",
         "scriptName": "emby"
       },
       "sum": {
@@ -31763,8 +31653,8 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-02-17T10:00:18Z",
-        "scriptName": "subscription-manager"
+        "datetime": "2026-02-14T17:34:48Z",
+        "scriptName": "emby"
       },
       "sum": {
         "errors": 0,
@@ -31773,8 +31663,8 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-02-14T17:34:48Z",
-        "scriptName": "emby"
+        "datetime": "2026-02-17T10:00:18Z",
+        "scriptName": "subscription-manager"
       },
       "sum": {
         "errors": 0,
@@ -32293,8 +32183,8 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-01-25T17:51:06Z",
-        "scriptName": "emby"
+        "datetime": "2026-01-23T17:15:36Z",
+        "scriptName": "subscription-manager"
       },
       "sum": {
         "errors": 0,
@@ -32303,8 +32193,8 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-01-23T17:15:36Z",
-        "scriptName": "subscription-manager"
+        "datetime": "2026-01-25T17:51:06Z",
+        "scriptName": "emby"
       },
       "sum": {
         "errors": 0,
@@ -32493,8 +32383,8 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-02-01T21:50:32Z",
-        "scriptName": "emby"
+        "datetime": "2026-02-07T10:07:29Z",
+        "scriptName": "subscription-manager"
       },
       "sum": {
         "errors": 0,
@@ -32503,8 +32393,8 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-02-07T10:07:29Z",
-        "scriptName": "subscription-manager"
+        "datetime": "2026-02-01T21:50:32Z",
+        "scriptName": "emby"
       },
       "sum": {
         "errors": 0,
@@ -32893,7 +32783,7 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-01-23T15:51:51Z",
+        "datetime": "2026-01-23T14:36:13Z",
         "scriptName": "subscription-manager"
       },
       "sum": {
@@ -32903,7 +32793,7 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-01-23T14:36:13Z",
+        "datetime": "2026-01-23T15:51:51Z",
         "scriptName": "subscription-manager"
       },
       "sum": {
@@ -32923,22 +32813,22 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-02-15T18:53:33Z",
-        "scriptName": "subscription-manager"
-      },
-      "sum": {
-        "errors": 0,
-        "requests": 3
-      }
-    },
-    {
-      "dimensions": {
         "datetime": "2026-02-15T17:52:21Z",
         "scriptName": "subscription-manager"
       },
       "sum": {
         "errors": 0,
         "requests": 1
+      }
+    },
+    {
+      "dimensions": {
+        "datetime": "2026-02-15T18:53:33Z",
+        "scriptName": "subscription-manager"
+      },
+      "sum": {
+        "errors": 0,
+        "requests": 3
       }
     },
     {
@@ -33193,22 +33083,22 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-02-14T10:00:12Z",
-        "scriptName": "subscription-manager"
-      },
-      "sum": {
-        "errors": 0,
-        "requests": 1
-      }
-    },
-    {
-      "dimensions": {
         "datetime": "2026-02-15T20:07:16Z",
         "scriptName": "subscription-manager"
       },
       "sum": {
         "errors": 0,
         "requests": 287
+      }
+    },
+    {
+      "dimensions": {
+        "datetime": "2026-02-14T10:00:12Z",
+        "scriptName": "subscription-manager"
+      },
+      "sum": {
+        "errors": 0,
+        "requests": 1
       }
     },
     {
@@ -33353,22 +33243,22 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-01-31T22:00:29Z",
-        "scriptName": "subscription-manager"
-      },
-      "sum": {
-        "errors": 0,
-        "requests": 1
-      }
-    },
-    {
-      "dimensions": {
         "datetime": "2026-02-19T02:28:24Z",
         "scriptName": "emby"
       },
       "sum": {
         "errors": 0,
         "requests": 2
+      }
+    },
+    {
+      "dimensions": {
+        "datetime": "2026-01-31T22:00:29Z",
+        "scriptName": "subscription-manager"
+      },
+      "sum": {
+        "errors": 0,
+        "requests": 1
       }
     },
     {
@@ -34143,22 +34033,22 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-02-07T10:25:59Z",
-        "scriptName": "subscription-manager"
-      },
-      "sum": {
-        "errors": 0,
-        "requests": 1
-      }
-    },
-    {
-      "dimensions": {
         "datetime": "2026-02-03T17:23:31Z",
         "scriptName": "subscription-manager"
       },
       "sum": {
         "errors": 0,
         "requests": 78
+      }
+    },
+    {
+      "dimensions": {
+        "datetime": "2026-02-07T10:25:59Z",
+        "scriptName": "subscription-manager"
+      },
+      "sum": {
+        "errors": 0,
+        "requests": 1
       }
     },
     {
@@ -34863,22 +34753,22 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-01-23T23:06:37Z",
-        "scriptName": "subscription-manager"
-      },
-      "sum": {
-        "errors": 0,
-        "requests": 1
-      }
-    },
-    {
-      "dimensions": {
         "datetime": "2026-02-03T00:29:39Z",
         "scriptName": "emby"
       },
       "sum": {
         "errors": 0,
         "requests": 7
+      }
+    },
+    {
+      "dimensions": {
+        "datetime": "2026-01-23T23:06:37Z",
+        "scriptName": "subscription-manager"
+      },
+      "sum": {
+        "errors": 0,
+        "requests": 1
       }
     },
     {
@@ -35473,7 +35363,7 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-02-17T02:38:21Z",
+        "datetime": "2026-01-22T23:22:15Z",
         "scriptName": "emby"
       },
       "sum": {
@@ -35483,7 +35373,7 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-01-22T23:22:15Z",
+        "datetime": "2026-02-17T02:38:21Z",
         "scriptName": "emby"
       },
       "sum": {
@@ -35613,16 +35503,6 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-01-25T14:24:58Z",
-        "scriptName": "emby"
-      },
-      "sum": {
-        "errors": 0,
-        "requests": 1
-      }
-    },
-    {
-      "dimensions": {
         "datetime": "2026-02-08T00:00:20Z",
         "scriptName": "subscription-manager"
       },
@@ -35633,7 +35513,7 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-01-22T18:02:08Z",
+        "datetime": "2026-01-25T14:24:58Z",
         "scriptName": "emby"
       },
       "sum": {
@@ -35644,6 +35524,16 @@
     {
       "dimensions": {
         "datetime": "2026-01-22T17:50:28Z",
+        "scriptName": "emby"
+      },
+      "sum": {
+        "errors": 0,
+        "requests": 1
+      }
+    },
+    {
+      "dimensions": {
+        "datetime": "2026-01-22T18:02:08Z",
         "scriptName": "emby"
       },
       "sum": {
@@ -35773,7 +35663,7 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-02-15T17:25:07Z",
+        "datetime": "2026-01-23T22:40:05Z",
         "scriptName": "subscription-manager"
       },
       "sum": {
@@ -35783,7 +35673,7 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-01-23T22:40:05Z",
+        "datetime": "2026-02-15T17:25:07Z",
         "scriptName": "subscription-manager"
       },
       "sum": {
@@ -36513,16 +36403,6 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-02-15T17:20:37Z",
-        "scriptName": "subscription-manager"
-      },
-      "sum": {
-        "errors": 0,
-        "requests": 1
-      }
-    },
-    {
-      "dimensions": {
         "datetime": "2026-01-27T01:27:23Z",
         "scriptName": "emby"
       },
@@ -36539,6 +36419,16 @@
       "sum": {
         "errors": 0,
         "requests": 9
+      }
+    },
+    {
+      "dimensions": {
+        "datetime": "2026-02-15T17:20:37Z",
+        "scriptName": "subscription-manager"
+      },
+      "sum": {
+        "errors": 0,
+        "requests": 1
       }
     },
     {
@@ -36563,8 +36453,8 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-01-23T09:15:15Z",
-        "scriptName": "subscription-manager"
+        "datetime": "2026-01-27T18:08:30Z",
+        "scriptName": "private-config"
       },
       "sum": {
         "errors": 0,
@@ -36573,8 +36463,8 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-01-27T18:08:30Z",
-        "scriptName": "private-config"
+        "datetime": "2026-01-23T09:15:15Z",
+        "scriptName": "subscription-manager"
       },
       "sum": {
         "errors": 0,
@@ -36653,7 +36543,7 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-01-22T17:21:21Z",
+        "datetime": "2026-01-23T13:57:23Z",
         "scriptName": "subscription-manager"
       },
       "sum": {
@@ -36663,7 +36553,7 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-01-23T13:57:23Z",
+        "datetime": "2026-01-22T17:21:21Z",
         "scriptName": "subscription-manager"
       },
       "sum": {
@@ -36703,22 +36593,22 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-02-15T19:02:06Z",
-        "scriptName": "subscription-manager"
-      },
-      "sum": {
-        "errors": 0,
-        "requests": 1
-      }
-    },
-    {
-      "dimensions": {
         "datetime": "2026-02-15T18:52:55Z",
         "scriptName": "subscription-manager"
       },
       "sum": {
         "errors": 0,
         "requests": 2
+      }
+    },
+    {
+      "dimensions": {
+        "datetime": "2026-02-15T19:02:06Z",
+        "scriptName": "subscription-manager"
+      },
+      "sum": {
+        "errors": 0,
+        "requests": 1
       }
     },
     {
@@ -37253,16 +37143,6 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-01-22T15:40:01Z",
-        "scriptName": "subscription-manager"
-      },
-      "sum": {
-        "errors": 0,
-        "requests": 1
-      }
-    },
-    {
-      "dimensions": {
         "datetime": "2026-02-13T03:35:09Z",
         "scriptName": "private-config"
       },
@@ -37483,22 +37363,22 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-01-23T13:53:24Z",
-        "scriptName": "subscription-manager"
-      },
-      "sum": {
-        "errors": 0,
-        "requests": 1
-      }
-    },
-    {
-      "dimensions": {
         "datetime": "2026-01-27T16:31:08Z",
         "scriptName": "subscription-manager"
       },
       "sum": {
         "errors": 0,
         "requests": 3
+      }
+    },
+    {
+      "dimensions": {
+        "datetime": "2026-01-23T13:53:24Z",
+        "scriptName": "subscription-manager"
+      },
+      "sum": {
+        "errors": 0,
+        "requests": 1
       }
     },
     {
@@ -37793,7 +37673,7 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-01-23T14:17:50Z",
+        "datetime": "2026-01-23T16:28:42Z",
         "scriptName": "subscription-manager"
       },
       "sum": {
@@ -37813,7 +37693,7 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-01-23T16:28:42Z",
+        "datetime": "2026-01-23T14:17:50Z",
         "scriptName": "subscription-manager"
       },
       "sum": {
@@ -37863,16 +37743,6 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-02-15T18:12:21Z",
-        "scriptName": "subscription-manager"
-      },
-      "sum": {
-        "errors": 0,
-        "requests": 1
-      }
-    },
-    {
-      "dimensions": {
         "datetime": "2026-02-06T14:00:59Z",
         "scriptName": "subscription-manager"
       },
@@ -37885,6 +37755,16 @@
       "dimensions": {
         "datetime": "2026-01-26T21:21:09Z",
         "scriptName": "emby"
+      },
+      "sum": {
+        "errors": 0,
+        "requests": 1
+      }
+    },
+    {
+      "dimensions": {
+        "datetime": "2026-02-15T18:12:21Z",
+        "scriptName": "subscription-manager"
       },
       "sum": {
         "errors": 0,
@@ -38113,8 +37993,8 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-01-23T13:32:44Z",
-        "scriptName": "subscription-manager"
+        "datetime": "2026-02-08T08:27:10Z",
+        "scriptName": "emby"
       },
       "sum": {
         "errors": 0,
@@ -38123,8 +38003,8 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-02-08T08:27:10Z",
-        "scriptName": "emby"
+        "datetime": "2026-01-23T13:32:44Z",
+        "scriptName": "subscription-manager"
       },
       "sum": {
         "errors": 0,
@@ -38183,8 +38063,8 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-02-14T16:30:35Z",
-        "scriptName": "private-config"
+        "datetime": "2026-02-15T22:32:48Z",
+        "scriptName": "emby"
       },
       "sum": {
         "errors": 0,
@@ -38193,8 +38073,8 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-02-15T22:32:48Z",
-        "scriptName": "emby"
+        "datetime": "2026-02-14T16:30:35Z",
+        "scriptName": "private-config"
       },
       "sum": {
         "errors": 0,
@@ -38723,22 +38603,22 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-01-24T05:03:20Z",
-        "scriptName": "emby"
-      },
-      "sum": {
-        "errors": 0,
-        "requests": 16
-      }
-    },
-    {
-      "dimensions": {
         "datetime": "2026-02-15T20:36:21Z",
         "scriptName": "subscription-manager"
       },
       "sum": {
         "errors": 0,
         "requests": 1
+      }
+    },
+    {
+      "dimensions": {
+        "datetime": "2026-01-24T05:03:20Z",
+        "scriptName": "emby"
+      },
+      "sum": {
+        "errors": 0,
+        "requests": 16
       }
     },
     {
@@ -38793,8 +38673,8 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-01-23T08:10:13Z",
-        "scriptName": "subscription-manager"
+        "datetime": "2026-02-14T17:00:03Z",
+        "scriptName": "emby"
       },
       "sum": {
         "errors": 0,
@@ -38803,8 +38683,8 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-02-14T17:00:03Z",
-        "scriptName": "emby"
+        "datetime": "2026-01-23T08:10:13Z",
+        "scriptName": "subscription-manager"
       },
       "sum": {
         "errors": 0,
@@ -39013,22 +38893,22 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-02-08T18:01:45Z",
-        "scriptName": "private-config"
-      },
-      "sum": {
-        "errors": 0,
-        "requests": 4
-      }
-    },
-    {
-      "dimensions": {
         "datetime": "2026-02-15T09:16:58Z",
         "scriptName": "emby"
       },
       "sum": {
         "errors": 0,
         "requests": 1
+      }
+    },
+    {
+      "dimensions": {
+        "datetime": "2026-02-08T18:01:45Z",
+        "scriptName": "private-config"
+      },
+      "sum": {
+        "errors": 0,
+        "requests": 4
       }
     },
     {
@@ -39243,16 +39123,6 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-01-22T15:30:23Z",
-        "scriptName": "subscription-manager"
-      },
-      "sum": {
-        "errors": 0,
-        "requests": 1
-      }
-    },
-    {
-      "dimensions": {
         "datetime": "2026-02-01T06:03:27Z",
         "scriptName": "private-config"
       },
@@ -39429,16 +39299,6 @@
       "sum": {
         "errors": 0,
         "requests": 42
-      }
-    },
-    {
-      "dimensions": {
-        "datetime": "2026-01-22T15:15:10Z",
-        "scriptName": "subscription-manager"
-      },
-      "sum": {
-        "errors": 0,
-        "requests": 1
       }
     },
     {
@@ -39643,8 +39503,8 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-01-27T21:01:48Z",
-        "scriptName": "subscription-manager"
+        "datetime": "2026-01-26T16:24:06Z",
+        "scriptName": "private-config"
       },
       "sum": {
         "errors": 0,
@@ -39653,8 +39513,8 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-01-26T16:24:06Z",
-        "scriptName": "private-config"
+        "datetime": "2026-01-27T21:01:48Z",
+        "scriptName": "subscription-manager"
       },
       "sum": {
         "errors": 0,
@@ -39763,7 +39623,7 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-01-23T16:08:13Z",
+        "datetime": "2026-02-15T17:39:54Z",
         "scriptName": "subscription-manager"
       },
       "sum": {
@@ -39773,7 +39633,7 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-02-15T17:39:54Z",
+        "datetime": "2026-01-23T16:08:13Z",
         "scriptName": "subscription-manager"
       },
       "sum": {
@@ -40063,22 +39923,22 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-02-13T06:34:01Z",
-        "scriptName": "emby"
-      },
-      "sum": {
-        "errors": 0,
-        "requests": 3
-      }
-    },
-    {
-      "dimensions": {
         "datetime": "2026-01-26T07:50:48Z",
         "scriptName": "emby"
       },
       "sum": {
         "errors": 0,
         "requests": 2
+      }
+    },
+    {
+      "dimensions": {
+        "datetime": "2026-02-13T06:34:01Z",
+        "scriptName": "emby"
+      },
+      "sum": {
+        "errors": 0,
+        "requests": 3
       }
     },
     {
@@ -40103,7 +39963,7 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-01-23T21:14:55Z",
+        "datetime": "2026-01-23T13:39:25Z",
         "scriptName": "subscription-manager"
       },
       "sum": {
@@ -40113,7 +39973,7 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-01-23T13:39:25Z",
+        "datetime": "2026-01-23T21:14:55Z",
         "scriptName": "subscription-manager"
       },
       "sum": {
@@ -40189,16 +40049,6 @@
       "sum": {
         "errors": 0,
         "requests": 4
-      }
-    },
-    {
-      "dimensions": {
-        "datetime": "2026-01-22T15:40:32Z",
-        "scriptName": "subscription-manager"
-      },
-      "sum": {
-        "errors": 0,
-        "requests": 1
       }
     },
     {
@@ -40333,7 +40183,7 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-01-23T15:06:53Z",
+        "datetime": "2026-01-23T10:23:48Z",
         "scriptName": "subscription-manager"
       },
       "sum": {
@@ -40353,7 +40203,7 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-01-23T10:23:48Z",
+        "datetime": "2026-01-23T15:06:53Z",
         "scriptName": "subscription-manager"
       },
       "sum": {
@@ -41183,6 +41033,16 @@
     },
     {
       "dimensions": {
+        "datetime": "2026-02-15T17:58:21Z",
+        "scriptName": "subscription-manager"
+      },
+      "sum": {
+        "errors": 0,
+        "requests": 1
+      }
+    },
+    {
+      "dimensions": {
         "datetime": "2026-01-22T20:30:12Z",
         "scriptName": "emby"
       },
@@ -41193,8 +41053,8 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-02-15T17:58:21Z",
-        "scriptName": "subscription-manager"
+        "datetime": "2026-02-08T18:01:46Z",
+        "scriptName": "private-config"
       },
       "sum": {
         "errors": 0,
@@ -41209,16 +41069,6 @@
       "sum": {
         "errors": 0,
         "requests": 128
-      }
-    },
-    {
-      "dimensions": {
-        "datetime": "2026-02-08T18:01:46Z",
-        "scriptName": "private-config"
-      },
-      "sum": {
-        "errors": 0,
-        "requests": 1
       }
     },
     {
@@ -41353,22 +41203,22 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-02-15T18:51:38Z",
-        "scriptName": "subscription-manager"
-      },
-      "sum": {
-        "errors": 0,
-        "requests": 1
-      }
-    },
-    {
-      "dimensions": {
         "datetime": "2026-02-21T03:20:05Z",
         "scriptName": "private-config"
       },
       "sum": {
         "errors": 0,
         "requests": 3
+      }
+    },
+    {
+      "dimensions": {
+        "datetime": "2026-02-15T18:51:38Z",
+        "scriptName": "subscription-manager"
+      },
+      "sum": {
+        "errors": 0,
+        "requests": 1
       }
     },
     {
@@ -41393,8 +41243,8 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-01-27T00:26:07Z",
-        "scriptName": "emby"
+        "datetime": "2026-02-15T23:04:24Z",
+        "scriptName": "subscription-manager"
       },
       "sum": {
         "errors": 0,
@@ -41403,7 +41253,7 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-02-15T23:04:24Z",
+        "datetime": "2026-01-23T20:29:15Z",
         "scriptName": "subscription-manager"
       },
       "sum": {
@@ -41423,8 +41273,8 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-01-23T20:29:15Z",
-        "scriptName": "subscription-manager"
+        "datetime": "2026-01-27T00:26:07Z",
+        "scriptName": "emby"
       },
       "sum": {
         "errors": 0,
@@ -41683,7 +41533,7 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-01-23T18:00:49Z",
+        "datetime": "2026-02-18T13:00:49Z",
         "scriptName": "subscription-manager"
       },
       "sum": {
@@ -41703,7 +41553,7 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-02-18T13:00:49Z",
+        "datetime": "2026-01-23T18:00:49Z",
         "scriptName": "subscription-manager"
       },
       "sum": {
@@ -41715,16 +41565,6 @@
       "dimensions": {
         "datetime": "2026-02-10T07:40:01Z",
         "scriptName": "emby"
-      },
-      "sum": {
-        "errors": 0,
-        "requests": 1
-      }
-    },
-    {
-      "dimensions": {
-        "datetime": "2026-01-22T15:30:54Z",
-        "scriptName": "subscription-manager"
       },
       "sum": {
         "errors": 0,
@@ -43103,22 +42943,22 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-02-17T13:45:50Z",
-        "scriptName": "private-config"
-      },
-      "sum": {
-        "errors": 0,
-        "requests": 2
-      }
-    },
-    {
-      "dimensions": {
         "datetime": "2026-01-23T15:27:49Z",
         "scriptName": "subscription-manager"
       },
       "sum": {
         "errors": 0,
         "requests": 1
+      }
+    },
+    {
+      "dimensions": {
+        "datetime": "2026-02-17T13:45:50Z",
+        "scriptName": "private-config"
+      },
+      "sum": {
+        "errors": 0,
+        "requests": 2
       }
     },
     {
@@ -43813,7 +43653,7 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-01-23T08:40:09Z",
+        "datetime": "2026-01-22T16:33:37Z",
         "scriptName": "subscription-manager"
       },
       "sum": {
@@ -43823,7 +43663,7 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-01-22T16:33:37Z",
+        "datetime": "2026-01-23T08:40:09Z",
         "scriptName": "subscription-manager"
       },
       "sum": {
@@ -44683,22 +44523,22 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-02-16T04:42:40Z",
-        "scriptName": "emby"
-      },
-      "sum": {
-        "errors": 0,
-        "requests": 1
-      }
-    },
-    {
-      "dimensions": {
         "datetime": "2026-02-08T00:51:19Z",
         "scriptName": "private-config"
       },
       "sum": {
         "errors": 0,
         "requests": 10
+      }
+    },
+    {
+      "dimensions": {
+        "datetime": "2026-02-16T04:42:40Z",
+        "scriptName": "emby"
+      },
+      "sum": {
+        "errors": 0,
+        "requests": 1
       }
     },
     {
@@ -44973,22 +44813,22 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-02-18T18:30:01Z",
-        "scriptName": "subscription-manager"
-      },
-      "sum": {
-        "errors": 0,
-        "requests": 2
-      }
-    },
-    {
-      "dimensions": {
         "datetime": "2026-02-15T23:58:42Z",
         "scriptName": "emby"
       },
       "sum": {
         "errors": 0,
         "requests": 1
+      }
+    },
+    {
+      "dimensions": {
+        "datetime": "2026-02-18T18:30:01Z",
+        "scriptName": "subscription-manager"
+      },
+      "sum": {
+        "errors": 0,
+        "requests": 2
       }
     },
     {
@@ -45023,22 +44863,22 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-02-04T07:06:26Z",
-        "scriptName": "subscription-manager"
-      },
-      "sum": {
-        "errors": 0,
-        "requests": 5
-      }
-    },
-    {
-      "dimensions": {
         "datetime": "2026-02-15T18:51:39Z",
         "scriptName": "subscription-manager"
       },
       "sum": {
         "errors": 0,
         "requests": 4
+      }
+    },
+    {
+      "dimensions": {
+        "datetime": "2026-02-04T07:06:26Z",
+        "scriptName": "subscription-manager"
+      },
+      "sum": {
+        "errors": 0,
+        "requests": 5
       }
     },
     {
@@ -45103,22 +44943,22 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-02-05T18:00:54Z",
-        "scriptName": "subscription-manager"
-      },
-      "sum": {
-        "errors": 0,
-        "requests": 1
-      }
-    },
-    {
-      "dimensions": {
         "datetime": "2026-02-11T17:38:07Z",
         "scriptName": "private-config"
       },
       "sum": {
         "errors": 0,
         "requests": 7
+      }
+    },
+    {
+      "dimensions": {
+        "datetime": "2026-02-05T18:00:54Z",
+        "scriptName": "subscription-manager"
+      },
+      "sum": {
+        "errors": 0,
+        "requests": 1
       }
     },
     {
@@ -46103,16 +45943,6 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-01-22T15:41:33Z",
-        "scriptName": "subscription-manager"
-      },
-      "sum": {
-        "errors": 0,
-        "requests": 1
-      }
-    },
-    {
-      "dimensions": {
         "datetime": "2026-01-23T18:11:44Z",
         "scriptName": "subscription-manager"
       },
@@ -46153,22 +45983,22 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-02-07T16:30:59Z",
-        "scriptName": "subscription-manager"
-      },
-      "sum": {
-        "errors": 0,
-        "requests": 1
-      }
-    },
-    {
-      "dimensions": {
         "datetime": "2026-02-14T14:04:02Z",
         "scriptName": "subscription-manager"
       },
       "sum": {
         "errors": 0,
         "requests": 13
+      }
+    },
+    {
+      "dimensions": {
+        "datetime": "2026-02-07T16:30:59Z",
+        "scriptName": "subscription-manager"
+      },
+      "sum": {
+        "errors": 0,
+        "requests": 1
       }
     },
     {
@@ -47033,22 +46863,22 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-01-27T06:24:52Z",
-        "scriptName": "emby"
-      },
-      "sum": {
-        "errors": 0,
-        "requests": 34
-      }
-    },
-    {
-      "dimensions": {
         "datetime": "2026-02-16T01:53:28Z",
         "scriptName": "private-config"
       },
       "sum": {
         "errors": 0,
         "requests": 8
+      }
+    },
+    {
+      "dimensions": {
+        "datetime": "2026-01-27T06:24:52Z",
+        "scriptName": "emby"
+      },
+      "sum": {
+        "errors": 0,
+        "requests": 34
       }
     },
     {
@@ -47183,22 +47013,22 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-02-18T18:10:07Z",
-        "scriptName": "emby"
-      },
-      "sum": {
-        "errors": 0,
-        "requests": 1
-      }
-    },
-    {
-      "dimensions": {
         "datetime": "2026-02-21T03:08:38Z",
         "scriptName": "webui-health-check"
       },
       "sum": {
         "errors": 0,
         "requests": 76
+      }
+    },
+    {
+      "dimensions": {
+        "datetime": "2026-02-18T18:10:07Z",
+        "scriptName": "emby"
+      },
+      "sum": {
+        "errors": 0,
+        "requests": 1
       }
     },
     {
@@ -47793,12 +47623,12 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-01-30T06:25:48Z",
+        "datetime": "2026-01-23T18:23:25Z",
         "scriptName": "emby"
       },
       "sum": {
         "errors": 0,
-        "requests": 29
+        "requests": 1
       }
     },
     {
@@ -47813,12 +47643,12 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-01-23T18:23:25Z",
+        "datetime": "2026-01-30T06:25:48Z",
         "scriptName": "emby"
       },
       "sum": {
         "errors": 0,
-        "requests": 1
+        "requests": 29
       }
     },
     {
@@ -47913,6 +47743,16 @@
     },
     {
       "dimensions": {
+        "datetime": "2026-02-15T18:58:06Z",
+        "scriptName": "subscription-manager"
+      },
+      "sum": {
+        "errors": 0,
+        "requests": 1
+      }
+    },
+    {
+      "dimensions": {
         "datetime": "2026-02-03T14:50:13Z",
         "scriptName": "private-config"
       },
@@ -47924,16 +47764,6 @@
     {
       "dimensions": {
         "datetime": "2026-01-23T20:22:21Z",
-        "scriptName": "subscription-manager"
-      },
-      "sum": {
-        "errors": 0,
-        "requests": 1
-      }
-    },
-    {
-      "dimensions": {
-        "datetime": "2026-02-15T18:58:06Z",
         "scriptName": "subscription-manager"
       },
       "sum": {
@@ -48013,22 +47843,22 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-01-30T06:26:03Z",
-        "scriptName": "emby"
-      },
-      "sum": {
-        "errors": 0,
-        "requests": 53
-      }
-    },
-    {
-      "dimensions": {
         "datetime": "2026-02-15T18:48:36Z",
         "scriptName": "subscription-manager"
       },
       "sum": {
         "errors": 0,
         "requests": 1
+      }
+    },
+    {
+      "dimensions": {
+        "datetime": "2026-01-30T06:26:03Z",
+        "scriptName": "emby"
+      },
+      "sum": {
+        "errors": 0,
+        "requests": 53
       }
     },
     {
@@ -48303,7 +48133,7 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-02-07T16:19:59Z",
+        "datetime": "2026-01-23T12:33:13Z",
         "scriptName": "subscription-manager"
       },
       "sum": {
@@ -48313,7 +48143,7 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-01-23T12:33:13Z",
+        "datetime": "2026-02-07T16:19:59Z",
         "scriptName": "subscription-manager"
       },
       "sum": {
@@ -48733,16 +48563,6 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-01-22T15:25:49Z",
-        "scriptName": "subscription-manager"
-      },
-      "sum": {
-        "errors": 0,
-        "requests": 1
-      }
-    },
-    {
-      "dimensions": {
         "datetime": "2026-01-23T19:15:42Z",
         "scriptName": "emby"
       },
@@ -48833,6 +48653,16 @@
     },
     {
       "dimensions": {
+        "datetime": "2026-01-23T11:22:11Z",
+        "scriptName": "subscription-manager"
+      },
+      "sum": {
+        "errors": 0,
+        "requests": 1
+      }
+    },
+    {
+      "dimensions": {
         "datetime": "2026-02-14T19:33:04Z",
         "scriptName": "emby"
       },
@@ -48844,16 +48674,6 @@
     {
       "dimensions": {
         "datetime": "2026-01-23T14:15:16Z",
-        "scriptName": "subscription-manager"
-      },
-      "sum": {
-        "errors": 0,
-        "requests": 1
-      }
-    },
-    {
-      "dimensions": {
-        "datetime": "2026-01-23T11:22:11Z",
         "scriptName": "subscription-manager"
       },
       "sum": {
@@ -49133,7 +48953,7 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-02-10T15:00:26Z",
+        "datetime": "2026-01-23T14:14:15Z",
         "scriptName": "subscription-manager"
       },
       "sum": {
@@ -49143,7 +48963,7 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-01-23T14:14:15Z",
+        "datetime": "2026-02-10T15:00:26Z",
         "scriptName": "subscription-manager"
       },
       "sum": {
@@ -49473,8 +49293,8 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-01-25T07:32:16Z",
-        "scriptName": "emby"
+        "datetime": "2026-01-23T14:44:24Z",
+        "scriptName": "subscription-manager"
       },
       "sum": {
         "errors": 0,
@@ -49483,8 +49303,8 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-01-23T14:44:24Z",
-        "scriptName": "subscription-manager"
+        "datetime": "2026-01-25T07:32:16Z",
+        "scriptName": "emby"
       },
       "sum": {
         "errors": 0,
@@ -49563,22 +49383,22 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-02-01T04:55:33Z",
-        "scriptName": "emby"
-      },
-      "sum": {
-        "errors": 0,
-        "requests": 1
-      }
-    },
-    {
-      "dimensions": {
         "datetime": "2026-02-14T16:55:56Z",
         "scriptName": "emby"
       },
       "sum": {
         "errors": 0,
         "requests": 5
+      }
+    },
+    {
+      "dimensions": {
+        "datetime": "2026-02-01T04:55:33Z",
+        "scriptName": "emby"
+      },
+      "sum": {
+        "errors": 0,
+        "requests": 1
       }
     },
     {
@@ -50213,16 +50033,6 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-01-22T15:34:27Z",
-        "scriptName": "subscription-manager"
-      },
-      "sum": {
-        "errors": 0,
-        "requests": 1
-      }
-    },
-    {
-      "dimensions": {
         "datetime": "2026-02-10T16:06:26Z",
         "scriptName": "private-config"
       },
@@ -50795,16 +50605,6 @@
       "dimensions": {
         "datetime": "2026-02-11T16:24:14Z",
         "scriptName": "private-config"
-      },
-      "sum": {
-        "errors": 0,
-        "requests": 1
-      }
-    },
-    {
-      "dimensions": {
-        "datetime": "2026-01-22T15:33:25Z",
-        "scriptName": "subscription-manager"
       },
       "sum": {
         "errors": 0,
@@ -52213,8 +52013,8 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-01-26T15:33:20Z",
-        "scriptName": "emby"
+        "datetime": "2026-01-31T21:02:07Z",
+        "scriptName": "private-config"
       },
       "sum": {
         "errors": 0,
@@ -52223,8 +52023,8 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-01-31T21:02:07Z",
-        "scriptName": "private-config"
+        "datetime": "2026-01-26T15:33:20Z",
+        "scriptName": "emby"
       },
       "sum": {
         "errors": 0,
@@ -52273,22 +52073,22 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-01-22T20:30:37Z",
-        "scriptName": "emby"
-      },
-      "sum": {
-        "errors": 0,
-        "requests": 13
-      }
-    },
-    {
-      "dimensions": {
         "datetime": "2026-01-28T12:30:49Z",
         "scriptName": "emby"
       },
       "sum": {
         "errors": 0,
         "requests": 16
+      }
+    },
+    {
+      "dimensions": {
+        "datetime": "2026-01-22T20:30:37Z",
+        "scriptName": "emby"
+      },
+      "sum": {
+        "errors": 0,
+        "requests": 13
       }
     },
     {
@@ -52473,16 +52273,6 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-01-22T15:21:14Z",
-        "scriptName": "subscription-manager"
-      },
-      "sum": {
-        "errors": 0,
-        "requests": 1
-      }
-    },
-    {
-      "dimensions": {
         "datetime": "2026-01-27T01:27:21Z",
         "scriptName": "emby"
       },
@@ -52643,8 +52433,8 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-02-14T23:35:02Z",
-        "scriptName": "private-config"
+        "datetime": "2026-01-22T16:54:58Z",
+        "scriptName": "subscription-manager"
       },
       "sum": {
         "errors": 0,
@@ -52653,8 +52443,8 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-01-22T16:54:58Z",
-        "scriptName": "subscription-manager"
+        "datetime": "2026-02-14T23:35:02Z",
+        "scriptName": "private-config"
       },
       "sum": {
         "errors": 0,
@@ -52913,16 +52703,6 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-01-22T15:17:41Z",
-        "scriptName": "subscription-manager"
-      },
-      "sum": {
-        "errors": 0,
-        "requests": 1
-      }
-    },
-    {
-      "dimensions": {
         "datetime": "2026-02-17T01:59:41Z",
         "scriptName": "private-config"
       },
@@ -53133,22 +52913,22 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-02-13T12:08:07Z",
-        "scriptName": "emby"
-      },
-      "sum": {
-        "errors": 0,
-        "requests": 1
-      }
-    },
-    {
-      "dimensions": {
         "datetime": "2026-01-27T16:37:03Z",
         "scriptName": "subscription-manager"
       },
       "sum": {
         "errors": 0,
         "requests": 14
+      }
+    },
+    {
+      "dimensions": {
+        "datetime": "2026-02-13T12:08:07Z",
+        "scriptName": "emby"
+      },
+      "sum": {
+        "errors": 0,
+        "requests": 1
       }
     },
     {
@@ -53443,7 +53223,7 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-02-10T01:59:44Z",
+        "datetime": "2026-02-15T20:14:21Z",
         "scriptName": "subscription-manager"
       },
       "sum": {
@@ -53463,7 +53243,7 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-02-15T20:14:21Z",
+        "datetime": "2026-02-10T01:59:44Z",
         "scriptName": "subscription-manager"
       },
       "sum": {
@@ -54003,22 +53783,22 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-02-15T19:09:36Z",
-        "scriptName": "subscription-manager"
-      },
-      "sum": {
-        "errors": 0,
-        "requests": 1
-      }
-    },
-    {
-      "dimensions": {
         "datetime": "2026-02-14T18:28:00Z",
         "scriptName": "private-config"
       },
       "sum": {
         "errors": 0,
         "requests": 5
+      }
+    },
+    {
+      "dimensions": {
+        "datetime": "2026-02-15T19:09:36Z",
+        "scriptName": "subscription-manager"
+      },
+      "sum": {
+        "errors": 0,
+        "requests": 1
       }
     },
     {
@@ -54493,8 +54273,8 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-01-31T17:20:01Z",
-        "scriptName": "emby"
+        "datetime": "2026-02-17T21:00:18Z",
+        "scriptName": "subscription-manager"
       },
       "sum": {
         "errors": 0,
@@ -54503,8 +54283,8 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-02-17T21:00:18Z",
-        "scriptName": "subscription-manager"
+        "datetime": "2026-01-31T17:20:01Z",
+        "scriptName": "emby"
       },
       "sum": {
         "errors": 0,
@@ -54583,7 +54363,7 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-01-23T22:34:22Z",
+        "datetime": "2026-02-18T06:05:11Z",
         "scriptName": "subscription-manager"
       },
       "sum": {
@@ -54603,7 +54383,7 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-02-18T06:05:11Z",
+        "datetime": "2026-01-23T22:34:22Z",
         "scriptName": "subscription-manager"
       },
       "sum": {
@@ -54693,7 +54473,7 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-01-23T20:25:29Z",
+        "datetime": "2026-01-22T17:00:43Z",
         "scriptName": "subscription-manager"
       },
       "sum": {
@@ -54703,7 +54483,7 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-01-22T17:00:43Z",
+        "datetime": "2026-01-23T20:25:29Z",
         "scriptName": "subscription-manager"
       },
       "sum": {
@@ -55223,8 +55003,8 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-02-09T19:01:00Z",
-        "scriptName": "private-config"
+        "datetime": "2026-02-03T10:03:07Z",
+        "scriptName": "emby"
       },
       "sum": {
         "errors": 0,
@@ -55233,8 +55013,8 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-02-03T10:03:07Z",
-        "scriptName": "emby"
+        "datetime": "2026-02-09T19:01:00Z",
+        "scriptName": "private-config"
       },
       "sum": {
         "errors": 0,
@@ -55413,22 +55193,22 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-01-23T23:07:38Z",
-        "scriptName": "subscription-manager"
-      },
-      "sum": {
-        "errors": 0,
-        "requests": 1
-      }
-    },
-    {
-      "dimensions": {
         "datetime": "2026-01-22T17:43:22Z",
         "scriptName": "emby"
       },
       "sum": {
         "errors": 0,
         "requests": 2
+      }
+    },
+    {
+      "dimensions": {
+        "datetime": "2026-01-23T23:07:38Z",
+        "scriptName": "subscription-manager"
+      },
+      "sum": {
+        "errors": 0,
+        "requests": 1
       }
     },
     {
@@ -55473,22 +55253,22 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-01-26T09:37:13Z",
-        "scriptName": "private-config"
-      },
-      "sum": {
-        "errors": 0,
-        "requests": 23
-      }
-    },
-    {
-      "dimensions": {
         "datetime": "2026-01-27T01:27:29Z",
         "scriptName": "emby"
       },
       "sum": {
         "errors": 0,
         "requests": 13
+      }
+    },
+    {
+      "dimensions": {
+        "datetime": "2026-01-26T09:37:13Z",
+        "scriptName": "private-config"
+      },
+      "sum": {
+        "errors": 0,
+        "requests": 23
       }
     },
     {
@@ -55753,8 +55533,8 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-02-16T05:00:17Z",
-        "scriptName": "subscription-manager"
+        "datetime": "2026-02-01T13:42:36Z",
+        "scriptName": "emby"
       },
       "sum": {
         "errors": 0,
@@ -55763,8 +55543,8 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-02-01T13:42:36Z",
-        "scriptName": "emby"
+        "datetime": "2026-02-16T05:00:17Z",
+        "scriptName": "subscription-manager"
       },
       "sum": {
         "errors": 0,
@@ -55923,8 +55703,8 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-01-27T18:07:34Z",
-        "scriptName": "private-config"
+        "datetime": "2026-02-14T17:45:09Z",
+        "scriptName": "emby"
       },
       "sum": {
         "errors": 0,
@@ -55933,8 +55713,8 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-02-14T17:45:09Z",
-        "scriptName": "emby"
+        "datetime": "2026-01-27T18:07:34Z",
+        "scriptName": "private-config"
       },
       "sum": {
         "errors": 0,
@@ -56024,16 +55804,6 @@
     {
       "dimensions": {
         "datetime": "2026-01-23T23:19:06Z",
-        "scriptName": "subscription-manager"
-      },
-      "sum": {
-        "errors": 0,
-        "requests": 1
-      }
-    },
-    {
-      "dimensions": {
-        "datetime": "2026-01-22T15:20:14Z",
         "scriptName": "subscription-manager"
       },
       "sum": {
@@ -56233,22 +56003,22 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-02-01T04:56:24Z",
-        "scriptName": "emby"
-      },
-      "sum": {
-        "errors": 0,
-        "requests": 30
-      }
-    },
-    {
-      "dimensions": {
         "datetime": "2026-01-23T08:03:35Z",
         "scriptName": "subscription-manager"
       },
       "sum": {
         "errors": 0,
         "requests": 2
+      }
+    },
+    {
+      "dimensions": {
+        "datetime": "2026-02-01T04:56:24Z",
+        "scriptName": "emby"
+      },
+      "sum": {
+        "errors": 0,
+        "requests": 30
       }
     },
     {
@@ -56513,16 +56283,6 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-01-22T15:31:24Z",
-        "scriptName": "subscription-manager"
-      },
-      "sum": {
-        "errors": 0,
-        "requests": 1
-      }
-    },
-    {
-      "dimensions": {
         "datetime": "2026-01-23T14:07:08Z",
         "scriptName": "subscription-manager"
       },
@@ -56603,7 +56363,7 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-01-23T21:04:27Z",
+        "datetime": "2026-02-15T19:43:36Z",
         "scriptName": "subscription-manager"
       },
       "sum": {
@@ -56613,7 +56373,7 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-02-15T19:43:36Z",
+        "datetime": "2026-01-23T21:04:27Z",
         "scriptName": "subscription-manager"
       },
       "sum": {
@@ -56893,22 +56653,22 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-02-05T06:58:15Z",
-        "scriptName": "emby"
-      },
-      "sum": {
-        "errors": 0,
-        "requests": 7
-      }
-    },
-    {
-      "dimensions": {
         "datetime": "2026-01-24T08:00:49Z",
         "scriptName": "subscription-manager"
       },
       "sum": {
         "errors": 0,
         "requests": 1
+      }
+    },
+    {
+      "dimensions": {
+        "datetime": "2026-02-05T06:58:15Z",
+        "scriptName": "emby"
+      },
+      "sum": {
+        "errors": 0,
+        "requests": 7
       }
     },
     {
@@ -58453,16 +58213,6 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-01-22T15:21:45Z",
-        "scriptName": "subscription-manager"
-      },
-      "sum": {
-        "errors": 0,
-        "requests": 1
-      }
-    },
-    {
-      "dimensions": {
         "datetime": "2026-01-22T20:46:29Z",
         "scriptName": "emby"
       },
@@ -58643,22 +58393,22 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-01-30T19:16:24Z",
-        "scriptName": "emby"
-      },
-      "sum": {
-        "errors": 0,
-        "requests": 1
-      }
-    },
-    {
-      "dimensions": {
         "datetime": "2026-02-15T18:56:46Z",
         "scriptName": "subscription-manager"
       },
       "sum": {
         "errors": 0,
         "requests": 3
+      }
+    },
+    {
+      "dimensions": {
+        "datetime": "2026-01-30T19:16:24Z",
+        "scriptName": "emby"
+      },
+      "sum": {
+        "errors": 0,
+        "requests": 1
       }
     },
     {
@@ -58684,16 +58434,6 @@
     {
       "dimensions": {
         "datetime": "2026-01-23T14:19:23Z",
-        "scriptName": "subscription-manager"
-      },
-      "sum": {
-        "errors": 0,
-        "requests": 1
-      }
-    },
-    {
-      "dimensions": {
-        "datetime": "2026-01-22T15:31:54Z",
         "scriptName": "subscription-manager"
       },
       "sum": {
@@ -61063,8 +60803,8 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-02-14T16:41:31Z",
-        "scriptName": "emby"
+        "datetime": "2026-01-27T16:27:37Z",
+        "scriptName": "subscription-manager"
       },
       "sum": {
         "errors": 0,
@@ -61073,8 +60813,8 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-01-27T16:27:37Z",
-        "scriptName": "subscription-manager"
+        "datetime": "2026-02-14T16:41:31Z",
+        "scriptName": "emby"
       },
       "sum": {
         "errors": 0,
@@ -61233,8 +60973,8 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-02-14T18:00:02Z",
-        "scriptName": "subscription-manager"
+        "datetime": "2026-02-18T00:37:20Z",
+        "scriptName": "private-config"
       },
       "sum": {
         "errors": 0,
@@ -61243,8 +60983,8 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-02-18T00:37:20Z",
-        "scriptName": "private-config"
+        "datetime": "2026-02-14T18:00:02Z",
+        "scriptName": "subscription-manager"
       },
       "sum": {
         "errors": 0,
@@ -61543,16 +61283,6 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-01-22T15:20:44Z",
-        "scriptName": "subscription-manager"
-      },
-      "sum": {
-        "errors": 0,
-        "requests": 1
-      }
-    },
-    {
-      "dimensions": {
         "datetime": "2026-01-30T19:07:56Z",
         "scriptName": "emby"
       },
@@ -61573,22 +61303,22 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-01-30T19:09:29Z",
-        "scriptName": "emby"
-      },
-      "sum": {
-        "errors": 0,
-        "requests": 17
-      }
-    },
-    {
-      "dimensions": {
         "datetime": "2026-01-22T20:31:28Z",
         "scriptName": "emby"
       },
       "sum": {
         "errors": 0,
         "requests": 25
+      }
+    },
+    {
+      "dimensions": {
+        "datetime": "2026-01-30T19:09:29Z",
+        "scriptName": "emby"
+      },
+      "sum": {
+        "errors": 0,
+        "requests": 17
       }
     },
     {
@@ -61723,8 +61453,8 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-02-15T22:35:57Z",
-        "scriptName": "private-config"
+        "datetime": "2026-02-07T01:30:39Z",
+        "scriptName": "subscription-manager"
       },
       "sum": {
         "errors": 0,
@@ -61733,8 +61463,8 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-02-07T01:30:39Z",
-        "scriptName": "subscription-manager"
+        "datetime": "2026-02-15T22:35:57Z",
+        "scriptName": "private-config"
       },
       "sum": {
         "errors": 0,
@@ -62193,8 +61923,8 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-01-23T20:04:40Z",
-        "scriptName": "subscription-manager"
+        "datetime": "2026-01-30T19:20:49Z",
+        "scriptName": "emby"
       },
       "sum": {
         "errors": 0,
@@ -62203,8 +61933,8 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-01-30T19:20:49Z",
-        "scriptName": "emby"
+        "datetime": "2026-01-23T20:04:40Z",
+        "scriptName": "subscription-manager"
       },
       "sum": {
         "errors": 0,
@@ -62513,22 +62243,22 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-02-16T15:00:05Z",
-        "scriptName": "subscription-manager"
-      },
-      "sum": {
-        "errors": 0,
-        "requests": 1
-      }
-    },
-    {
-      "dimensions": {
         "datetime": "2026-02-03T22:00:16Z",
         "scriptName": "private-config"
       },
       "sum": {
         "errors": 0,
         "requests": 4
+      }
+    },
+    {
+      "dimensions": {
+        "datetime": "2026-02-16T15:00:05Z",
+        "scriptName": "subscription-manager"
+      },
+      "sum": {
+        "errors": 0,
+        "requests": 1
       }
     },
     {
@@ -62933,22 +62663,22 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-01-30T08:34:33Z",
-        "scriptName": "emby"
-      },
-      "sum": {
-        "errors": 0,
-        "requests": 19
-      }
-    },
-    {
-      "dimensions": {
         "datetime": "2026-02-14T16:43:01Z",
         "scriptName": "emby"
       },
       "sum": {
         "errors": 0,
         "requests": 15
+      }
+    },
+    {
+      "dimensions": {
+        "datetime": "2026-01-30T08:34:33Z",
+        "scriptName": "emby"
+      },
+      "sum": {
+        "errors": 0,
+        "requests": 19
       }
     },
     {
@@ -63333,22 +63063,22 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-02-18T11:58:12Z",
-        "scriptName": "webui-health-check"
-      },
-      "sum": {
-        "errors": 0,
-        "requests": 129
-      }
-    },
-    {
-      "dimensions": {
         "datetime": "2026-01-22T20:31:14Z",
         "scriptName": "emby"
       },
       "sum": {
         "errors": 0,
         "requests": 3
+      }
+    },
+    {
+      "dimensions": {
+        "datetime": "2026-02-18T11:58:12Z",
+        "scriptName": "webui-health-check"
+      },
+      "sum": {
+        "errors": 0,
+        "requests": 129
       }
     },
     {
@@ -63393,6 +63123,16 @@
     },
     {
       "dimensions": {
+        "datetime": "2026-01-23T13:48:50Z",
+        "scriptName": "subscription-manager"
+      },
+      "sum": {
+        "errors": 0,
+        "requests": 1
+      }
+    },
+    {
+      "dimensions": {
         "datetime": "2026-02-14T18:12:12Z",
         "scriptName": "emby"
       },
@@ -63409,16 +63149,6 @@
       "sum": {
         "errors": 0,
         "requests": 8
-      }
-    },
-    {
-      "dimensions": {
-        "datetime": "2026-01-23T13:48:50Z",
-        "scriptName": "subscription-manager"
-      },
-      "sum": {
-        "errors": 0,
-        "requests": 1
       }
     },
     {
@@ -63683,22 +63413,22 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-02-14T16:27:44Z",
-        "scriptName": "emby"
-      },
-      "sum": {
-        "errors": 0,
-        "requests": 6
-      }
-    },
-    {
-      "dimensions": {
         "datetime": "2026-02-12T03:00:24Z",
         "scriptName": "subscription-manager"
       },
       "sum": {
         "errors": 0,
         "requests": 1
+      }
+    },
+    {
+      "dimensions": {
+        "datetime": "2026-02-14T16:27:44Z",
+        "scriptName": "emby"
+      },
+      "sum": {
+        "errors": 0,
+        "requests": 6
       }
     },
     {
@@ -63733,7 +63463,7 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-01-23T13:51:51Z",
+        "datetime": "2026-02-02T02:00:27Z",
         "scriptName": "subscription-manager"
       },
       "sum": {
@@ -63753,7 +63483,7 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-01-23T20:22:53Z",
+        "datetime": "2026-01-23T13:51:51Z",
         "scriptName": "subscription-manager"
       },
       "sum": {
@@ -63763,7 +63493,7 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-02-02T02:00:27Z",
+        "datetime": "2026-01-23T20:22:53Z",
         "scriptName": "subscription-manager"
       },
       "sum": {
@@ -63863,7 +63593,7 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-02-13T14:52:42Z",
+        "datetime": "2026-02-07T10:24:59Z",
         "scriptName": "subscription-manager"
       },
       "sum": {
@@ -63873,7 +63603,7 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-02-07T10:24:59Z",
+        "datetime": "2026-02-13T14:52:42Z",
         "scriptName": "subscription-manager"
       },
       "sum": {
@@ -64403,16 +64133,6 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-01-22T15:41:03Z",
-        "scriptName": "subscription-manager"
-      },
-      "sum": {
-        "errors": 0,
-        "requests": 1
-      }
-    },
-    {
-      "dimensions": {
         "datetime": "2026-01-23T14:02:32Z",
         "scriptName": "subscription-manager"
       },
@@ -64439,16 +64159,6 @@
       "sum": {
         "errors": 0,
         "requests": 33
-      }
-    },
-    {
-      "dimensions": {
-        "datetime": "2026-01-22T15:19:12Z",
-        "scriptName": "subscription-manager"
-      },
-      "sum": {
-        "errors": 0,
-        "requests": 1
       }
     },
     {
@@ -65143,12 +64853,12 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-01-26T01:14:46Z",
-        "scriptName": "emby"
+        "datetime": "2026-01-23T14:28:10Z",
+        "scriptName": "subscription-manager"
       },
       "sum": {
         "errors": 0,
-        "requests": 11
+        "requests": 1
       }
     },
     {
@@ -65163,12 +64873,12 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-01-23T14:28:10Z",
-        "scriptName": "subscription-manager"
+        "datetime": "2026-01-26T01:14:46Z",
+        "scriptName": "emby"
       },
       "sum": {
         "errors": 0,
-        "requests": 1
+        "requests": 11
       }
     },
     {
@@ -65213,16 +64923,6 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-01-22T15:37:29Z",
-        "scriptName": "subscription-manager"
-      },
-      "sum": {
-        "errors": 0,
-        "requests": 1
-      }
-    },
-    {
-      "dimensions": {
         "datetime": "2026-01-30T11:53:34Z",
         "scriptName": "private-config"
       },
@@ -65254,16 +64954,6 @@
     {
       "dimensions": {
         "datetime": "2026-01-23T23:43:02Z",
-        "scriptName": "subscription-manager"
-      },
-      "sum": {
-        "errors": 0,
-        "requests": 1
-      }
-    },
-    {
-      "dimensions": {
-        "datetime": "2026-01-22T15:26:20Z",
         "scriptName": "subscription-manager"
       },
       "sum": {
@@ -66293,22 +65983,22 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-02-07T10:45:59Z",
-        "scriptName": "subscription-manager"
-      },
-      "sum": {
-        "errors": 0,
-        "requests": 1
-      }
-    },
-    {
-      "dimensions": {
         "datetime": "2026-01-24T05:03:08Z",
         "scriptName": "emby"
       },
       "sum": {
         "errors": 0,
         "requests": 11
+      }
+    },
+    {
+      "dimensions": {
+        "datetime": "2026-02-07T10:45:59Z",
+        "scriptName": "subscription-manager"
+      },
+      "sum": {
+        "errors": 0,
+        "requests": 1
       }
     },
     {
@@ -66653,22 +66343,22 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-02-14T16:59:45Z",
-        "scriptName": "emby"
-      },
-      "sum": {
-        "errors": 0,
-        "requests": 3
-      }
-    },
-    {
-      "dimensions": {
         "datetime": "2026-02-14T17:03:10Z",
         "scriptName": "emby"
       },
       "sum": {
         "errors": 0,
         "requests": 1
+      }
+    },
+    {
+      "dimensions": {
+        "datetime": "2026-02-14T16:59:45Z",
+        "scriptName": "emby"
+      },
+      "sum": {
+        "errors": 0,
+        "requests": 3
       }
     },
     {
@@ -66773,22 +66463,22 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-01-23T17:44:09Z",
-        "scriptName": "emby"
-      },
-      "sum": {
-        "errors": 0,
-        "requests": 8
-      }
-    },
-    {
-      "dimensions": {
         "datetime": "2026-01-23T14:21:57Z",
         "scriptName": "subscription-manager"
       },
       "sum": {
         "errors": 0,
         "requests": 1
+      }
+    },
+    {
+      "dimensions": {
+        "datetime": "2026-01-23T17:44:09Z",
+        "scriptName": "emby"
+      },
+      "sum": {
+        "errors": 0,
+        "requests": 8
       }
     },
     {
@@ -66883,22 +66573,22 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-02-13T15:19:53Z",
-        "scriptName": "subscription-manager"
-      },
-      "sum": {
-        "errors": 0,
-        "requests": 161
-      }
-    },
-    {
-      "dimensions": {
         "datetime": "2026-01-22T17:39:10Z",
         "scriptName": "subscription-manager"
       },
       "sum": {
         "errors": 0,
         "requests": 1
+      }
+    },
+    {
+      "dimensions": {
+        "datetime": "2026-02-13T15:19:53Z",
+        "scriptName": "subscription-manager"
+      },
+      "sum": {
+        "errors": 0,
+        "requests": 161
       }
     },
     {
@@ -67104,16 +66794,6 @@
     {
       "dimensions": {
         "datetime": "2026-01-23T15:04:37Z",
-        "scriptName": "subscription-manager"
-      },
-      "sum": {
-        "errors": 0,
-        "requests": 1
-      }
-    },
-    {
-      "dimensions": {
-        "datetime": "2026-01-22T15:32:24Z",
         "scriptName": "subscription-manager"
       },
       "sum": {
@@ -68163,16 +67843,6 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-01-22T15:36:58Z",
-        "scriptName": "subscription-manager"
-      },
-      "sum": {
-        "errors": 0,
-        "requests": 1
-      }
-    },
-    {
-      "dimensions": {
         "datetime": "2026-01-25T11:56:55Z",
         "scriptName": "emby"
       },
@@ -68433,16 +68103,6 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-02-14T17:25:45Z",
-        "scriptName": "emby"
-      },
-      "sum": {
-        "errors": 0,
-        "requests": 4
-      }
-    },
-    {
-      "dimensions": {
         "datetime": "2026-02-21T12:05:32Z",
         "scriptName": "emby"
       },
@@ -68459,6 +68119,16 @@
       "sum": {
         "errors": 0,
         "requests": 10
+      }
+    },
+    {
+      "dimensions": {
+        "datetime": "2026-02-14T17:25:45Z",
+        "scriptName": "emby"
+      },
+      "sum": {
+        "errors": 0,
+        "requests": 4
       }
     },
     {
@@ -68663,8 +68333,8 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-01-22T18:14:42Z",
-        "scriptName": "subscription-manager"
+        "datetime": "2026-02-15T22:32:06Z",
+        "scriptName": "emby"
       },
       "sum": {
         "errors": 0,
@@ -68673,8 +68343,8 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-02-15T22:32:06Z",
-        "scriptName": "emby"
+        "datetime": "2026-01-22T18:14:42Z",
+        "scriptName": "subscription-manager"
       },
       "sum": {
         "errors": 0,
@@ -69343,7 +69013,7 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-01-23T13:40:10Z",
+        "datetime": "2026-02-15T18:39:06Z",
         "scriptName": "subscription-manager"
       },
       "sum": {
@@ -69353,7 +69023,7 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-02-15T18:39:06Z",
+        "datetime": "2026-01-23T13:40:10Z",
         "scriptName": "subscription-manager"
       },
       "sum": {
@@ -69463,16 +69133,6 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-01-22T15:35:28Z",
-        "scriptName": "subscription-manager"
-      },
-      "sum": {
-        "errors": 0,
-        "requests": 1
-      }
-    },
-    {
-      "dimensions": {
         "datetime": "2026-02-16T21:41:02Z",
         "scriptName": "subscription-manager"
       },
@@ -69573,7 +69233,7 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-01-24T00:03:47Z",
+        "datetime": "2026-01-23T16:59:16Z",
         "scriptName": "subscription-manager"
       },
       "sum": {
@@ -69583,7 +69243,7 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-01-23T16:59:16Z",
+        "datetime": "2026-01-24T00:03:47Z",
         "scriptName": "subscription-manager"
       },
       "sum": {
@@ -69683,16 +69343,6 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-01-23T20:54:04Z",
-        "scriptName": "subscription-manager"
-      },
-      "sum": {
-        "errors": 0,
-        "requests": 1
-      }
-    },
-    {
-      "dimensions": {
         "datetime": "2026-02-14T17:15:44Z",
         "scriptName": "emby"
       },
@@ -69703,7 +69353,7 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-02-16T04:00:19Z",
+        "datetime": "2026-01-23T20:54:04Z",
         "scriptName": "subscription-manager"
       },
       "sum": {
@@ -69723,12 +69373,12 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-01-24T13:17:44Z",
-        "scriptName": "emby"
+        "datetime": "2026-02-16T04:00:19Z",
+        "scriptName": "subscription-manager"
       },
       "sum": {
         "errors": 0,
-        "requests": 2
+        "requests": 1
       }
     },
     {
@@ -69739,6 +69389,16 @@
       "sum": {
         "errors": 0,
         "requests": 1
+      }
+    },
+    {
+      "dimensions": {
+        "datetime": "2026-01-24T13:17:44Z",
+        "scriptName": "emby"
+      },
+      "sum": {
+        "errors": 0,
+        "requests": 2
       }
     },
     {
@@ -70003,22 +69663,22 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-02-15T19:18:36Z",
-        "scriptName": "subscription-manager"
-      },
-      "sum": {
-        "errors": 0,
-        "requests": 1
-      }
-    },
-    {
-      "dimensions": {
         "datetime": "2026-02-15T18:53:40Z",
         "scriptName": "subscription-manager"
       },
       "sum": {
         "errors": 0,
         "requests": 2
+      }
+    },
+    {
+      "dimensions": {
+        "datetime": "2026-02-15T19:18:36Z",
+        "scriptName": "subscription-manager"
+      },
+      "sum": {
+        "errors": 0,
+        "requests": 1
       }
     },
     {
@@ -70123,16 +69783,6 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-02-07T15:41:59Z",
-        "scriptName": "subscription-manager"
-      },
-      "sum": {
-        "errors": 0,
-        "requests": 1
-      }
-    },
-    {
-      "dimensions": {
         "datetime": "2026-02-16T01:53:17Z",
         "scriptName": "private-config"
       },
@@ -70153,8 +69803,8 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-02-15T22:35:52Z",
-        "scriptName": "private-config"
+        "datetime": "2026-02-07T15:41:59Z",
+        "scriptName": "subscription-manager"
       },
       "sum": {
         "errors": 0,
@@ -70165,6 +69815,16 @@
       "dimensions": {
         "datetime": "2026-02-14T17:18:52Z",
         "scriptName": "emby"
+      },
+      "sum": {
+        "errors": 0,
+        "requests": 1
+      }
+    },
+    {
+      "dimensions": {
+        "datetime": "2026-02-15T22:35:52Z",
+        "scriptName": "private-config"
       },
       "sum": {
         "errors": 0,
@@ -70213,16 +69873,6 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-01-23T20:44:40Z",
-        "scriptName": "subscription-manager"
-      },
-      "sum": {
-        "errors": 0,
-        "requests": 1
-      }
-    },
-    {
-      "dimensions": {
         "datetime": "2026-01-30T19:07:18Z",
         "scriptName": "emby"
       },
@@ -70234,6 +69884,16 @@
     {
       "dimensions": {
         "datetime": "2026-01-23T20:47:48Z",
+        "scriptName": "subscription-manager"
+      },
+      "sum": {
+        "errors": 0,
+        "requests": 1
+      }
+    },
+    {
+      "dimensions": {
+        "datetime": "2026-01-23T20:44:40Z",
         "scriptName": "subscription-manager"
       },
       "sum": {
@@ -70304,16 +69964,6 @@
     {
       "dimensions": {
         "datetime": "2026-02-18T06:19:11Z",
-        "scriptName": "subscription-manager"
-      },
-      "sum": {
-        "errors": 0,
-        "requests": 1
-      }
-    },
-    {
-      "dimensions": {
-        "datetime": "2026-01-22T15:14:39Z",
         "scriptName": "subscription-manager"
       },
       "sum": {
@@ -70413,7 +70063,7 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-01-23T15:10:15Z",
+        "datetime": "2026-02-15T19:12:06Z",
         "scriptName": "subscription-manager"
       },
       "sum": {
@@ -70423,7 +70073,7 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-02-15T19:12:06Z",
+        "datetime": "2026-01-23T15:10:15Z",
         "scriptName": "subscription-manager"
       },
       "sum": {
@@ -70683,22 +70333,22 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-02-20T08:47:06Z",
-        "scriptName": "subscription-manager"
-      },
-      "sum": {
-        "errors": 0,
-        "requests": 2
-      }
-    },
-    {
-      "dimensions": {
         "datetime": "2026-01-22T19:30:49Z",
         "scriptName": "emby"
       },
       "sum": {
         "errors": 0,
         "requests": 1
+      }
+    },
+    {
+      "dimensions": {
+        "datetime": "2026-02-20T08:47:06Z",
+        "scriptName": "subscription-manager"
+      },
+      "sum": {
+        "errors": 0,
+        "requests": 2
       }
     },
     {
@@ -70953,8 +70603,8 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-01-23T12:37:24Z",
-        "scriptName": "subscription-manager"
+        "datetime": "2026-02-03T04:03:57Z",
+        "scriptName": "private-config"
       },
       "sum": {
         "errors": 0,
@@ -70963,8 +70613,8 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-02-03T04:03:57Z",
-        "scriptName": "private-config"
+        "datetime": "2026-01-23T12:37:24Z",
+        "scriptName": "subscription-manager"
       },
       "sum": {
         "errors": 0,
@@ -70993,7 +70643,7 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-01-24T13:56:38Z",
+        "datetime": "2026-02-09T22:59:31Z",
         "scriptName": "emby"
       },
       "sum": {
@@ -71003,7 +70653,7 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-02-09T22:59:31Z",
+        "datetime": "2026-01-24T13:56:38Z",
         "scriptName": "emby"
       },
       "sum": {
@@ -71043,22 +70693,22 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-01-22T18:33:59Z",
-        "scriptName": "subscription-manager"
-      },
-      "sum": {
-        "errors": 0,
-        "requests": 1
-      }
-    },
-    {
-      "dimensions": {
         "datetime": "2026-01-29T15:15:47Z",
         "scriptName": "emby"
       },
       "sum": {
         "errors": 0,
         "requests": 5
+      }
+    },
+    {
+      "dimensions": {
+        "datetime": "2026-01-22T18:33:59Z",
+        "scriptName": "subscription-manager"
+      },
+      "sum": {
+        "errors": 0,
+        "requests": 1
       }
     },
     {
@@ -71303,22 +70953,22 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-02-15T17:02:31Z",
-        "scriptName": "emby"
-      },
-      "sum": {
-        "errors": 0,
-        "requests": 17
-      }
-    },
-    {
-      "dimensions": {
         "datetime": "2026-01-22T15:50:39Z",
         "scriptName": "subscription-manager"
       },
       "sum": {
         "errors": 0,
         "requests": 1
+      }
+    },
+    {
+      "dimensions": {
+        "datetime": "2026-02-15T17:02:31Z",
+        "scriptName": "emby"
+      },
+      "sum": {
+        "errors": 0,
+        "requests": 17
       }
     },
     {
@@ -71623,22 +71273,22 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-02-02T08:57:19Z",
-        "scriptName": "subscription-manager"
-      },
-      "sum": {
-        "errors": 0,
-        "requests": 37
-      }
-    },
-    {
-      "dimensions": {
         "datetime": "2026-02-14T18:27:45Z",
         "scriptName": "private-config"
       },
       "sum": {
         "errors": 0,
         "requests": 9
+      }
+    },
+    {
+      "dimensions": {
+        "datetime": "2026-02-02T08:57:19Z",
+        "scriptName": "subscription-manager"
+      },
+      "sum": {
+        "errors": 0,
+        "requests": 37
       }
     },
     {
@@ -72013,22 +71663,22 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-02-14T17:32:06Z",
-        "scriptName": "emby"
-      },
-      "sum": {
-        "errors": 0,
-        "requests": 6
-      }
-    },
-    {
-      "dimensions": {
         "datetime": "2026-02-05T16:48:38Z",
         "scriptName": "private-config"
       },
       "sum": {
         "errors": 0,
         "requests": 1
+      }
+    },
+    {
+      "dimensions": {
+        "datetime": "2026-02-14T17:32:06Z",
+        "scriptName": "emby"
+      },
+      "sum": {
+        "errors": 0,
+        "requests": 6
       }
     },
     {
@@ -72103,22 +71753,22 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-02-14T14:05:26Z",
-        "scriptName": "subscription-manager"
-      },
-      "sum": {
-        "errors": 0,
-        "requests": 6
-      }
-    },
-    {
-      "dimensions": {
         "datetime": "2026-01-22T16:16:23Z",
         "scriptName": "subscription-manager"
       },
       "sum": {
         "errors": 0,
         "requests": 1
+      }
+    },
+    {
+      "dimensions": {
+        "datetime": "2026-02-14T14:05:26Z",
+        "scriptName": "subscription-manager"
+      },
+      "sum": {
+        "errors": 0,
+        "requests": 6
       }
     },
     {
@@ -72363,6 +72013,16 @@
     },
     {
       "dimensions": {
+        "datetime": "2026-01-23T22:01:31Z",
+        "scriptName": "emby"
+      },
+      "sum": {
+        "errors": 0,
+        "requests": 1
+      }
+    },
+    {
+      "dimensions": {
         "datetime": "2026-02-06T01:43:33Z",
         "scriptName": "private-config"
       },
@@ -72375,16 +72035,6 @@
       "dimensions": {
         "datetime": "2026-01-23T11:57:14Z",
         "scriptName": "subscription-manager"
-      },
-      "sum": {
-        "errors": 0,
-        "requests": 1
-      }
-    },
-    {
-      "dimensions": {
-        "datetime": "2026-01-23T22:01:31Z",
-        "scriptName": "emby"
       },
       "sum": {
         "errors": 0,
@@ -72553,7 +72203,17 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-01-23T20:34:28Z",
+        "datetime": "2026-01-23T11:20:39Z",
+        "scriptName": "subscription-manager"
+      },
+      "sum": {
+        "errors": 0,
+        "requests": 1
+      }
+    },
+    {
+      "dimensions": {
+        "datetime": "2026-01-23T19:11:01Z",
         "scriptName": "subscription-manager"
       },
       "sum": {
@@ -72573,17 +72233,7 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-01-23T19:11:01Z",
-        "scriptName": "subscription-manager"
-      },
-      "sum": {
-        "errors": 0,
-        "requests": 1
-      }
-    },
-    {
-      "dimensions": {
-        "datetime": "2026-01-23T11:20:39Z",
+        "datetime": "2026-01-23T20:34:28Z",
         "scriptName": "subscription-manager"
       },
       "sum": {
@@ -72703,8 +72353,8 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-01-30T19:14:57Z",
-        "scriptName": "emby"
+        "datetime": "2026-01-22T19:24:47Z",
+        "scriptName": "subscription-manager"
       },
       "sum": {
         "errors": 0,
@@ -72713,8 +72363,8 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-01-22T19:24:47Z",
-        "scriptName": "subscription-manager"
+        "datetime": "2026-01-30T19:14:57Z",
+        "scriptName": "emby"
       },
       "sum": {
         "errors": 0,
@@ -72733,22 +72383,22 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-01-30T06:00:23Z",
-        "scriptName": "subscription-manager"
-      },
-      "sum": {
-        "errors": 0,
-        "requests": 1
-      }
-    },
-    {
-      "dimensions": {
         "datetime": "2026-02-13T06:45:17Z",
         "scriptName": "emby"
       },
       "sum": {
         "errors": 0,
         "requests": 8
+      }
+    },
+    {
+      "dimensions": {
+        "datetime": "2026-01-30T06:00:23Z",
+        "scriptName": "subscription-manager"
+      },
+      "sum": {
+        "errors": 0,
+        "requests": 1
       }
     },
     {
@@ -72793,7 +72443,7 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-02-15T18:10:21Z",
+        "datetime": "2026-01-23T22:17:42Z",
         "scriptName": "subscription-manager"
       },
       "sum": {
@@ -72803,7 +72453,7 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-01-23T22:17:42Z",
+        "datetime": "2026-02-15T18:10:21Z",
         "scriptName": "subscription-manager"
       },
       "sum": {
@@ -72993,22 +72643,22 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-01-23T20:20:42Z",
-        "scriptName": "emby"
-      },
-      "sum": {
-        "errors": 0,
-        "requests": 19
-      }
-    },
-    {
-      "dimensions": {
         "datetime": "2026-02-06T01:43:25Z",
         "scriptName": "private-config"
       },
       "sum": {
         "errors": 0,
         "requests": 21
+      }
+    },
+    {
+      "dimensions": {
+        "datetime": "2026-01-23T20:20:42Z",
+        "scriptName": "emby"
+      },
+      "sum": {
+        "errors": 0,
+        "requests": 19
       }
     },
     {
@@ -73543,16 +73193,6 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-01-22T15:32:55Z",
-        "scriptName": "subscription-manager"
-      },
-      "sum": {
-        "errors": 0,
-        "requests": 1
-      }
-    },
-    {
-      "dimensions": {
         "datetime": "2026-02-14T17:00:35Z",
         "scriptName": "emby"
       },
@@ -73593,7 +73233,7 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-01-22T16:04:22Z",
+        "datetime": "2026-02-15T18:52:00Z",
         "scriptName": "subscription-manager"
       },
       "sum": {
@@ -73603,7 +73243,7 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-02-15T18:52:00Z",
+        "datetime": "2026-01-22T16:04:22Z",
         "scriptName": "subscription-manager"
       },
       "sum": {
@@ -73973,22 +73613,22 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-02-14T18:14:52Z",
-        "scriptName": "emby"
-      },
-      "sum": {
-        "errors": 0,
-        "requests": 2
-      }
-    },
-    {
-      "dimensions": {
         "datetime": "2026-01-23T15:34:19Z",
         "scriptName": "subscription-manager"
       },
       "sum": {
         "errors": 0,
         "requests": 1
+      }
+    },
+    {
+      "dimensions": {
+        "datetime": "2026-02-14T18:14:52Z",
+        "scriptName": "emby"
+      },
+      "sum": {
+        "errors": 0,
+        "requests": 2
       }
     },
     {
@@ -74453,7 +74093,7 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-01-23T23:26:53Z",
+        "datetime": "2026-01-23T16:37:20Z",
         "scriptName": "subscription-manager"
       },
       "sum": {
@@ -74463,7 +74103,7 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-01-23T16:37:20Z",
+        "datetime": "2026-01-23T23:26:53Z",
         "scriptName": "subscription-manager"
       },
       "sum": {
@@ -74663,8 +74303,8 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-02-03T21:15:47Z",
-        "scriptName": "private-config"
+        "datetime": "2026-01-31T11:00:38Z",
+        "scriptName": "subscription-manager"
       },
       "sum": {
         "errors": 0,
@@ -74673,8 +74313,8 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-01-31T11:00:38Z",
-        "scriptName": "subscription-manager"
+        "datetime": "2026-02-03T21:15:47Z",
+        "scriptName": "private-config"
       },
       "sum": {
         "errors": 0,
@@ -74943,22 +74583,22 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-01-23T10:22:16Z",
-        "scriptName": "subscription-manager"
-      },
-      "sum": {
-        "errors": 0,
-        "requests": 1
-      }
-    },
-    {
-      "dimensions": {
         "datetime": "2026-01-23T17:43:52Z",
         "scriptName": "emby"
       },
       "sum": {
         "errors": 0,
         "requests": 7
+      }
+    },
+    {
+      "dimensions": {
+        "datetime": "2026-01-23T10:22:16Z",
+        "scriptName": "subscription-manager"
+      },
+      "sum": {
+        "errors": 0,
+        "requests": 1
       }
     },
     {
@@ -75373,16 +75013,6 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-01-22T15:26:50Z",
-        "scriptName": "subscription-manager"
-      },
-      "sum": {
-        "errors": 0,
-        "requests": 1
-      }
-    },
-    {
-      "dimensions": {
         "datetime": "2026-02-01T10:19:26Z",
         "scriptName": "private-config"
       },
@@ -75713,7 +75343,7 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-02-02T09:00:27Z",
+        "datetime": "2026-01-23T15:27:09Z",
         "scriptName": "subscription-manager"
       },
       "sum": {
@@ -75723,7 +75353,7 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-01-23T15:27:09Z",
+        "datetime": "2026-02-02T09:00:27Z",
         "scriptName": "subscription-manager"
       },
       "sum": {
@@ -75993,22 +75623,22 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-02-15T20:34:21Z",
-        "scriptName": "subscription-manager"
-      },
-      "sum": {
-        "errors": 0,
-        "requests": 1
-      }
-    },
-    {
-      "dimensions": {
         "datetime": "2026-01-31T04:16:50Z",
         "scriptName": "emby"
       },
       "sum": {
         "errors": 0,
         "requests": 2
+      }
+    },
+    {
+      "dimensions": {
+        "datetime": "2026-02-15T20:34:21Z",
+        "scriptName": "subscription-manager"
+      },
+      "sum": {
+        "errors": 0,
+        "requests": 1
       }
     },
     {
@@ -76133,8 +75763,8 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-01-23T20:34:59Z",
-        "scriptName": "subscription-manager"
+        "datetime": "2026-02-08T19:45:07Z",
+        "scriptName": "private-config"
       },
       "sum": {
         "errors": 0,
@@ -76143,8 +75773,8 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-02-08T19:45:07Z",
-        "scriptName": "private-config"
+        "datetime": "2026-01-23T20:34:59Z",
+        "scriptName": "subscription-manager"
       },
       "sum": {
         "errors": 0,
@@ -76613,22 +76243,22 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-01-23T10:16:42Z",
-        "scriptName": "subscription-manager"
-      },
-      "sum": {
-        "errors": 0,
-        "requests": 1
-      }
-    },
-    {
-      "dimensions": {
         "datetime": "2026-02-16T02:55:58Z",
         "scriptName": "emby"
       },
       "sum": {
         "errors": 0,
         "requests": 6
+      }
+    },
+    {
+      "dimensions": {
+        "datetime": "2026-01-23T10:16:42Z",
+        "scriptName": "subscription-manager"
+      },
+      "sum": {
+        "errors": 0,
+        "requests": 1
       }
     },
     {
@@ -76983,22 +76613,22 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-02-14T17:03:38Z",
-        "scriptName": "emby"
-      },
-      "sum": {
-        "errors": 0,
-        "requests": 11
-      }
-    },
-    {
-      "dimensions": {
         "datetime": "2026-01-25T04:36:14Z",
         "scriptName": "emby"
       },
       "sum": {
         "errors": 0,
         "requests": 32
+      }
+    },
+    {
+      "dimensions": {
+        "datetime": "2026-02-14T17:03:38Z",
+        "scriptName": "emby"
+      },
+      "sum": {
+        "errors": 0,
+        "requests": 11
       }
     },
     {
@@ -77433,16 +77063,6 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-02-04T00:41:02Z",
-        "scriptName": "emby"
-      },
-      "sum": {
-        "errors": 0,
-        "requests": 2
-      }
-    },
-    {
-      "dimensions": {
         "datetime": "2026-02-16T01:53:49Z",
         "scriptName": "private-config"
       },
@@ -77459,6 +77079,16 @@
       "sum": {
         "errors": 0,
         "requests": 19
+      }
+    },
+    {
+      "dimensions": {
+        "datetime": "2026-02-04T00:41:02Z",
+        "scriptName": "emby"
+      },
+      "sum": {
+        "errors": 0,
+        "requests": 2
       }
     },
     {
@@ -77533,28 +77163,8 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-01-22T15:22:46Z",
-        "scriptName": "subscription-manager"
-      },
-      "sum": {
-        "errors": 0,
-        "requests": 1
-      }
-    },
-    {
-      "dimensions": {
         "datetime": "2026-02-12T15:56:05Z",
         "scriptName": "emby"
-      },
-      "sum": {
-        "errors": 0,
-        "requests": 1
-      }
-    },
-    {
-      "dimensions": {
-        "datetime": "2026-02-16T08:46:08Z",
-        "scriptName": "subscription-manager"
       },
       "sum": {
         "errors": 0,
@@ -77569,6 +77179,16 @@
       "sum": {
         "errors": 0,
         "requests": 2
+      }
+    },
+    {
+      "dimensions": {
+        "datetime": "2026-02-16T08:46:08Z",
+        "scriptName": "subscription-manager"
+      },
+      "sum": {
+        "errors": 0,
+        "requests": 1
       }
     },
     {
@@ -77803,16 +77423,6 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-02-15T02:52:02Z",
-        "scriptName": "emby"
-      },
-      "sum": {
-        "errors": 0,
-        "requests": 8
-      }
-    },
-    {
-      "dimensions": {
         "datetime": "2026-02-03T20:33:57Z",
         "scriptName": "emby"
       },
@@ -77823,22 +77433,22 @@
     },
     {
       "dimensions": {
+        "datetime": "2026-02-15T02:52:02Z",
+        "scriptName": "emby"
+      },
+      "sum": {
+        "errors": 0,
+        "requests": 8
+      }
+    },
+    {
+      "dimensions": {
         "datetime": "2026-02-14T18:21:05Z",
         "scriptName": "emby"
       },
       "sum": {
         "errors": 0,
         "requests": 2
-      }
-    },
-    {
-      "dimensions": {
-        "datetime": "2026-01-22T15:38:00Z",
-        "scriptName": "subscription-manager"
-      },
-      "sum": {
-        "errors": 0,
-        "requests": 1
       }
     },
     {
@@ -78143,22 +77753,22 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-01-24T17:04:17Z",
-        "scriptName": "emby"
-      },
-      "sum": {
-        "errors": 0,
-        "requests": 47
-      }
-    },
-    {
-      "dimensions": {
         "datetime": "2026-01-23T14:05:04Z",
         "scriptName": "subscription-manager"
       },
       "sum": {
         "errors": 0,
         "requests": 1
+      }
+    },
+    {
+      "dimensions": {
+        "datetime": "2026-01-24T17:04:17Z",
+        "scriptName": "emby"
+      },
+      "sum": {
+        "errors": 0,
+        "requests": 47
       }
     },
     {
@@ -78543,22 +78153,22 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-01-22T20:31:26Z",
-        "scriptName": "emby"
-      },
-      "sum": {
-        "errors": 0,
-        "requests": 9
-      }
-    },
-    {
-      "dimensions": {
         "datetime": "2026-02-17T20:06:53Z",
         "scriptName": "emby"
       },
       "sum": {
         "errors": 0,
         "requests": 1
+      }
+    },
+    {
+      "dimensions": {
+        "datetime": "2026-01-22T20:31:26Z",
+        "scriptName": "emby"
+      },
+      "sum": {
+        "errors": 0,
+        "requests": 9
       }
     },
     {
@@ -78833,7 +78443,7 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-01-26T07:08:55Z",
+        "datetime": "2026-02-15T18:43:36Z",
         "scriptName": "subscription-manager"
       },
       "sum": {
@@ -78843,7 +78453,7 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-02-15T18:43:36Z",
+        "datetime": "2026-01-26T07:08:55Z",
         "scriptName": "subscription-manager"
       },
       "sum": {
@@ -78913,7 +78523,7 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-01-23T14:06:37Z",
+        "datetime": "2026-01-23T08:06:39Z",
         "scriptName": "subscription-manager"
       },
       "sum": {
@@ -78933,7 +78543,7 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-01-23T08:06:39Z",
+        "datetime": "2026-01-23T20:24:26Z",
         "scriptName": "subscription-manager"
       },
       "sum": {
@@ -78943,7 +78553,7 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-01-23T20:24:26Z",
+        "datetime": "2026-01-23T14:06:37Z",
         "scriptName": "subscription-manager"
       },
       "sum": {
@@ -79213,22 +78823,22 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-01-24T05:03:15Z",
-        "scriptName": "emby"
-      },
-      "sum": {
-        "errors": 0,
-        "requests": 21
-      }
-    },
-    {
-      "dimensions": {
         "datetime": "2026-02-10T08:11:01Z",
         "scriptName": "emby"
       },
       "sum": {
         "errors": 0,
         "requests": 2
+      }
+    },
+    {
+      "dimensions": {
+        "datetime": "2026-01-24T05:03:15Z",
+        "scriptName": "emby"
+      },
+      "sum": {
+        "errors": 0,
+        "requests": 21
       }
     },
     {
@@ -79853,16 +79463,6 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-02-14T14:03:51Z",
-        "scriptName": "subscription-manager"
-      },
-      "sum": {
-        "errors": 0,
-        "requests": 10
-      }
-    },
-    {
-      "dimensions": {
         "datetime": "2026-02-16T19:24:16Z",
         "scriptName": "private-config"
       },
@@ -79879,6 +79479,16 @@
       "sum": {
         "errors": 0,
         "requests": 1
+      }
+    },
+    {
+      "dimensions": {
+        "datetime": "2026-02-14T14:03:51Z",
+        "scriptName": "subscription-manager"
+      },
+      "sum": {
+        "errors": 0,
+        "requests": 10
       }
     },
     {
@@ -80433,7 +80043,7 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-02-15T17:59:21Z",
+        "datetime": "2026-01-22T18:27:54Z",
         "scriptName": "subscription-manager"
       },
       "sum": {
@@ -80443,7 +80053,7 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-01-22T18:27:54Z",
+        "datetime": "2026-02-15T17:59:21Z",
         "scriptName": "subscription-manager"
       },
       "sum": {
@@ -80693,22 +80303,22 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-02-14T16:42:52Z",
-        "scriptName": "emby"
-      },
-      "sum": {
-        "errors": 0,
-        "requests": 3
-      }
-    },
-    {
-      "dimensions": {
         "datetime": "2026-01-23T20:19:44Z",
         "scriptName": "subscription-manager"
       },
       "sum": {
         "errors": 0,
         "requests": 1
+      }
+    },
+    {
+      "dimensions": {
+        "datetime": "2026-02-14T16:42:52Z",
+        "scriptName": "emby"
+      },
+      "sum": {
+        "errors": 0,
+        "requests": 3
       }
     },
     {
@@ -80803,7 +80413,7 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-01-23T18:29:38Z",
+        "datetime": "2026-01-23T23:02:57Z",
         "scriptName": "subscription-manager"
       },
       "sum": {
@@ -80813,7 +80423,7 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-01-23T23:02:57Z",
+        "datetime": "2026-01-23T18:29:38Z",
         "scriptName": "subscription-manager"
       },
       "sum": {
@@ -80923,7 +80533,7 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-01-23T14:27:02Z",
+        "datetime": "2026-01-23T23:32:05Z",
         "scriptName": "subscription-manager"
       },
       "sum": {
@@ -80933,7 +80543,7 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-01-23T23:32:05Z",
+        "datetime": "2026-01-23T14:27:02Z",
         "scriptName": "subscription-manager"
       },
       "sum": {
@@ -81413,7 +81023,7 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-01-23T18:47:31Z",
+        "datetime": "2026-02-17T04:43:22Z",
         "scriptName": "subscription-manager"
       },
       "sum": {
@@ -81423,7 +81033,7 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-02-17T04:43:22Z",
+        "datetime": "2026-01-23T18:47:31Z",
         "scriptName": "subscription-manager"
       },
       "sum": {
@@ -81533,16 +81143,6 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-01-24T17:04:22Z",
-        "scriptName": "emby"
-      },
-      "sum": {
-        "errors": 0,
-        "requests": 48
-      }
-    },
-    {
-      "dimensions": {
         "datetime": "2026-01-22T17:30:33Z",
         "scriptName": "subscription-manager"
       },
@@ -81553,7 +81153,17 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-01-23T11:44:32Z",
+        "datetime": "2026-01-24T17:04:22Z",
+        "scriptName": "emby"
+      },
+      "sum": {
+        "errors": 0,
+        "requests": 48
+      }
+    },
+    {
+      "dimensions": {
+        "datetime": "2026-01-23T23:47:11Z",
         "scriptName": "subscription-manager"
       },
       "sum": {
@@ -81563,7 +81173,7 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-01-23T23:47:11Z",
+        "datetime": "2026-01-23T11:44:32Z",
         "scriptName": "subscription-manager"
       },
       "sum": {
@@ -83153,16 +82763,6 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-01-22T15:29:53Z",
-        "scriptName": "subscription-manager"
-      },
-      "sum": {
-        "errors": 0,
-        "requests": 1
-      }
-    },
-    {
-      "dimensions": {
         "datetime": "2026-02-15T16:36:00Z",
         "scriptName": "emby"
       },
@@ -83363,8 +82963,8 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-01-24T22:16:20Z",
-        "scriptName": "private-config"
+        "datetime": "2026-01-23T16:40:53Z",
+        "scriptName": "subscription-manager"
       },
       "sum": {
         "errors": 0,
@@ -83373,8 +82973,8 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-01-23T16:40:53Z",
-        "scriptName": "subscription-manager"
+        "datetime": "2026-01-24T22:16:20Z",
+        "scriptName": "private-config"
       },
       "sum": {
         "errors": 0,
@@ -83493,16 +83093,6 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-01-22T15:29:22Z",
-        "scriptName": "subscription-manager"
-      },
-      "sum": {
-        "errors": 0,
-        "requests": 1
-      }
-    },
-    {
-      "dimensions": {
         "datetime": "2026-02-18T18:10:14Z",
         "scriptName": "emby"
       },
@@ -83589,16 +83179,6 @@
       "sum": {
         "errors": 0,
         "requests": 33
-      }
-    },
-    {
-      "dimensions": {
-        "datetime": "2026-01-22T15:17:11Z",
-        "scriptName": "subscription-manager"
-      },
-      "sum": {
-        "errors": 0,
-        "requests": 1
       }
     },
     {
@@ -83693,22 +83273,22 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-01-27T03:01:38Z",
-        "scriptName": "subscription-manager"
-      },
-      "sum": {
-        "errors": 0,
-        "requests": 150
-      }
-    },
-    {
-      "dimensions": {
         "datetime": "2026-01-23T14:31:37Z",
         "scriptName": "subscription-manager"
       },
       "sum": {
         "errors": 0,
         "requests": 1
+      }
+    },
+    {
+      "dimensions": {
+        "datetime": "2026-01-27T03:01:38Z",
+        "scriptName": "subscription-manager"
+      },
+      "sum": {
+        "errors": 0,
+        "requests": 150
       }
     },
     {
@@ -83733,22 +83313,22 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-01-27T01:24:22Z",
-        "scriptName": "private-config"
-      },
-      "sum": {
-        "errors": 0,
-        "requests": 38
-      }
-    },
-    {
-      "dimensions": {
         "datetime": "2026-02-01T06:03:47Z",
         "scriptName": "private-config"
       },
       "sum": {
         "errors": 0,
         "requests": 16
+      }
+    },
+    {
+      "dimensions": {
+        "datetime": "2026-01-27T01:24:22Z",
+        "scriptName": "private-config"
+      },
+      "sum": {
+        "errors": 0,
+        "requests": 38
       }
     },
     {
@@ -83864,16 +83444,6 @@
     {
       "dimensions": {
         "datetime": "2026-01-23T21:09:41Z",
-        "scriptName": "subscription-manager"
-      },
-      "sum": {
-        "errors": 0,
-        "requests": 1
-      }
-    },
-    {
-      "dimensions": {
-        "datetime": "2026-01-22T15:36:28Z",
         "scriptName": "subscription-manager"
       },
       "sum": {
@@ -84083,22 +83653,22 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-02-19T10:25:57Z",
-        "scriptName": "private-config"
-      },
-      "sum": {
-        "errors": 0,
-        "requests": 21
-      }
-    },
-    {
-      "dimensions": {
         "datetime": "2026-01-30T20:07:15Z",
         "scriptName": "private-config"
       },
       "sum": {
         "errors": 0,
         "requests": 1
+      }
+    },
+    {
+      "dimensions": {
+        "datetime": "2026-02-19T10:25:57Z",
+        "scriptName": "private-config"
+      },
+      "sum": {
+        "errors": 0,
+        "requests": 21
       }
     },
     {
@@ -84273,8 +83843,8 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-02-15T22:31:46Z",
-        "scriptName": "emby"
+        "datetime": "2026-01-27T21:18:48Z",
+        "scriptName": "subscription-manager"
       },
       "sum": {
         "errors": 0,
@@ -84283,8 +83853,8 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-01-27T21:18:48Z",
-        "scriptName": "subscription-manager"
+        "datetime": "2026-02-15T22:31:46Z",
+        "scriptName": "emby"
       },
       "sum": {
         "errors": 0,
@@ -84343,22 +83913,22 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-01-23T14:23:02Z",
-        "scriptName": "subscription-manager"
-      },
-      "sum": {
-        "errors": 0,
-        "requests": 1
-      }
-    },
-    {
-      "dimensions": {
         "datetime": "2026-02-07T22:53:29Z",
         "scriptName": "emby"
       },
       "sum": {
         "errors": 0,
         "requests": 2
+      }
+    },
+    {
+      "dimensions": {
+        "datetime": "2026-01-23T14:23:02Z",
+        "scriptName": "subscription-manager"
+      },
+      "sum": {
+        "errors": 0,
+        "requests": 1
       }
     },
     {
@@ -85163,16 +84733,6 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-02-15T17:33:07Z",
-        "scriptName": "subscription-manager"
-      },
-      "sum": {
-        "errors": 0,
-        "requests": 1
-      }
-    },
-    {
-      "dimensions": {
         "datetime": "2026-01-22T19:31:01Z",
         "scriptName": "emby"
       },
@@ -85184,6 +84744,16 @@
     {
       "dimensions": {
         "datetime": "2026-01-22T16:12:19Z",
+        "scriptName": "subscription-manager"
+      },
+      "sum": {
+        "errors": 0,
+        "requests": 1
+      }
+    },
+    {
+      "dimensions": {
+        "datetime": "2026-02-15T17:33:07Z",
         "scriptName": "subscription-manager"
       },
       "sum": {
@@ -85583,7 +85153,7 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-01-22T18:46:11Z",
+        "datetime": "2026-02-15T20:23:21Z",
         "scriptName": "subscription-manager"
       },
       "sum": {
@@ -85593,7 +85163,7 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-02-15T20:23:21Z",
+        "datetime": "2026-01-22T18:46:11Z",
         "scriptName": "subscription-manager"
       },
       "sum": {
@@ -86073,22 +85643,22 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-02-14T18:20:39Z",
-        "scriptName": "emby"
-      },
-      "sum": {
-        "errors": 0,
-        "requests": 6
-      }
-    },
-    {
-      "dimensions": {
         "datetime": "2026-01-23T10:17:43Z",
         "scriptName": "subscription-manager"
       },
       "sum": {
         "errors": 0,
         "requests": 1
+      }
+    },
+    {
+      "dimensions": {
+        "datetime": "2026-02-14T18:20:39Z",
+        "scriptName": "emby"
+      },
+      "sum": {
+        "errors": 0,
+        "requests": 6
       }
     },
     {
@@ -86253,7 +85823,7 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-01-26T00:12:55Z",
+        "datetime": "2026-02-09T06:35:55Z",
         "scriptName": "emby"
       },
       "sum": {
@@ -86263,7 +85833,7 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-02-09T06:35:55Z",
+        "datetime": "2026-01-26T00:12:55Z",
         "scriptName": "emby"
       },
       "sum": {
@@ -86423,22 +85993,22 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-02-05T04:17:02Z",
-        "scriptName": "subscription-manager"
-      },
-      "sum": {
-        "errors": 0,
-        "requests": 17
-      }
-    },
-    {
-      "dimensions": {
         "datetime": "2026-01-23T23:46:09Z",
         "scriptName": "emby"
       },
       "sum": {
         "errors": 0,
         "requests": 6
+      }
+    },
+    {
+      "dimensions": {
+        "datetime": "2026-02-05T04:17:02Z",
+        "scriptName": "subscription-manager"
+      },
+      "sum": {
+        "errors": 0,
+        "requests": 17
       }
     },
     {
@@ -86639,16 +86209,6 @@
       "sum": {
         "errors": 0,
         "requests": 17
-      }
-    },
-    {
-      "dimensions": {
-        "datetime": "2026-01-22T15:23:17Z",
-        "scriptName": "subscription-manager"
-      },
-      "sum": {
-        "errors": 0,
-        "requests": 1
       }
     },
     {
@@ -87553,16 +87113,6 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-01-22T15:38:31Z",
-        "scriptName": "subscription-manager"
-      },
-      "sum": {
-        "errors": 0,
-        "requests": 1
-      }
-    },
-    {
-      "dimensions": {
         "datetime": "2026-02-03T12:09:39Z",
         "scriptName": "private-config"
       },
@@ -87573,8 +87123,8 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-01-22T19:04:29Z",
-        "scriptName": "subscription-manager"
+        "datetime": "2026-02-14T17:04:07Z",
+        "scriptName": "emby"
       },
       "sum": {
         "errors": 0,
@@ -87593,8 +87143,8 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-01-25T17:02:19Z",
-        "scriptName": "emby"
+        "datetime": "2026-01-22T19:04:29Z",
+        "scriptName": "subscription-manager"
       },
       "sum": {
         "errors": 0,
@@ -87603,7 +87153,7 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-02-14T17:04:07Z",
+        "datetime": "2026-01-25T17:02:19Z",
         "scriptName": "emby"
       },
       "sum": {
@@ -87883,7 +87433,7 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-02-15T19:32:06Z",
+        "datetime": "2026-01-23T16:23:36Z",
         "scriptName": "subscription-manager"
       },
       "sum": {
@@ -87893,7 +87443,7 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-01-23T16:23:36Z",
+        "datetime": "2026-02-15T19:32:06Z",
         "scriptName": "subscription-manager"
       },
       "sum": {
@@ -87953,22 +87503,22 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-02-18T11:58:16Z",
-        "scriptName": "webui-health-check"
-      },
-      "sum": {
-        "errors": 0,
-        "requests": 94
-      }
-    },
-    {
-      "dimensions": {
         "datetime": "2026-01-23T14:02:00Z",
         "scriptName": "subscription-manager"
       },
       "sum": {
         "errors": 0,
         "requests": 1
+      }
+    },
+    {
+      "dimensions": {
+        "datetime": "2026-02-18T11:58:16Z",
+        "scriptName": "webui-health-check"
+      },
+      "sum": {
+        "errors": 0,
+        "requests": 94
       }
     },
     {
@@ -87983,22 +87533,22 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-01-23T22:54:38Z",
-        "scriptName": "subscription-manager"
-      },
-      "sum": {
-        "errors": 0,
-        "requests": 1
-      }
-    },
-    {
-      "dimensions": {
         "datetime": "2026-02-14T18:21:18Z",
         "scriptName": "emby"
       },
       "sum": {
         "errors": 0,
         "requests": 3
+      }
+    },
+    {
+      "dimensions": {
+        "datetime": "2026-01-23T22:54:38Z",
+        "scriptName": "subscription-manager"
+      },
+      "sum": {
+        "errors": 0,
+        "requests": 1
       }
     },
     {
@@ -88383,7 +87933,7 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-02-12T20:00:48Z",
+        "datetime": "2026-01-23T07:00:48Z",
         "scriptName": "subscription-manager"
       },
       "sum": {
@@ -88393,7 +87943,7 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-01-23T07:00:48Z",
+        "datetime": "2026-02-12T20:00:48Z",
         "scriptName": "subscription-manager"
       },
       "sum": {
@@ -88673,22 +88223,22 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-02-07T10:07:33Z",
-        "scriptName": "subscription-manager"
-      },
-      "sum": {
-        "errors": 0,
-        "requests": 1
-      }
-    },
-    {
-      "dimensions": {
         "datetime": "2026-01-27T16:36:41Z",
         "scriptName": "subscription-manager"
       },
       "sum": {
         "errors": 0,
         "requests": 2
+      }
+    },
+    {
+      "dimensions": {
+        "datetime": "2026-02-07T10:07:33Z",
+        "scriptName": "subscription-manager"
+      },
+      "sum": {
+        "errors": 0,
+        "requests": 1
       }
     },
     {
@@ -89233,8 +88783,8 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-01-26T07:53:33Z",
-        "scriptName": "emby"
+        "datetime": "2026-02-07T15:55:00Z",
+        "scriptName": "subscription-manager"
       },
       "sum": {
         "errors": 0,
@@ -89243,8 +88793,8 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-02-07T15:55:00Z",
-        "scriptName": "subscription-manager"
+        "datetime": "2026-01-26T07:53:33Z",
+        "scriptName": "emby"
       },
       "sum": {
         "errors": 0,
@@ -89393,8 +88943,8 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-01-24T13:36:04Z",
-        "scriptName": "private-config"
+        "datetime": "2026-01-22T16:14:21Z",
+        "scriptName": "subscription-manager"
       },
       "sum": {
         "errors": 0,
@@ -89403,8 +88953,8 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-01-22T16:14:21Z",
-        "scriptName": "subscription-manager"
+        "datetime": "2026-01-24T13:36:04Z",
+        "scriptName": "private-config"
       },
       "sum": {
         "errors": 0,
@@ -89883,22 +89433,22 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-01-23T14:58:11Z",
-        "scriptName": "subscription-manager"
-      },
-      "sum": {
-        "errors": 0,
-        "requests": 1
-      }
-    },
-    {
-      "dimensions": {
         "datetime": "2026-02-15T18:57:34Z",
         "scriptName": "subscription-manager"
       },
       "sum": {
         "errors": 0,
         "requests": 2
+      }
+    },
+    {
+      "dimensions": {
+        "datetime": "2026-01-23T14:58:11Z",
+        "scriptName": "subscription-manager"
+      },
+      "sum": {
+        "errors": 0,
+        "requests": 1
       }
     },
     {
@@ -90003,16 +89553,6 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-02-01T09:24:41Z",
-        "scriptName": "emby"
-      },
-      "sum": {
-        "errors": 0,
-        "requests": 7
-      }
-    },
-    {
-      "dimensions": {
         "datetime": "2026-01-23T16:46:31Z",
         "scriptName": "subscription-manager"
       },
@@ -90029,6 +89569,16 @@
       "sum": {
         "errors": 0,
         "requests": 1
+      }
+    },
+    {
+      "dimensions": {
+        "datetime": "2026-02-01T09:24:41Z",
+        "scriptName": "emby"
+      },
+      "sum": {
+        "errors": 0,
+        "requests": 7
       }
     },
     {
@@ -90193,8 +89743,8 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-02-10T07:39:54Z",
-        "scriptName": "emby"
+        "datetime": "2026-02-03T04:00:05Z",
+        "scriptName": "subscription-manager"
       },
       "sum": {
         "errors": 0,
@@ -90203,8 +89753,8 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-02-03T04:00:05Z",
-        "scriptName": "subscription-manager"
+        "datetime": "2026-02-10T07:39:54Z",
+        "scriptName": "emby"
       },
       "sum": {
         "errors": 0,
@@ -90623,16 +90173,6 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-01-22T19:14:07Z",
-        "scriptName": "subscription-manager"
-      },
-      "sum": {
-        "errors": 0,
-        "requests": 1
-      }
-    },
-    {
-      "dimensions": {
         "datetime": "2026-01-23T20:20:47Z",
         "scriptName": "subscription-manager"
       },
@@ -90645,6 +90185,16 @@
       "dimensions": {
         "datetime": "2026-01-30T20:07:20Z",
         "scriptName": "private-config"
+      },
+      "sum": {
+        "errors": 0,
+        "requests": 1
+      }
+    },
+    {
+      "dimensions": {
+        "datetime": "2026-01-22T19:14:07Z",
+        "scriptName": "subscription-manager"
       },
       "sum": {
         "errors": 0,
@@ -90694,16 +90244,6 @@
     {
       "dimensions": {
         "datetime": "2026-01-22T16:50:23Z",
-        "scriptName": "subscription-manager"
-      },
-      "sum": {
-        "errors": 0,
-        "requests": 1
-      }
-    },
-    {
-      "dimensions": {
-        "datetime": "2026-01-22T15:15:40Z",
         "scriptName": "subscription-manager"
       },
       "sum": {
@@ -90883,8 +90423,8 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-02-15T18:57:28Z",
-        "scriptName": "subscription-manager"
+        "datetime": "2026-01-27T16:24:06Z",
+        "scriptName": "private-config"
       },
       "sum": {
         "errors": 0,
@@ -90893,8 +90433,8 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-01-27T16:24:06Z",
-        "scriptName": "private-config"
+        "datetime": "2026-02-15T18:57:28Z",
+        "scriptName": "subscription-manager"
       },
       "sum": {
         "errors": 0,
@@ -90963,8 +90503,8 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-02-05T04:45:01Z",
-        "scriptName": "private-config"
+        "datetime": "2026-01-23T23:14:55Z",
+        "scriptName": "subscription-manager"
       },
       "sum": {
         "errors": 0,
@@ -90983,8 +90523,8 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-01-23T23:14:55Z",
-        "scriptName": "subscription-manager"
+        "datetime": "2026-02-05T04:45:01Z",
+        "scriptName": "private-config"
       },
       "sum": {
         "errors": 0,
@@ -91103,22 +90643,22 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-02-06T01:43:19Z",
-        "scriptName": "private-config"
-      },
-      "sum": {
-        "errors": 0,
-        "requests": 38
-      }
-    },
-    {
-      "dimensions": {
         "datetime": "2026-02-14T16:58:56Z",
         "scriptName": "emby"
       },
       "sum": {
         "errors": 0,
         "requests": 2
+      }
+    },
+    {
+      "dimensions": {
+        "datetime": "2026-02-06T01:43:19Z",
+        "scriptName": "private-config"
+      },
+      "sum": {
+        "errors": 0,
+        "requests": 38
       }
     },
     {
@@ -91533,22 +91073,22 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-01-27T21:01:23Z",
-        "scriptName": "subscription-manager"
-      },
-      "sum": {
-        "errors": 0,
-        "requests": 2
-      }
-    },
-    {
-      "dimensions": {
         "datetime": "2026-01-23T18:44:27Z",
         "scriptName": "subscription-manager"
       },
       "sum": {
         "errors": 0,
         "requests": 1
+      }
+    },
+    {
+      "dimensions": {
+        "datetime": "2026-01-27T21:01:23Z",
+        "scriptName": "subscription-manager"
+      },
+      "sum": {
+        "errors": 0,
+        "requests": 2
       }
     },
     {
@@ -91603,22 +91143,22 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-02-17T00:38:17Z",
-        "scriptName": "emby"
-      },
-      "sum": {
-        "errors": 0,
-        "requests": 1
-      }
-    },
-    {
-      "dimensions": {
         "datetime": "2026-02-17T11:30:39Z",
         "scriptName": "subscription-manager"
       },
       "sum": {
         "errors": 0,
         "requests": 21
+      }
+    },
+    {
+      "dimensions": {
+        "datetime": "2026-02-17T00:38:17Z",
+        "scriptName": "emby"
+      },
+      "sum": {
+        "errors": 0,
+        "requests": 1
       }
     },
     {
@@ -91703,6 +91243,16 @@
     },
     {
       "dimensions": {
+        "datetime": "2026-02-20T12:19:50Z",
+        "scriptName": "emby"
+      },
+      "sum": {
+        "errors": 0,
+        "requests": 1
+      }
+    },
+    {
+      "dimensions": {
         "datetime": "2026-02-19T00:00:16Z",
         "scriptName": "emby"
       },
@@ -91715,16 +91265,6 @@
       "dimensions": {
         "datetime": "2026-02-03T21:16:54Z",
         "scriptName": "private-config"
-      },
-      "sum": {
-        "errors": 0,
-        "requests": 1
-      }
-    },
-    {
-      "dimensions": {
-        "datetime": "2026-02-20T12:19:50Z",
-        "scriptName": "emby"
       },
       "sum": {
         "errors": 0,
@@ -91813,6 +91353,16 @@
     },
     {
       "dimensions": {
+        "datetime": "2026-02-08T10:36:00Z",
+        "scriptName": "private-config"
+      },
+      "sum": {
+        "errors": 0,
+        "requests": 1
+      }
+    },
+    {
+      "dimensions": {
         "datetime": "2026-01-23T12:31:43Z",
         "scriptName": "subscription-manager"
       },
@@ -91825,16 +91375,6 @@
       "dimensions": {
         "datetime": "2026-01-23T17:41:07Z",
         "scriptName": "subscription-manager"
-      },
-      "sum": {
-        "errors": 0,
-        "requests": 1
-      }
-    },
-    {
-      "dimensions": {
-        "datetime": "2026-02-08T10:36:00Z",
-        "scriptName": "private-config"
       },
       "sum": {
         "errors": 0,
@@ -91953,8 +91493,8 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-02-18T06:06:11Z",
-        "scriptName": "subscription-manager"
+        "datetime": "2026-01-27T18:41:25Z",
+        "scriptName": "emby"
       },
       "sum": {
         "errors": 0,
@@ -91963,8 +91503,8 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-01-27T18:41:25Z",
-        "scriptName": "emby"
+        "datetime": "2026-02-18T06:06:11Z",
+        "scriptName": "subscription-manager"
       },
       "sum": {
         "errors": 0,
@@ -92363,16 +91903,6 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-01-22T15:18:42Z",
-        "scriptName": "subscription-manager"
-      },
-      "sum": {
-        "errors": 0,
-        "requests": 1
-      }
-    },
-    {
-      "dimensions": {
         "datetime": "2026-01-25T17:02:23Z",
         "scriptName": "emby"
       },
@@ -92483,22 +92013,22 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-02-05T04:18:01Z",
-        "scriptName": "private-config"
-      },
-      "sum": {
-        "errors": 0,
-        "requests": 19
-      }
-    },
-    {
-      "dimensions": {
         "datetime": "2026-02-06T06:30:46Z",
         "scriptName": "emby"
       },
       "sum": {
         "errors": 0,
         "requests": 2
+      }
+    },
+    {
+      "dimensions": {
+        "datetime": "2026-02-05T04:18:01Z",
+        "scriptName": "private-config"
+      },
+      "sum": {
+        "errors": 0,
+        "requests": 19
       }
     },
     {
@@ -92593,8 +92123,8 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-02-18T17:23:01Z",
-        "scriptName": "emby"
+        "datetime": "2026-01-23T14:21:30Z",
+        "scriptName": "subscription-manager"
       },
       "sum": {
         "errors": 0,
@@ -92603,8 +92133,8 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-01-23T14:21:30Z",
-        "scriptName": "subscription-manager"
+        "datetime": "2026-02-18T17:23:01Z",
+        "scriptName": "emby"
       },
       "sum": {
         "errors": 0,
@@ -93233,8 +92763,8 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-02-21T12:05:08Z",
-        "scriptName": "emby"
+        "datetime": "2026-01-23T10:42:35Z",
+        "scriptName": "subscription-manager"
       },
       "sum": {
         "errors": 0,
@@ -93243,8 +92773,8 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-01-23T10:42:35Z",
-        "scriptName": "subscription-manager"
+        "datetime": "2026-02-21T12:05:08Z",
+        "scriptName": "emby"
       },
       "sum": {
         "errors": 0,
@@ -93313,8 +92843,8 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-01-23T20:35:31Z",
-        "scriptName": "subscription-manager"
+        "datetime": "2026-02-03T10:54:52Z",
+        "scriptName": "telegram-verify-bot"
       },
       "sum": {
         "errors": 0,
@@ -93323,8 +92853,8 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-02-03T10:54:52Z",
-        "scriptName": "telegram-verify-bot"
+        "datetime": "2026-01-23T20:35:31Z",
+        "scriptName": "subscription-manager"
       },
       "sum": {
         "errors": 0,
@@ -93833,7 +93363,7 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-01-22T18:06:36Z",
+        "datetime": "2026-01-22T18:01:01Z",
         "scriptName": "subscription-manager"
       },
       "sum": {
@@ -93843,7 +93373,7 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-01-22T18:01:01Z",
+        "datetime": "2026-01-22T18:06:36Z",
         "scriptName": "subscription-manager"
       },
       "sum": {
@@ -93913,7 +93443,7 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-01-22T15:49:38Z",
+        "datetime": "2026-02-04T10:00:00Z",
         "scriptName": "subscription-manager"
       },
       "sum": {
@@ -93923,7 +93453,7 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-02-04T10:00:00Z",
+        "datetime": "2026-01-22T15:49:38Z",
         "scriptName": "subscription-manager"
       },
       "sum": {
@@ -94343,8 +93873,8 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-01-23T10:11:05Z",
-        "scriptName": "subscription-manager"
+        "datetime": "2026-02-15T01:36:03Z",
+        "scriptName": "emby"
       },
       "sum": {
         "errors": 0,
@@ -94353,8 +93883,8 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-02-15T01:36:03Z",
-        "scriptName": "emby"
+        "datetime": "2026-01-23T10:11:05Z",
+        "scriptName": "subscription-manager"
       },
       "sum": {
         "errors": 0,
@@ -94563,8 +94093,8 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-01-26T07:50:08Z",
-        "scriptName": "emby"
+        "datetime": "2026-01-23T14:12:47Z",
+        "scriptName": "subscription-manager"
       },
       "sum": {
         "errors": 0,
@@ -94573,8 +94103,8 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-01-23T14:12:47Z",
-        "scriptName": "subscription-manager"
+        "datetime": "2026-01-26T07:50:08Z",
+        "scriptName": "emby"
       },
       "sum": {
         "errors": 0,
@@ -94703,8 +94233,8 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-02-09T18:24:31Z",
-        "scriptName": "emby"
+        "datetime": "2026-02-07T16:26:59Z",
+        "scriptName": "subscription-manager"
       },
       "sum": {
         "errors": 0,
@@ -94713,8 +94243,8 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-02-07T16:26:59Z",
-        "scriptName": "subscription-manager"
+        "datetime": "2026-02-09T18:24:31Z",
+        "scriptName": "emby"
       },
       "sum": {
         "errors": 0,
@@ -94873,22 +94403,22 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-01-25T12:47:10Z",
-        "scriptName": "emby"
-      },
-      "sum": {
-        "errors": 0,
-        "requests": 1
-      }
-    },
-    {
-      "dimensions": {
         "datetime": "2026-01-23T12:20:28Z",
         "scriptName": "telegram-verify-bot"
       },
       "sum": {
         "errors": 0,
         "requests": 2
+      }
+    },
+    {
+      "dimensions": {
+        "datetime": "2026-01-25T12:47:10Z",
+        "scriptName": "emby"
+      },
+      "sum": {
+        "errors": 0,
+        "requests": 1
       }
     },
     {
@@ -95443,8 +94973,8 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-02-17T14:00:24Z",
-        "scriptName": "subscription-manager"
+        "datetime": "2026-02-18T17:22:06Z",
+        "scriptName": "emby"
       },
       "sum": {
         "errors": 0,
@@ -95453,8 +94983,8 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-02-18T17:22:06Z",
-        "scriptName": "emby"
+        "datetime": "2026-02-17T14:00:24Z",
+        "scriptName": "subscription-manager"
       },
       "sum": {
         "errors": 0,
@@ -95713,16 +95243,6 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-01-22T15:39:31Z",
-        "scriptName": "subscription-manager"
-      },
-      "sum": {
-        "errors": 0,
-        "requests": 1
-      }
-    },
-    {
-      "dimensions": {
         "datetime": "2026-02-14T16:43:05Z",
         "scriptName": "emby"
       },
@@ -95933,22 +95453,22 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-01-23T13:26:36Z",
-        "scriptName": "subscription-manager"
-      },
-      "sum": {
-        "errors": 0,
-        "requests": 1
-      }
-    },
-    {
-      "dimensions": {
         "datetime": "2026-02-14T17:00:55Z",
         "scriptName": "emby"
       },
       "sum": {
         "errors": 0,
         "requests": 6
+      }
+    },
+    {
+      "dimensions": {
+        "datetime": "2026-01-23T13:26:36Z",
+        "scriptName": "subscription-manager"
+      },
+      "sum": {
+        "errors": 0,
+        "requests": 1
       }
     },
     {
@@ -97073,22 +96593,22 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-01-22T17:43:35Z",
-        "scriptName": "emby"
-      },
-      "sum": {
-        "errors": 0,
-        "requests": 2
-      }
-    },
-    {
-      "dimensions": {
         "datetime": "2026-01-29T19:27:08Z",
         "scriptName": "emby"
       },
       "sum": {
         "errors": 0,
         "requests": 1
+      }
+    },
+    {
+      "dimensions": {
+        "datetime": "2026-01-22T17:43:35Z",
+        "scriptName": "emby"
+      },
+      "sum": {
+        "errors": 0,
+        "requests": 2
       }
     },
     {
@@ -97733,6 +97253,16 @@
     },
     {
       "dimensions": {
+        "datetime": "2026-02-12T19:00:47Z",
+        "scriptName": "subscription-manager"
+      },
+      "sum": {
+        "errors": 0,
+        "requests": 1
+      }
+    },
+    {
+      "dimensions": {
         "datetime": "2026-01-22T17:32:04Z",
         "scriptName": "subscription-manager"
       },
@@ -97743,27 +97273,7 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-02-04T08:51:53Z",
-        "scriptName": "private-config"
-      },
-      "sum": {
-        "errors": 0,
-        "requests": 5
-      }
-    },
-    {
-      "dimensions": {
         "datetime": "2026-01-29T19:00:56Z",
-        "scriptName": "subscription-manager"
-      },
-      "sum": {
-        "errors": 0,
-        "requests": 1
-      }
-    },
-    {
-      "dimensions": {
-        "datetime": "2026-02-12T19:00:47Z",
         "scriptName": "subscription-manager"
       },
       "sum": {
@@ -97779,6 +97289,16 @@
       "sum": {
         "errors": 0,
         "requests": 1
+      }
+    },
+    {
+      "dimensions": {
+        "datetime": "2026-02-04T08:51:53Z",
+        "scriptName": "private-config"
+      },
+      "sum": {
+        "errors": 0,
+        "requests": 5
       }
     },
     {
@@ -98043,22 +97563,22 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-01-23T23:46:17Z",
-        "scriptName": "emby"
-      },
-      "sum": {
-        "errors": 0,
-        "requests": 22
-      }
-    },
-    {
-      "dimensions": {
         "datetime": "2026-02-14T16:27:15Z",
         "scriptName": "emby"
       },
       "sum": {
         "errors": 0,
         "requests": 4
+      }
+    },
+    {
+      "dimensions": {
+        "datetime": "2026-01-23T23:46:17Z",
+        "scriptName": "emby"
+      },
+      "sum": {
+        "errors": 0,
+        "requests": 22
       }
     },
     {
@@ -98143,22 +97663,22 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-01-30T06:25:51Z",
-        "scriptName": "emby"
-      },
-      "sum": {
-        "errors": 0,
-        "requests": 37
-      }
-    },
-    {
-      "dimensions": {
         "datetime": "2026-02-14T16:59:52Z",
         "scriptName": "emby"
       },
       "sum": {
         "errors": 0,
         "requests": 5
+      }
+    },
+    {
+      "dimensions": {
+        "datetime": "2026-01-30T06:25:51Z",
+        "scriptName": "emby"
+      },
+      "sum": {
+        "errors": 0,
+        "requests": 37
       }
     },
     {
@@ -98433,16 +97953,6 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-01-22T15:39:01Z",
-        "scriptName": "subscription-manager"
-      },
-      "sum": {
-        "errors": 0,
-        "requests": 1
-      }
-    },
-    {
-      "dimensions": {
         "datetime": "2026-02-19T19:30:59Z",
         "scriptName": "emby"
       },
@@ -98573,8 +98083,8 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-01-31T23:00:27Z",
-        "scriptName": "subscription-manager"
+        "datetime": "2026-02-12T10:39:28Z",
+        "scriptName": "private-config"
       },
       "sum": {
         "errors": 0,
@@ -98583,8 +98093,8 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-02-12T10:39:28Z",
-        "scriptName": "private-config"
+        "datetime": "2026-01-31T23:00:27Z",
+        "scriptName": "subscription-manager"
       },
       "sum": {
         "errors": 0,
@@ -98993,7 +98503,7 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-01-22T17:16:17Z",
+        "datetime": "2026-02-15T18:49:36Z",
         "scriptName": "subscription-manager"
       },
       "sum": {
@@ -99003,7 +98513,7 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-02-15T18:49:36Z",
+        "datetime": "2026-01-22T17:16:17Z",
         "scriptName": "subscription-manager"
       },
       "sum": {
@@ -99173,16 +98683,6 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-01-22T15:22:16Z",
-        "scriptName": "subscription-manager"
-      },
-      "sum": {
-        "errors": 0,
-        "requests": 1
-      }
-    },
-    {
-      "dimensions": {
         "datetime": "2026-02-14T18:54:07Z",
         "scriptName": "private-config"
       },
@@ -99293,8 +98793,8 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-01-22T17:35:07Z",
-        "scriptName": "subscription-manager"
+        "datetime": "2026-02-14T17:23:23Z",
+        "scriptName": "emby"
       },
       "sum": {
         "errors": 0,
@@ -99303,8 +98803,8 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-02-14T17:23:23Z",
-        "scriptName": "emby"
+        "datetime": "2026-01-22T17:35:07Z",
+        "scriptName": "subscription-manager"
       },
       "sum": {
         "errors": 0,
@@ -99333,22 +98833,22 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-02-12T11:11:41Z",
-        "scriptName": "private-config"
-      },
-      "sum": {
-        "errors": 0,
-        "requests": 4
-      }
-    },
-    {
-      "dimensions": {
         "datetime": "2026-02-04T09:51:44Z",
         "scriptName": "private-config"
       },
       "sum": {
         "errors": 0,
         "requests": 1
+      }
+    },
+    {
+      "dimensions": {
+        "datetime": "2026-02-12T11:11:41Z",
+        "scriptName": "private-config"
+      },
+      "sum": {
+        "errors": 0,
+        "requests": 4
       }
     },
     {
@@ -99413,8 +98913,8 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-02-07T20:04:57Z",
-        "scriptName": "emby"
+        "datetime": "2026-02-18T06:08:11Z",
+        "scriptName": "subscription-manager"
       },
       "sum": {
         "errors": 0,
@@ -99423,8 +98923,8 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-02-18T06:08:11Z",
-        "scriptName": "subscription-manager"
+        "datetime": "2026-02-07T20:04:57Z",
+        "scriptName": "emby"
       },
       "sum": {
         "errors": 0,
@@ -99563,8 +99063,8 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-01-23T15:23:14Z",
-        "scriptName": "subscription-manager"
+        "datetime": "2026-02-04T09:45:24Z",
+        "scriptName": "private-config"
       },
       "sum": {
         "errors": 0,
@@ -99573,8 +99073,8 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-02-04T09:45:24Z",
-        "scriptName": "private-config"
+        "datetime": "2026-01-23T15:23:14Z",
+        "scriptName": "subscription-manager"
       },
       "sum": {
         "errors": 0,
@@ -99603,8 +99103,8 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-01-23T22:21:51Z",
-        "scriptName": "subscription-manager"
+        "datetime": "2026-02-09T18:08:38Z",
+        "scriptName": "emby"
       },
       "sum": {
         "errors": 0,
@@ -99623,8 +99123,8 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-02-09T18:08:38Z",
-        "scriptName": "emby"
+        "datetime": "2026-01-23T22:21:51Z",
+        "scriptName": "subscription-manager"
       },
       "sum": {
         "errors": 0,
@@ -99693,7 +99193,7 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-01-22T15:47:06Z",
+        "datetime": "2026-02-05T05:00:54Z",
         "scriptName": "subscription-manager"
       },
       "sum": {
@@ -99703,7 +99203,7 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-02-05T05:00:54Z",
+        "datetime": "2026-01-22T15:47:06Z",
         "scriptName": "subscription-manager"
       },
       "sum": {
@@ -99883,8 +99383,8 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-01-23T23:53:24Z",
-        "scriptName": "subscription-manager"
+        "datetime": "2026-02-18T17:23:47Z",
+        "scriptName": "emby"
       },
       "sum": {
         "errors": 0,
@@ -99893,8 +99393,8 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-02-18T17:23:47Z",
-        "scriptName": "emby"
+        "datetime": "2026-01-23T23:53:24Z",
+        "scriptName": "subscription-manager"
       },
       "sum": {
         "errors": 0,
@@ -99983,7 +99483,7 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-01-22T15:18:11Z",
+        "datetime": "2026-01-23T15:03:49Z",
         "scriptName": "subscription-manager"
       },
       "sum": {
@@ -99993,7 +99493,507 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-01-23T15:03:49Z",
+        "datetime": "2026-02-13T14:35:42Z",
+        "scriptName": "subscription-manager"
+      },
+      "sum": {
+        "errors": 0,
+        "requests": 1
+      }
+    },
+    {
+      "dimensions": {
+        "datetime": "2026-02-02T07:00:31Z",
+        "scriptName": "subscription-manager"
+      },
+      "sum": {
+        "errors": 0,
+        "requests": 1
+      }
+    },
+    {
+      "dimensions": {
+        "datetime": "2026-01-27T21:14:48Z",
+        "scriptName": "subscription-manager"
+      },
+      "sum": {
+        "errors": 0,
+        "requests": 1
+      }
+    },
+    {
+      "dimensions": {
+        "datetime": "2026-01-23T10:00:48Z",
+        "scriptName": "subscription-manager"
+      },
+      "sum": {
+        "errors": 0,
+        "requests": 1
+      }
+    },
+    {
+      "dimensions": {
+        "datetime": "2026-02-21T03:20:28Z",
+        "scriptName": "private-config"
+      },
+      "sum": {
+        "errors": 0,
+        "requests": 21
+      }
+    },
+    {
+      "dimensions": {
+        "datetime": "2026-02-01T22:00:55Z",
+        "scriptName": "private-config"
+      },
+      "sum": {
+        "errors": 0,
+        "requests": 2
+      }
+    },
+    {
+      "dimensions": {
+        "datetime": "2026-01-23T08:25:57Z",
+        "scriptName": "subscription-manager"
+      },
+      "sum": {
+        "errors": 0,
+        "requests": 1
+      }
+    },
+    {
+      "dimensions": {
+        "datetime": "2026-01-22T23:20:09Z",
+        "scriptName": "emby"
+      },
+      "sum": {
+        "errors": 0,
+        "requests": 1
+      }
+    },
+    {
+      "dimensions": {
+        "datetime": "2026-01-22T17:56:26Z",
+        "scriptName": "subscription-manager"
+      },
+      "sum": {
+        "errors": 0,
+        "requests": 1
+      }
+    },
+    {
+      "dimensions": {
+        "datetime": "2026-01-23T08:05:39Z",
+        "scriptName": "subscription-manager"
+      },
+      "sum": {
+        "errors": 0,
+        "requests": 1
+      }
+    },
+    {
+      "dimensions": {
+        "datetime": "2026-02-19T10:25:53Z",
+        "scriptName": "private-config"
+      },
+      "sum": {
+        "errors": 0,
+        "requests": 21
+      }
+    },
+    {
+      "dimensions": {
+        "datetime": "2026-02-08T18:07:46Z",
+        "scriptName": "emby"
+      },
+      "sum": {
+        "errors": 0,
+        "requests": 1
+      }
+    },
+    {
+      "dimensions": {
+        "datetime": "2026-02-18T00:10:04Z",
+        "scriptName": "emby"
+      },
+      "sum": {
+        "errors": 0,
+        "requests": 1
+      }
+    },
+    {
+      "dimensions": {
+        "datetime": "2026-01-30T12:00:50Z",
+        "scriptName": "subscription-manager"
+      },
+      "sum": {
+        "errors": 0,
+        "requests": 1
+      }
+    },
+    {
+      "dimensions": {
+        "datetime": "2026-01-22T16:15:22Z",
+        "scriptName": "subscription-manager"
+      },
+      "sum": {
+        "errors": 0,
+        "requests": 1
+      }
+    },
+    {
+      "dimensions": {
+        "datetime": "2026-02-01T04:56:05Z",
+        "scriptName": "emby"
+      },
+      "sum": {
+        "errors": 0,
+        "requests": 3
+      }
+    },
+    {
+      "dimensions": {
+        "datetime": "2026-02-10T07:39:49Z",
+        "scriptName": "emby"
+      },
+      "sum": {
+        "errors": 0,
+        "requests": 1
+      }
+    },
+    {
+      "dimensions": {
+        "datetime": "2026-01-25T12:06:05Z",
+        "scriptName": "emby"
+      },
+      "sum": {
+        "errors": 0,
+        "requests": 12
+      }
+    },
+    {
+      "dimensions": {
+        "datetime": "2026-01-25T04:33:06Z",
+        "scriptName": "private-config"
+      },
+      "sum": {
+        "errors": 0,
+        "requests": 20
+      }
+    },
+    {
+      "dimensions": {
+        "datetime": "2026-01-23T20:34:16Z",
+        "scriptName": "subscription-manager"
+      },
+      "sum": {
+        "errors": 0,
+        "requests": 1
+      }
+    },
+    {
+      "dimensions": {
+        "datetime": "2026-01-23T22:20:17Z",
+        "scriptName": "subscription-manager"
+      },
+      "sum": {
+        "errors": 0,
+        "requests": 1
+      }
+    },
+    {
+      "dimensions": {
+        "datetime": "2026-01-22T17:55:25Z",
+        "scriptName": "subscription-manager"
+      },
+      "sum": {
+        "errors": 0,
+        "requests": 1
+      }
+    },
+    {
+      "dimensions": {
+        "datetime": "2026-02-20T19:02:53Z",
+        "scriptName": "webui-health-check"
+      },
+      "sum": {
+        "errors": 0,
+        "requests": 290
+      }
+    },
+    {
+      "dimensions": {
+        "datetime": "2026-02-14T23:14:32Z",
+        "scriptName": "private-config"
+      },
+      "sum": {
+        "errors": 0,
+        "requests": 1
+      }
+    },
+    {
+      "dimensions": {
+        "datetime": "2026-01-22T17:44:16Z",
+        "scriptName": "subscription-manager"
+      },
+      "sum": {
+        "errors": 0,
+        "requests": 1
+      }
+    },
+    {
+      "dimensions": {
+        "datetime": "2026-02-14T17:31:29Z",
+        "scriptName": "emby"
+      },
+      "sum": {
+        "errors": 0,
+        "requests": 1
+      }
+    },
+    {
+      "dimensions": {
+        "datetime": "2026-01-23T12:25:37Z",
+        "scriptName": "subscription-manager"
+      },
+      "sum": {
+        "errors": 0,
+        "requests": 1
+      }
+    },
+    {
+      "dimensions": {
+        "datetime": "2026-02-14T03:00:05Z",
+        "scriptName": "subscription-manager"
+      },
+      "sum": {
+        "errors": 0,
+        "requests": 1
+      }
+    },
+    {
+      "dimensions": {
+        "datetime": "2026-01-23T15:57:26Z",
+        "scriptName": "subscription-manager"
+      },
+      "sum": {
+        "errors": 0,
+        "requests": 1
+      }
+    },
+    {
+      "dimensions": {
+        "datetime": "2026-02-08T18:05:53Z",
+        "scriptName": "emby"
+      },
+      "sum": {
+        "errors": 0,
+        "requests": 2
+      }
+    },
+    {
+      "dimensions": {
+        "datetime": "2026-01-26T15:33:16Z",
+        "scriptName": "emby"
+      },
+      "sum": {
+        "errors": 0,
+        "requests": 1
+      }
+    },
+    {
+      "dimensions": {
+        "datetime": "2026-02-15T17:17:03Z",
+        "scriptName": "subscription-manager"
+      },
+      "sum": {
+        "errors": 0,
+        "requests": 1
+      }
+    },
+    {
+      "dimensions": {
+        "datetime": "2026-02-12T06:00:49Z",
+        "scriptName": "subscription-manager"
+      },
+      "sum": {
+        "errors": 0,
+        "requests": 1
+      }
+    },
+    {
+      "dimensions": {
+        "datetime": "2026-02-07T18:28:30Z",
+        "scriptName": "emby"
+      },
+      "sum": {
+        "errors": 0,
+        "requests": 2
+      }
+    },
+    {
+      "dimensions": {
+        "datetime": "2026-01-23T16:12:50Z",
+        "scriptName": "subscription-manager"
+      },
+      "sum": {
+        "errors": 0,
+        "requests": 1
+      }
+    },
+    {
+      "dimensions": {
+        "datetime": "2026-01-25T04:33:26Z",
+        "scriptName": "private-config"
+      },
+      "sum": {
+        "errors": 0,
+        "requests": 22
+      }
+    },
+    {
+      "dimensions": {
+        "datetime": "2026-01-23T15:30:13Z",
+        "scriptName": "subscription-manager"
+      },
+      "sum": {
+        "errors": 0,
+        "requests": 1
+      }
+    },
+    {
+      "dimensions": {
+        "datetime": "2026-01-28T12:31:08Z",
+        "scriptName": "emby"
+      },
+      "sum": {
+        "errors": 0,
+        "requests": 20
+      }
+    },
+    {
+      "dimensions": {
+        "datetime": "2026-02-14T18:27:56Z",
+        "scriptName": "private-config"
+      },
+      "sum": {
+        "errors": 0,
+        "requests": 6
+      }
+    },
+    {
+      "dimensions": {
+        "datetime": "2026-02-01T04:56:42Z",
+        "scriptName": "emby"
+      },
+      "sum": {
+        "errors": 0,
+        "requests": 11
+      }
+    },
+    {
+      "dimensions": {
+        "datetime": "2026-01-25T11:53:12Z",
+        "scriptName": "emby"
+      },
+      "sum": {
+        "errors": 0,
+        "requests": 1
+      }
+    },
+    {
+      "dimensions": {
+        "datetime": "2026-02-15T18:56:24Z",
+        "scriptName": "subscription-manager"
+      },
+      "sum": {
+        "errors": 0,
+        "requests": 2
+      }
+    },
+    {
+      "dimensions": {
+        "datetime": "2026-01-23T20:11:00Z",
+        "scriptName": "subscription-manager"
+      },
+      "sum": {
+        "errors": 0,
+        "requests": 1
+      }
+    },
+    {
+      "dimensions": {
+        "datetime": "2026-02-19T08:38:12Z",
+        "scriptName": "subscription-manager"
+      },
+      "sum": {
+        "errors": 0,
+        "requests": 1
+      }
+    },
+    {
+      "dimensions": {
+        "datetime": "2026-02-06T07:00:47Z",
+        "scriptName": "subscription-manager"
+      },
+      "sum": {
+        "errors": 0,
+        "requests": 1
+      }
+    },
+    {
+      "dimensions": {
+        "datetime": "2026-01-23T11:17:38Z",
+        "scriptName": "subscription-manager"
+      },
+      "sum": {
+        "errors": 0,
+        "requests": 1
+      }
+    },
+    {
+      "dimensions": {
+        "datetime": "2026-02-14T18:21:15Z",
+        "scriptName": "emby"
+      },
+      "sum": {
+        "errors": 0,
+        "requests": 3
+      }
+    },
+    {
+      "dimensions": {
+        "datetime": "2026-01-24T17:04:07Z",
+        "scriptName": "emby"
+      },
+      "sum": {
+        "errors": 0,
+        "requests": 26
+      }
+    },
+    {
+      "dimensions": {
+        "datetime": "2026-02-19T10:26:01Z",
+        "scriptName": "private-config"
+      },
+      "sum": {
+        "errors": 0,
+        "requests": 16
+      }
+    },
+    {
+      "dimensions": {
+        "datetime": "2026-02-14T17:03:59Z",
+        "scriptName": "emby"
+      },
+      "sum": {
+        "errors": 0,
+        "requests": 26
+      }
+    },
+    {
+      "dimensions": {
+        "datetime": "2026-02-05T09:00:49Z",
         "scriptName": "subscription-manager"
       },
       "sum": {
