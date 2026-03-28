@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-03-28T07:53:14.352Z",
+  "updatedAt": "2026-03-28T08:26:07.696Z",
   "data": [
     {
       "dimensions": {
@@ -313,22 +313,22 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-03-20T17:21:49Z",
-        "scriptName": "emby"
-      },
-      "sum": {
-        "errors": 0,
-        "requests": 6
-      }
-    },
-    {
-      "dimensions": {
         "datetime": "2026-02-28T08:26:58Z",
         "scriptName": "subscription-manager"
       },
       "sum": {
         "errors": 0,
         "requests": 1
+      }
+    },
+    {
+      "dimensions": {
+        "datetime": "2026-03-20T17:21:49Z",
+        "scriptName": "emby"
+      },
+      "sum": {
+        "errors": 0,
+        "requests": 6
       }
     },
     {
@@ -843,7 +843,7 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-03-26T14:55:26Z",
+        "datetime": "2026-03-24T14:49:16Z",
         "scriptName": "ldc-shop"
       },
       "sum": {
@@ -853,7 +853,7 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-03-24T14:49:16Z",
+        "datetime": "2026-03-26T14:55:26Z",
         "scriptName": "ldc-shop"
       },
       "sum": {
@@ -1183,7 +1183,7 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-03-17T07:41:48Z",
+        "datetime": "2026-03-27T12:39:38Z",
         "scriptName": "ldc-shop"
       },
       "sum": {
@@ -1193,7 +1193,7 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-03-27T12:39:38Z",
+        "datetime": "2026-03-17T07:41:48Z",
         "scriptName": "ldc-shop"
       },
       "sum": {
@@ -1413,7 +1413,7 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-03-22T04:06:43Z",
+        "datetime": "2026-03-07T09:46:44Z",
         "scriptName": "subscription-manager"
       },
       "sum": {
@@ -1423,7 +1423,7 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-03-07T09:46:44Z",
+        "datetime": "2026-03-22T04:06:43Z",
         "scriptName": "subscription-manager"
       },
       "sum": {
@@ -1553,8 +1553,8 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-03-24T20:29:16Z",
-        "scriptName": "ldc-shop"
+        "datetime": "2026-03-27T00:00:32Z",
+        "scriptName": "subscription-manager"
       },
       "sum": {
         "errors": 0,
@@ -1563,8 +1563,8 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-03-27T00:00:32Z",
-        "scriptName": "subscription-manager"
+        "datetime": "2026-03-24T20:29:16Z",
+        "scriptName": "ldc-shop"
       },
       "sum": {
         "errors": 0,
@@ -2143,7 +2143,7 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-03-20T22:33:42Z",
+        "datetime": "2026-03-25T03:13:07Z",
         "scriptName": "ldc-shop"
       },
       "sum": {
@@ -2153,7 +2153,7 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-03-25T03:13:07Z",
+        "datetime": "2026-03-20T22:33:42Z",
         "scriptName": "ldc-shop"
       },
       "sum": {
@@ -2183,6 +2183,16 @@
     },
     {
       "dimensions": {
+        "datetime": "2026-03-19T02:03:54Z",
+        "scriptName": "ldc-shop"
+      },
+      "sum": {
+        "errors": 0,
+        "requests": 1
+      }
+    },
+    {
+      "dimensions": {
         "datetime": "2026-03-09T08:51:35Z",
         "scriptName": "emby"
       },
@@ -2195,16 +2205,6 @@
       "dimensions": {
         "datetime": "2026-03-02T17:13:52Z",
         "scriptName": "subscription-manager"
-      },
-      "sum": {
-        "errors": 0,
-        "requests": 1
-      }
-    },
-    {
-      "dimensions": {
-        "datetime": "2026-03-19T02:03:54Z",
-        "scriptName": "ldc-shop"
       },
       "sum": {
         "errors": 0,
@@ -2653,8 +2653,8 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-03-05T20:42:30Z",
-        "scriptName": "subscription-manager"
+        "datetime": "2026-03-27T06:33:23Z",
+        "scriptName": "ldc-shop"
       },
       "sum": {
         "errors": 0,
@@ -2663,8 +2663,8 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-03-27T06:33:23Z",
-        "scriptName": "ldc-shop"
+        "datetime": "2026-03-05T20:42:30Z",
+        "scriptName": "subscription-manager"
       },
       "sum": {
         "errors": 0,
@@ -2763,6 +2763,16 @@
     },
     {
       "dimensions": {
+        "datetime": "2026-03-27T02:29:31Z",
+        "scriptName": "ldc-shop"
+      },
+      "sum": {
+        "errors": 0,
+        "requests": 1
+      }
+    },
+    {
+      "dimensions": {
         "datetime": "2026-03-02T16:24:25Z",
         "scriptName": "private-config"
       },
@@ -2773,7 +2783,7 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-03-27T02:29:31Z",
+        "datetime": "2026-03-26T20:36:26Z",
         "scriptName": "ldc-shop"
       },
       "sum": {
@@ -2785,16 +2795,6 @@
       "dimensions": {
         "datetime": "2026-02-28T05:17:09Z",
         "scriptName": "subscription-manager"
-      },
-      "sum": {
-        "errors": 0,
-        "requests": 1
-      }
-    },
-    {
-      "dimensions": {
-        "datetime": "2026-03-26T20:36:26Z",
-        "scriptName": "ldc-shop"
       },
       "sum": {
         "errors": 0,
@@ -2933,8 +2933,8 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-03-27T15:37:38Z",
-        "scriptName": "ldc-shop"
+        "datetime": "2026-03-01T19:31:47Z",
+        "scriptName": "emby"
       },
       "sum": {
         "errors": 0,
@@ -2943,8 +2943,8 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-03-01T19:31:47Z",
-        "scriptName": "emby"
+        "datetime": "2026-03-27T15:37:38Z",
+        "scriptName": "ldc-shop"
       },
       "sum": {
         "errors": 0,
@@ -3363,7 +3363,7 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-02-26T11:32:00Z",
+        "datetime": "2026-02-26T11:57:30Z",
         "scriptName": "subscription-manager"
       },
       "sum": {
@@ -3383,7 +3383,7 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-02-26T11:57:30Z",
+        "datetime": "2026-02-26T11:32:00Z",
         "scriptName": "subscription-manager"
       },
       "sum": {
@@ -3473,7 +3473,7 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-03-21T17:44:16Z",
+        "datetime": "2026-03-27T05:03:23Z",
         "scriptName": "ldc-shop"
       },
       "sum": {
@@ -3493,7 +3493,7 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-03-27T05:03:23Z",
+        "datetime": "2026-03-21T17:44:16Z",
         "scriptName": "ldc-shop"
       },
       "sum": {
@@ -3543,8 +3543,8 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-03-02T14:44:40Z",
-        "scriptName": "subscription-manager-new"
+        "datetime": "2026-03-02T14:21:17Z",
+        "scriptName": "subscription-manager"
       },
       "sum": {
         "errors": 0,
@@ -3553,8 +3553,8 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-03-02T14:21:17Z",
-        "scriptName": "subscription-manager"
+        "datetime": "2026-03-02T14:44:40Z",
+        "scriptName": "subscription-manager-new"
       },
       "sum": {
         "errors": 0,
@@ -3613,22 +3613,22 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-03-23T08:20:38Z",
-        "scriptName": "ldc-shop"
-      },
-      "sum": {
-        "errors": 0,
-        "requests": 2
-      }
-    },
-    {
-      "dimensions": {
         "datetime": "2026-03-10T15:30:26Z",
         "scriptName": "subscription-manager"
       },
       "sum": {
         "errors": 0,
         "requests": 1
+      }
+    },
+    {
+      "dimensions": {
+        "datetime": "2026-03-23T08:20:38Z",
+        "scriptName": "ldc-shop"
+      },
+      "sum": {
+        "errors": 0,
+        "requests": 2
       }
     },
     {
@@ -3733,7 +3733,7 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-03-20T01:12:16Z",
+        "datetime": "2026-03-21T23:28:20Z",
         "scriptName": "ldc-shop"
       },
       "sum": {
@@ -3743,7 +3743,7 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-03-21T23:28:20Z",
+        "datetime": "2026-03-20T01:12:16Z",
         "scriptName": "ldc-shop"
       },
       "sum": {
@@ -4653,22 +4653,22 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-03-21T17:01:16Z",
-        "scriptName": "ldc-shop"
-      },
-      "sum": {
-        "errors": 0,
-        "requests": 1
-      }
-    },
-    {
-      "dimensions": {
         "datetime": "2026-03-01T18:16:21Z",
         "scriptName": "emby"
       },
       "sum": {
         "errors": 0,
         "requests": 5
+      }
+    },
+    {
+      "dimensions": {
+        "datetime": "2026-03-21T17:01:16Z",
+        "scriptName": "ldc-shop"
+      },
+      "sum": {
+        "errors": 0,
+        "requests": 1
       }
     },
     {
@@ -4723,8 +4723,8 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-03-20T19:59:42Z",
-        "scriptName": "ldc-shop"
+        "datetime": "2026-03-02T11:00:49Z",
+        "scriptName": "subscription-manager"
       },
       "sum": {
         "errors": 0,
@@ -4733,8 +4733,8 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-03-02T11:00:49Z",
-        "scriptName": "subscription-manager"
+        "datetime": "2026-03-20T19:59:42Z",
+        "scriptName": "ldc-shop"
       },
       "sum": {
         "errors": 0,
@@ -4993,8 +4993,8 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-03-20T18:49:58Z",
-        "scriptName": "emby"
+        "datetime": "2026-03-22T14:52:36Z",
+        "scriptName": "ldc-shop"
       },
       "sum": {
         "errors": 0,
@@ -5003,8 +5003,8 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-03-22T14:52:36Z",
-        "scriptName": "ldc-shop"
+        "datetime": "2026-03-20T18:49:58Z",
+        "scriptName": "emby"
       },
       "sum": {
         "errors": 0,
@@ -5083,7 +5083,7 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-02-28T11:52:18Z",
+        "datetime": "2026-03-25T08:59:11Z",
         "scriptName": "subscription-manager"
       },
       "sum": {
@@ -5093,7 +5093,7 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-03-25T08:59:11Z",
+        "datetime": "2026-02-28T11:52:18Z",
         "scriptName": "subscription-manager"
       },
       "sum": {
@@ -5283,8 +5283,8 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-03-23T20:33:33Z",
-        "scriptName": "ldc-shop"
+        "datetime": "2026-03-10T16:16:01Z",
+        "scriptName": "subscription-manager"
       },
       "sum": {
         "errors": 0,
@@ -5293,8 +5293,8 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-03-10T16:16:01Z",
-        "scriptName": "subscription-manager"
+        "datetime": "2026-03-23T20:33:33Z",
+        "scriptName": "ldc-shop"
       },
       "sum": {
         "errors": 0,
@@ -5533,7 +5533,7 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-03-23T22:05:33Z",
+        "datetime": "2026-03-25T18:59:39Z",
         "scriptName": "ldc-shop"
       },
       "sum": {
@@ -5543,7 +5543,7 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-03-25T18:59:39Z",
+        "datetime": "2026-03-23T22:05:33Z",
         "scriptName": "ldc-shop"
       },
       "sum": {
@@ -5633,7 +5633,7 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-02-28T12:44:19Z",
+        "datetime": "2026-03-04T20:21:11Z",
         "scriptName": "subscription-manager"
       },
       "sum": {
@@ -5653,7 +5653,7 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-03-04T20:21:11Z",
+        "datetime": "2026-02-28T12:44:19Z",
         "scriptName": "subscription-manager"
       },
       "sum": {
@@ -6253,6 +6253,16 @@
     },
     {
       "dimensions": {
+        "datetime": "2026-03-23T00:39:24Z",
+        "scriptName": "ldc-shop"
+      },
+      "sum": {
+        "errors": 0,
+        "requests": 2
+      }
+    },
+    {
+      "dimensions": {
         "datetime": "2026-03-13T02:00:29Z",
         "scriptName": "subscription-manager"
       },
@@ -6279,16 +6289,6 @@
       "sum": {
         "errors": 0,
         "requests": 1
-      }
-    },
-    {
-      "dimensions": {
-        "datetime": "2026-03-23T00:39:24Z",
-        "scriptName": "ldc-shop"
-      },
-      "sum": {
-        "errors": 0,
-        "requests": 2
       }
     },
     {
@@ -6483,22 +6483,22 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-03-20T09:25:48Z",
-        "scriptName": "ldc-shop"
-      },
-      "sum": {
-        "errors": 0,
-        "requests": 1
-      }
-    },
-    {
-      "dimensions": {
         "datetime": "2026-02-28T07:23:06Z",
         "scriptName": "emby"
       },
       "sum": {
         "errors": 0,
         "requests": 2
+      }
+    },
+    {
+      "dimensions": {
+        "datetime": "2026-03-20T09:25:48Z",
+        "scriptName": "ldc-shop"
+      },
+      "sum": {
+        "errors": 0,
+        "requests": 1
       }
     },
     {
@@ -6563,8 +6563,8 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-03-28T05:25:54Z",
-        "scriptName": "ldc-shop"
+        "datetime": "2026-03-22T04:36:21Z",
+        "scriptName": "subscription-manager"
       },
       "sum": {
         "errors": 0,
@@ -6573,8 +6573,8 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-03-22T04:36:21Z",
-        "scriptName": "subscription-manager"
+        "datetime": "2026-03-28T05:25:54Z",
+        "scriptName": "ldc-shop"
       },
       "sum": {
         "errors": 0,
@@ -6913,8 +6913,8 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-03-18T20:09:31Z",
-        "scriptName": "subscription-manager"
+        "datetime": "2026-03-21T01:09:42Z",
+        "scriptName": "ldc-shop"
       },
       "sum": {
         "errors": 0,
@@ -6923,8 +6923,8 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-03-21T01:09:42Z",
-        "scriptName": "ldc-shop"
+        "datetime": "2026-03-18T20:09:31Z",
+        "scriptName": "subscription-manager"
       },
       "sum": {
         "errors": 0,
@@ -7373,8 +7373,8 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-03-02T16:22:44Z",
-        "scriptName": "subscription-manager"
+        "datetime": "2026-03-22T21:36:11Z",
+        "scriptName": "ldc-shop"
       },
       "sum": {
         "errors": 0,
@@ -7403,8 +7403,8 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-03-22T21:36:11Z",
-        "scriptName": "ldc-shop"
+        "datetime": "2026-03-02T16:22:44Z",
+        "scriptName": "subscription-manager"
       },
       "sum": {
         "errors": 0,
@@ -7493,22 +7493,22 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-03-07T11:59:39Z",
-        "scriptName": "emby"
-      },
-      "sum": {
-        "errors": 0,
-        "requests": 5
-      }
-    },
-    {
-      "dimensions": {
         "datetime": "2026-03-20T23:39:42Z",
         "scriptName": "ldc-shop"
       },
       "sum": {
         "errors": 0,
         "requests": 1
+      }
+    },
+    {
+      "dimensions": {
+        "datetime": "2026-03-07T11:59:39Z",
+        "scriptName": "emby"
+      },
+      "sum": {
+        "errors": 0,
+        "requests": 5
       }
     },
     {
@@ -7623,16 +7623,6 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-02-26T17:51:04Z",
-        "scriptName": "subscription-manager"
-      },
-      "sum": {
-        "errors": 0,
-        "requests": 1
-      }
-    },
-    {
-      "dimensions": {
         "datetime": "2026-02-26T15:45:34Z",
         "scriptName": "subscription-manager"
       },
@@ -7645,6 +7635,16 @@
       "dimensions": {
         "datetime": "2026-03-24T00:33:33Z",
         "scriptName": "ldc-shop"
+      },
+      "sum": {
+        "errors": 0,
+        "requests": 1
+      }
+    },
+    {
+      "dimensions": {
+        "datetime": "2026-02-26T17:51:04Z",
+        "scriptName": "subscription-manager"
       },
       "sum": {
         "errors": 0,
@@ -7813,7 +7813,7 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-02-28T09:48:55Z",
+        "datetime": "2026-03-10T10:45:41Z",
         "scriptName": "subscription-manager"
       },
       "sum": {
@@ -7823,7 +7823,7 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-03-10T10:45:41Z",
+        "datetime": "2026-02-28T09:48:55Z",
         "scriptName": "subscription-manager"
       },
       "sum": {
@@ -7983,7 +7983,7 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-03-19T18:00:37Z",
+        "datetime": "2026-03-20T13:06:42Z",
         "scriptName": "ldc-shop"
       },
       "sum": {
@@ -7993,7 +7993,7 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-03-20T13:06:42Z",
+        "datetime": "2026-03-19T18:00:37Z",
         "scriptName": "ldc-shop"
       },
       "sum": {
@@ -8113,7 +8113,7 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-03-04T16:27:37Z",
+        "datetime": "2026-03-04T13:12:05Z",
         "scriptName": "subscription-manager"
       },
       "sum": {
@@ -8123,7 +8123,7 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-03-04T13:12:05Z",
+        "datetime": "2026-03-04T16:27:37Z",
         "scriptName": "subscription-manager"
       },
       "sum": {
@@ -8173,22 +8173,22 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-03-27T00:38:31Z",
-        "scriptName": "ldc-shop"
-      },
-      "sum": {
-        "errors": 0,
-        "requests": 1
-      }
-    },
-    {
-      "dimensions": {
         "datetime": "2026-03-14T06:16:00Z",
         "scriptName": "emby"
       },
       "sum": {
         "errors": 0,
         "requests": 5
+      }
+    },
+    {
+      "dimensions": {
+        "datetime": "2026-03-27T00:38:31Z",
+        "scriptName": "ldc-shop"
+      },
+      "sum": {
+        "errors": 0,
+        "requests": 1
       }
     },
     {
@@ -8333,22 +8333,22 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-03-01T20:42:59Z",
-        "scriptName": "emby"
-      },
-      "sum": {
-        "errors": 0,
-        "requests": 2
-      }
-    },
-    {
-      "dimensions": {
         "datetime": "2026-03-02T16:02:22Z",
         "scriptName": "subscription-manager"
       },
       "sum": {
         "errors": 0,
         "requests": 1
+      }
+    },
+    {
+      "dimensions": {
+        "datetime": "2026-03-01T20:42:59Z",
+        "scriptName": "emby"
+      },
+      "sum": {
+        "errors": 0,
+        "requests": 2
       }
     },
     {
@@ -8943,6 +8943,16 @@
     },
     {
       "dimensions": {
+        "datetime": "2026-03-22T17:50:11Z",
+        "scriptName": "ldc-shop"
+      },
+      "sum": {
+        "errors": 0,
+        "requests": 1
+      }
+    },
+    {
+      "dimensions": {
         "datetime": "2026-02-28T16:03:58Z",
         "scriptName": "private-config"
       },
@@ -8959,16 +8969,6 @@
       "sum": {
         "errors": 0,
         "requests": 2
-      }
-    },
-    {
-      "dimensions": {
-        "datetime": "2026-03-22T17:50:11Z",
-        "scriptName": "ldc-shop"
-      },
-      "sum": {
-        "errors": 0,
-        "requests": 1
       }
     },
     {
@@ -9223,8 +9223,8 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-03-11T07:51:51Z",
-        "scriptName": "emby"
+        "datetime": "2026-03-23T00:32:19Z",
+        "scriptName": "ldc-shop"
       },
       "sum": {
         "errors": 0,
@@ -9243,8 +9243,8 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-03-23T00:32:19Z",
-        "scriptName": "ldc-shop"
+        "datetime": "2026-03-11T07:51:51Z",
+        "scriptName": "emby"
       },
       "sum": {
         "errors": 0,
@@ -9455,6 +9455,16 @@
       "dimensions": {
         "datetime": "2026-03-15T15:39:58Z",
         "scriptName": "subscription-manager-new"
+      },
+      "sum": {
+        "errors": 0,
+        "requests": 1
+      }
+    },
+    {
+      "dimensions": {
+        "datetime": "2026-03-28T08:02:24Z",
+        "scriptName": "ldc-shop"
       },
       "sum": {
         "errors": 0,
@@ -9813,7 +9823,7 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-03-24T07:25:13Z",
+        "datetime": "2026-03-26T12:14:26Z",
         "scriptName": "ldc-shop"
       },
       "sum": {
@@ -9823,7 +9833,7 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-03-26T12:14:26Z",
+        "datetime": "2026-03-24T07:25:13Z",
         "scriptName": "ldc-shop"
       },
       "sum": {
@@ -9873,8 +9883,8 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-03-21T23:33:20Z",
-        "scriptName": "ldc-shop"
+        "datetime": "2026-03-02T13:51:41Z",
+        "scriptName": "subscription-manager"
       },
       "sum": {
         "errors": 0,
@@ -9883,8 +9893,8 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-03-02T13:51:41Z",
-        "scriptName": "subscription-manager"
+        "datetime": "2026-03-21T23:33:20Z",
+        "scriptName": "ldc-shop"
       },
       "sum": {
         "errors": 0,
@@ -9903,8 +9913,8 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-02-27T14:27:23Z",
-        "scriptName": "subscription-manager"
+        "datetime": "2026-03-23T14:35:19Z",
+        "scriptName": "ldc-shop"
       },
       "sum": {
         "errors": 0,
@@ -9933,8 +9943,8 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-03-16T07:35:19Z",
-        "scriptName": "emby"
+        "datetime": "2026-02-27T14:27:23Z",
+        "scriptName": "subscription-manager"
       },
       "sum": {
         "errors": 0,
@@ -9943,8 +9953,8 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-03-23T14:35:19Z",
-        "scriptName": "ldc-shop"
+        "datetime": "2026-03-16T07:35:19Z",
+        "scriptName": "emby"
       },
       "sum": {
         "errors": 0,
@@ -10093,8 +10103,8 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-03-21T06:00:14Z",
-        "scriptName": "subscription-manager"
+        "datetime": "2026-03-17T11:23:06Z",
+        "scriptName": "ldc-shop"
       },
       "sum": {
         "errors": 0,
@@ -10103,8 +10113,8 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-03-17T11:23:06Z",
-        "scriptName": "ldc-shop"
+        "datetime": "2026-03-21T06:00:14Z",
+        "scriptName": "subscription-manager"
       },
       "sum": {
         "errors": 0,
@@ -10683,8 +10693,8 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-03-22T17:41:11Z",
-        "scriptName": "ldc-shop"
+        "datetime": "2026-03-24T09:21:39Z",
+        "scriptName": "private-config"
       },
       "sum": {
         "errors": 0,
@@ -10693,8 +10703,8 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-03-24T09:21:39Z",
-        "scriptName": "private-config"
+        "datetime": "2026-03-22T17:41:11Z",
+        "scriptName": "ldc-shop"
       },
       "sum": {
         "errors": 0,
@@ -10733,7 +10743,7 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-03-19T16:23:16Z",
+        "datetime": "2026-03-17T04:23:48Z",
         "scriptName": "ldc-shop"
       },
       "sum": {
@@ -10743,7 +10753,7 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-03-17T04:23:48Z",
+        "datetime": "2026-03-19T16:23:16Z",
         "scriptName": "ldc-shop"
       },
       "sum": {
@@ -10863,8 +10873,8 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-03-25T10:39:38Z",
-        "scriptName": "ldc-shop"
+        "datetime": "2026-03-24T10:39:03Z",
+        "scriptName": "emby"
       },
       "sum": {
         "errors": 0,
@@ -10873,8 +10883,8 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-03-24T10:39:03Z",
-        "scriptName": "emby"
+        "datetime": "2026-03-25T10:39:38Z",
+        "scriptName": "ldc-shop"
       },
       "sum": {
         "errors": 0,
@@ -11663,8 +11673,8 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-03-05T14:07:19Z",
-        "scriptName": "subscription-manager"
+        "datetime": "2026-03-25T11:25:38Z",
+        "scriptName": "ldc-shop"
       },
       "sum": {
         "errors": 0,
@@ -11673,8 +11683,8 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-03-25T11:25:38Z",
-        "scriptName": "ldc-shop"
+        "datetime": "2026-03-05T14:07:19Z",
+        "scriptName": "subscription-manager"
       },
       "sum": {
         "errors": 0,
@@ -12033,7 +12043,7 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-03-19T00:40:54Z",
+        "datetime": "2026-03-25T07:50:38Z",
         "scriptName": "ldc-shop"
       },
       "sum": {
@@ -12043,7 +12053,7 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-03-25T07:50:38Z",
+        "datetime": "2026-03-19T00:40:54Z",
         "scriptName": "ldc-shop"
       },
       "sum": {
@@ -12783,8 +12793,8 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-03-08T10:49:18Z",
-        "scriptName": "subscription-manager-new"
+        "datetime": "2026-03-18T12:37:51Z",
+        "scriptName": "ldc-shop"
       },
       "sum": {
         "errors": 0,
@@ -12793,8 +12803,8 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-03-18T12:37:51Z",
-        "scriptName": "ldc-shop"
+        "datetime": "2026-03-08T10:49:18Z",
+        "scriptName": "subscription-manager-new"
       },
       "sum": {
         "errors": 0,
@@ -13383,22 +13393,22 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-02-28T14:56:11Z",
-        "scriptName": "subscription-manager"
-      },
-      "sum": {
-        "errors": 0,
-        "requests": 1
-      }
-    },
-    {
-      "dimensions": {
         "datetime": "2026-03-06T10:28:27Z",
         "scriptName": "emby"
       },
       "sum": {
         "errors": 0,
         "requests": 8
+      }
+    },
+    {
+      "dimensions": {
+        "datetime": "2026-02-28T14:56:11Z",
+        "scriptName": "subscription-manager"
+      },
+      "sum": {
+        "errors": 0,
+        "requests": 1
       }
     },
     {
@@ -13703,7 +13713,7 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-03-21T23:11:20Z",
+        "datetime": "2026-03-17T11:56:48Z",
         "scriptName": "ldc-shop"
       },
       "sum": {
@@ -13713,7 +13723,7 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-03-17T11:56:48Z",
+        "datetime": "2026-03-21T23:11:20Z",
         "scriptName": "ldc-shop"
       },
       "sum": {
@@ -13883,8 +13893,8 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-02-28T10:19:45Z",
-        "scriptName": "subscription-manager"
+        "datetime": "2026-03-28T01:21:49Z",
+        "scriptName": "ldc-shop"
       },
       "sum": {
         "errors": 0,
@@ -13893,8 +13903,8 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-03-28T01:21:49Z",
-        "scriptName": "ldc-shop"
+        "datetime": "2026-02-28T10:19:45Z",
+        "scriptName": "subscription-manager"
       },
       "sum": {
         "errors": 0,
@@ -14033,16 +14043,6 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-03-16T10:42:53Z",
-        "scriptName": "ldc-shop"
-      },
-      "sum": {
-        "errors": 0,
-        "requests": 1
-      }
-    },
-    {
-      "dimensions": {
         "datetime": "2026-03-19T13:49:09Z",
         "scriptName": "ldc-shop"
       },
@@ -14055,6 +14055,16 @@
       "dimensions": {
         "datetime": "2026-03-02T23:26:13Z",
         "scriptName": "subscription-manager"
+      },
+      "sum": {
+        "errors": 0,
+        "requests": 1
+      }
+    },
+    {
+      "dimensions": {
+        "datetime": "2026-03-16T10:42:53Z",
+        "scriptName": "ldc-shop"
       },
       "sum": {
         "errors": 0,
@@ -14403,8 +14413,8 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-03-02T09:08:00Z",
-        "scriptName": "private-config"
+        "datetime": "2026-03-06T23:00:18Z",
+        "scriptName": "subscription-manager"
       },
       "sum": {
         "errors": 0,
@@ -14413,8 +14423,8 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-03-06T23:00:18Z",
-        "scriptName": "subscription-manager"
+        "datetime": "2026-03-02T09:08:00Z",
+        "scriptName": "private-config"
       },
       "sum": {
         "errors": 0,
@@ -14503,8 +14513,8 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-03-26T03:25:52Z",
-        "scriptName": "ldc-shop"
+        "datetime": "2026-03-14T03:40:58Z",
+        "scriptName": "private-config"
       },
       "sum": {
         "errors": 0,
@@ -14513,8 +14523,8 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-03-14T03:40:58Z",
-        "scriptName": "private-config"
+        "datetime": "2026-03-26T03:25:52Z",
+        "scriptName": "ldc-shop"
       },
       "sum": {
         "errors": 0,
@@ -14643,7 +14653,7 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-03-19T20:51:16Z",
+        "datetime": "2026-03-27T19:43:38Z",
         "scriptName": "ldc-shop"
       },
       "sum": {
@@ -14653,7 +14663,7 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-03-27T19:43:38Z",
+        "datetime": "2026-03-19T20:51:16Z",
         "scriptName": "ldc-shop"
       },
       "sum": {
@@ -14883,8 +14893,8 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-03-17T07:25:28Z",
-        "scriptName": "ldc-shop"
+        "datetime": "2026-02-26T12:49:31Z",
+        "scriptName": "subscription-manager"
       },
       "sum": {
         "errors": 0,
@@ -14893,8 +14903,8 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-02-26T12:49:31Z",
-        "scriptName": "subscription-manager"
+        "datetime": "2026-03-17T07:25:28Z",
+        "scriptName": "ldc-shop"
       },
       "sum": {
         "errors": 0,
@@ -15223,22 +15233,22 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-03-07T11:17:04Z",
-        "scriptName": "emby"
-      },
-      "sum": {
-        "errors": 0,
-        "requests": 2
-      }
-    },
-    {
-      "dimensions": {
         "datetime": "2026-03-07T10:49:04Z",
         "scriptName": "emby"
       },
       "sum": {
         "errors": 0,
         "requests": 6
+      }
+    },
+    {
+      "dimensions": {
+        "datetime": "2026-03-07T11:17:04Z",
+        "scriptName": "emby"
+      },
+      "sum": {
+        "errors": 0,
+        "requests": 2
       }
     },
     {
@@ -15783,16 +15793,6 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-03-24T11:02:16Z",
-        "scriptName": "ldc-shop"
-      },
-      "sum": {
-        "errors": 0,
-        "requests": 1
-      }
-    },
-    {
-      "dimensions": {
         "datetime": "2026-03-16T22:56:31Z",
         "scriptName": "ldc-shop"
       },
@@ -15803,7 +15803,7 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-03-18T09:20:51Z",
+        "datetime": "2026-03-24T11:02:16Z",
         "scriptName": "ldc-shop"
       },
       "sum": {
@@ -15814,6 +15814,16 @@
     {
       "dimensions": {
         "datetime": "2026-03-17T18:51:49Z",
+        "scriptName": "ldc-shop"
+      },
+      "sum": {
+        "errors": 0,
+        "requests": 1
+      }
+    },
+    {
+      "dimensions": {
+        "datetime": "2026-03-18T09:20:51Z",
         "scriptName": "ldc-shop"
       },
       "sum": {
@@ -15993,22 +16003,22 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-03-27T13:45:38Z",
-        "scriptName": "ldc-shop"
-      },
-      "sum": {
-        "errors": 0,
-        "requests": 1
-      }
-    },
-    {
-      "dimensions": {
         "datetime": "2026-03-14T16:27:45Z",
         "scriptName": "emby"
       },
       "sum": {
         "errors": 0,
         "requests": 11
+      }
+    },
+    {
+      "dimensions": {
+        "datetime": "2026-03-27T13:45:38Z",
+        "scriptName": "ldc-shop"
+      },
+      "sum": {
+        "errors": 0,
+        "requests": 1
       }
     },
     {
@@ -16153,7 +16163,7 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-03-25T22:18:39Z",
+        "datetime": "2026-03-21T06:47:14Z",
         "scriptName": "ldc-shop"
       },
       "sum": {
@@ -16163,7 +16173,7 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-03-21T06:47:14Z",
+        "datetime": "2026-03-25T22:18:39Z",
         "scriptName": "ldc-shop"
       },
       "sum": {
@@ -16753,16 +16763,6 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-03-17T20:01:49Z",
-        "scriptName": "ldc-shop"
-      },
-      "sum": {
-        "errors": 0,
-        "requests": 1
-      }
-    },
-    {
-      "dimensions": {
         "datetime": "2026-03-28T02:26:49Z",
         "scriptName": "ldc-shop"
       },
@@ -16773,7 +16773,7 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-03-18T05:34:51Z",
+        "datetime": "2026-03-17T20:01:49Z",
         "scriptName": "ldc-shop"
       },
       "sum": {
@@ -16784,6 +16784,16 @@
     {
       "dimensions": {
         "datetime": "2026-03-22T16:21:11Z",
+        "scriptName": "ldc-shop"
+      },
+      "sum": {
+        "errors": 0,
+        "requests": 1
+      }
+    },
+    {
+      "dimensions": {
+        "datetime": "2026-03-18T05:34:51Z",
         "scriptName": "ldc-shop"
       },
       "sum": {
@@ -17673,8 +17683,8 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-03-21T11:48:16Z",
-        "scriptName": "ldc-shop"
+        "datetime": "2026-03-07T12:05:22Z",
+        "scriptName": "emby"
       },
       "sum": {
         "errors": 0,
@@ -17703,8 +17713,8 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-03-07T12:05:22Z",
-        "scriptName": "emby"
+        "datetime": "2026-03-21T11:48:16Z",
+        "scriptName": "ldc-shop"
       },
       "sum": {
         "errors": 0,
@@ -18253,22 +18263,22 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-03-17T17:23:49Z",
-        "scriptName": "ldc-shop"
-      },
-      "sum": {
-        "errors": 0,
-        "requests": 1
-      }
-    },
-    {
-      "dimensions": {
         "datetime": "2026-03-13T06:52:49Z",
         "scriptName": "subscription-manager-new"
       },
       "sum": {
         "errors": 0,
         "requests": 110
+      }
+    },
+    {
+      "dimensions": {
+        "datetime": "2026-03-17T17:23:49Z",
+        "scriptName": "ldc-shop"
+      },
+      "sum": {
+        "errors": 0,
+        "requests": 1
       }
     },
     {
@@ -18443,8 +18453,8 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-03-01T06:43:47Z",
-        "scriptName": "emby"
+        "datetime": "2026-03-20T02:21:49Z",
+        "scriptName": "ldc-shop"
       },
       "sum": {
         "errors": 0,
@@ -18453,8 +18463,8 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-03-20T02:21:49Z",
-        "scriptName": "ldc-shop"
+        "datetime": "2026-03-01T06:43:47Z",
+        "scriptName": "emby"
       },
       "sum": {
         "errors": 0,
@@ -18483,7 +18493,7 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-03-24T13:31:16Z",
+        "datetime": "2026-03-17T00:52:32Z",
         "scriptName": "ldc-shop"
       },
       "sum": {
@@ -18493,7 +18503,7 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-03-17T00:52:32Z",
+        "datetime": "2026-03-24T13:31:16Z",
         "scriptName": "ldc-shop"
       },
       "sum": {
@@ -18603,7 +18613,7 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-03-20T08:44:49Z",
+        "datetime": "2026-03-26T00:44:39Z",
         "scriptName": "ldc-shop"
       },
       "sum": {
@@ -18613,7 +18623,7 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-03-26T00:44:39Z",
+        "datetime": "2026-03-20T08:44:49Z",
         "scriptName": "ldc-shop"
       },
       "sum": {
@@ -18983,8 +18993,8 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-03-05T17:42:42Z",
-        "scriptName": "subscription-manager"
+        "datetime": "2026-03-21T11:35:16Z",
+        "scriptName": "ldc-shop"
       },
       "sum": {
         "errors": 0,
@@ -18993,8 +19003,8 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-03-21T11:35:16Z",
-        "scriptName": "ldc-shop"
+        "datetime": "2026-03-05T17:42:42Z",
+        "scriptName": "subscription-manager"
       },
       "sum": {
         "errors": 0,
@@ -19215,6 +19225,16 @@
       "dimensions": {
         "datetime": "2026-03-02T06:44:40Z",
         "scriptName": "emby"
+      },
+      "sum": {
+        "errors": 0,
+        "requests": 1
+      }
+    },
+    {
+      "dimensions": {
+        "datetime": "2026-03-28T08:00:25Z",
+        "scriptName": "ldc-shop"
       },
       "sum": {
         "errors": 0,
@@ -19743,8 +19763,8 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-02-28T11:03:47Z",
-        "scriptName": "subscription-manager"
+        "datetime": "2026-03-16T22:56:47Z",
+        "scriptName": "ldc-shop"
       },
       "sum": {
         "errors": 0,
@@ -19763,8 +19783,8 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-03-16T22:56:47Z",
-        "scriptName": "ldc-shop"
+        "datetime": "2026-02-28T11:03:47Z",
+        "scriptName": "subscription-manager"
       },
       "sum": {
         "errors": 0,
@@ -19783,8 +19803,8 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-03-04T14:48:01Z",
-        "scriptName": "subscription-manager"
+        "datetime": "2026-03-18T19:21:58Z",
+        "scriptName": "ldc-shop"
       },
       "sum": {
         "errors": 0,
@@ -19793,8 +19813,8 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-03-18T19:21:58Z",
-        "scriptName": "ldc-shop"
+        "datetime": "2026-03-04T14:48:01Z",
+        "scriptName": "subscription-manager"
       },
       "sum": {
         "errors": 0,
@@ -20433,7 +20453,7 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-03-26T09:18:52Z",
+        "datetime": "2026-03-22T01:11:20Z",
         "scriptName": "ldc-shop"
       },
       "sum": {
@@ -20443,7 +20463,7 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-03-22T01:11:20Z",
+        "datetime": "2026-03-26T09:18:52Z",
         "scriptName": "ldc-shop"
       },
       "sum": {
@@ -20823,8 +20843,8 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-03-27T22:32:57Z",
-        "scriptName": "ldc-shop"
+        "datetime": "2026-03-04T18:59:58Z",
+        "scriptName": "subscription-manager"
       },
       "sum": {
         "errors": 0,
@@ -20833,8 +20853,8 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-03-04T18:59:58Z",
-        "scriptName": "subscription-manager"
+        "datetime": "2026-03-27T22:32:57Z",
+        "scriptName": "ldc-shop"
       },
       "sum": {
         "errors": 0,
@@ -20883,7 +20903,7 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-03-18T17:21:16Z",
+        "datetime": "2026-03-19T19:59:16Z",
         "scriptName": "ldc-shop"
       },
       "sum": {
@@ -20893,7 +20913,7 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-03-19T19:59:16Z",
+        "datetime": "2026-03-18T17:21:16Z",
         "scriptName": "ldc-shop"
       },
       "sum": {
@@ -21093,8 +21113,8 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-03-24T05:06:13Z",
-        "scriptName": "ldc-shop"
+        "datetime": "2026-03-07T12:59:19Z",
+        "scriptName": "emby"
       },
       "sum": {
         "errors": 0,
@@ -21113,7 +21133,7 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-03-23T19:34:33Z",
+        "datetime": "2026-03-24T05:06:13Z",
         "scriptName": "ldc-shop"
       },
       "sum": {
@@ -21123,8 +21143,8 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-03-07T12:59:19Z",
-        "scriptName": "emby"
+        "datetime": "2026-03-23T19:34:33Z",
+        "scriptName": "ldc-shop"
       },
       "sum": {
         "errors": 0,
@@ -21213,7 +21233,7 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-03-18T01:14:51Z",
+        "datetime": "2026-03-20T17:52:42Z",
         "scriptName": "ldc-shop"
       },
       "sum": {
@@ -21223,7 +21243,7 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-03-20T17:52:42Z",
+        "datetime": "2026-03-18T01:14:51Z",
         "scriptName": "ldc-shop"
       },
       "sum": {
@@ -21293,7 +21313,7 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-03-24T11:34:16Z",
+        "datetime": "2026-03-19T10:22:09Z",
         "scriptName": "ldc-shop"
       },
       "sum": {
@@ -21313,7 +21333,7 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-03-19T10:22:09Z",
+        "datetime": "2026-03-24T11:34:16Z",
         "scriptName": "ldc-shop"
       },
       "sum": {
@@ -21573,7 +21593,7 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-03-26T05:20:53Z",
+        "datetime": "2026-03-16T13:53:45Z",
         "scriptName": "ldc-shop"
       },
       "sum": {
@@ -21583,7 +21603,7 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-03-16T13:53:45Z",
+        "datetime": "2026-03-26T05:20:53Z",
         "scriptName": "ldc-shop"
       },
       "sum": {
@@ -21923,22 +21943,22 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-02-28T10:25:19Z",
-        "scriptName": "subscription-manager"
-      },
-      "sum": {
-        "errors": 0,
-        "requests": 1
-      }
-    },
-    {
-      "dimensions": {
         "datetime": "2026-03-01T16:11:42Z",
         "scriptName": "subscription-manager"
       },
       "sum": {
         "errors": 0,
         "requests": 8
+      }
+    },
+    {
+      "dimensions": {
+        "datetime": "2026-02-28T10:25:19Z",
+        "scriptName": "subscription-manager"
+      },
+      "sum": {
+        "errors": 0,
+        "requests": 1
       }
     },
     {
@@ -22443,7 +22463,7 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-03-22T05:57:23Z",
+        "datetime": "2026-03-16T20:10:50Z",
         "scriptName": "ldc-shop"
       },
       "sum": {
@@ -22453,7 +22473,7 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-03-16T20:10:50Z",
+        "datetime": "2026-03-22T05:57:23Z",
         "scriptName": "ldc-shop"
       },
       "sum": {
@@ -22773,6 +22793,16 @@
     },
     {
       "dimensions": {
+        "datetime": "2026-03-17T19:53:49Z",
+        "scriptName": "ldc-shop"
+      },
+      "sum": {
+        "errors": 0,
+        "requests": 1
+      }
+    },
+    {
+      "dimensions": {
         "datetime": "2026-03-24T06:56:13Z",
         "scriptName": "ldc-shop"
       },
@@ -22783,8 +22813,8 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-03-17T19:53:49Z",
-        "scriptName": "ldc-shop"
+        "datetime": "2026-03-04T00:40:57Z",
+        "scriptName": "emby"
       },
       "sum": {
         "errors": 0,
@@ -22805,16 +22835,6 @@
       "dimensions": {
         "datetime": "2026-03-28T07:41:24Z",
         "scriptName": "ldc-shop"
-      },
-      "sum": {
-        "errors": 0,
-        "requests": 1
-      }
-    },
-    {
-      "dimensions": {
-        "datetime": "2026-03-04T00:40:57Z",
-        "scriptName": "emby"
       },
       "sum": {
         "errors": 0,
@@ -23983,22 +24003,22 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-03-10T16:39:36Z",
-        "scriptName": "subscription-manager"
-      },
-      "sum": {
-        "errors": 0,
-        "requests": 1
-      }
-    },
-    {
-      "dimensions": {
         "datetime": "2026-03-17T11:19:44Z",
         "scriptName": "ldc-shop"
       },
       "sum": {
         "errors": 0,
         "requests": 2
+      }
+    },
+    {
+      "dimensions": {
+        "datetime": "2026-03-10T16:39:36Z",
+        "scriptName": "subscription-manager"
+      },
+      "sum": {
+        "errors": 0,
+        "requests": 1
       }
     },
     {
@@ -24603,7 +24623,7 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-03-24T23:05:07Z",
+        "datetime": "2026-03-17T19:08:49Z",
         "scriptName": "ldc-shop"
       },
       "sum": {
@@ -24613,7 +24633,7 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-03-17T19:08:49Z",
+        "datetime": "2026-03-24T23:05:07Z",
         "scriptName": "ldc-shop"
       },
       "sum": {
@@ -24663,6 +24683,16 @@
     },
     {
       "dimensions": {
+        "datetime": "2026-03-27T08:27:23Z",
+        "scriptName": "ldc-shop"
+      },
+      "sum": {
+        "errors": 0,
+        "requests": 1
+      }
+    },
+    {
+      "dimensions": {
         "datetime": "2026-03-17T14:00:39Z",
         "scriptName": "ldc-shop"
       },
@@ -24673,7 +24703,7 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-03-27T08:27:23Z",
+        "datetime": "2026-03-28T07:55:24Z",
         "scriptName": "ldc-shop"
       },
       "sum": {
@@ -25003,8 +25033,8 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-03-02T09:14:09Z",
-        "scriptName": "emby"
+        "datetime": "2026-03-23T04:15:22Z",
+        "scriptName": "ldc-shop"
       },
       "sum": {
         "errors": 0,
@@ -25013,8 +25043,8 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-03-23T04:15:22Z",
-        "scriptName": "ldc-shop"
+        "datetime": "2026-03-02T09:14:09Z",
+        "scriptName": "emby"
       },
       "sum": {
         "errors": 0,
@@ -25133,16 +25163,6 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-03-17T02:47:47Z",
-        "scriptName": "ldc-shop"
-      },
-      "sum": {
-        "errors": 0,
-        "requests": 1
-      }
-    },
-    {
-      "dimensions": {
         "datetime": "2026-03-19T18:51:16Z",
         "scriptName": "ldc-shop"
       },
@@ -25154,6 +25174,16 @@
     {
       "dimensions": {
         "datetime": "2026-03-18T20:29:58Z",
+        "scriptName": "ldc-shop"
+      },
+      "sum": {
+        "errors": 0,
+        "requests": 1
+      }
+    },
+    {
+      "dimensions": {
+        "datetime": "2026-03-17T02:47:47Z",
         "scriptName": "ldc-shop"
       },
       "sum": {
@@ -25353,22 +25383,22 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-03-01T21:56:04Z",
-        "scriptName": "emby"
-      },
-      "sum": {
-        "errors": 0,
-        "requests": 2
-      }
-    },
-    {
-      "dimensions": {
         "datetime": "2026-03-18T20:41:44Z",
         "scriptName": "subscription-manager"
       },
       "sum": {
         "errors": 0,
         "requests": 1
+      }
+    },
+    {
+      "dimensions": {
+        "datetime": "2026-03-01T21:56:04Z",
+        "scriptName": "emby"
+      },
+      "sum": {
+        "errors": 0,
+        "requests": 2
       }
     },
     {
@@ -25453,22 +25483,22 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-03-23T07:48:18Z",
-        "scriptName": "ldc-shop"
-      },
-      "sum": {
-        "errors": 0,
-        "requests": 1
-      }
-    },
-    {
-      "dimensions": {
         "datetime": "2026-03-01T14:53:51Z",
         "scriptName": "emby"
       },
       "sum": {
         "errors": 0,
         "requests": 2
+      }
+    },
+    {
+      "dimensions": {
+        "datetime": "2026-03-23T07:48:18Z",
+        "scriptName": "ldc-shop"
+      },
+      "sum": {
+        "errors": 0,
+        "requests": 1
       }
     },
     {
@@ -25663,22 +25693,22 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-03-18T02:34:51Z",
-        "scriptName": "ldc-shop"
-      },
-      "sum": {
-        "errors": 0,
-        "requests": 1
-      }
-    },
-    {
-      "dimensions": {
         "datetime": "2026-03-09T08:51:29Z",
         "scriptName": "emby"
       },
       "sum": {
         "errors": 0,
         "requests": 3
+      }
+    },
+    {
+      "dimensions": {
+        "datetime": "2026-03-18T02:34:51Z",
+        "scriptName": "ldc-shop"
+      },
+      "sum": {
+        "errors": 0,
+        "requests": 1
       }
     },
     {
@@ -25723,6 +25753,16 @@
     },
     {
       "dimensions": {
+        "datetime": "2026-03-23T04:53:19Z",
+        "scriptName": "ldc-shop"
+      },
+      "sum": {
+        "errors": 0,
+        "requests": 1
+      }
+    },
+    {
+      "dimensions": {
         "datetime": "2026-03-21T02:12:42Z",
         "scriptName": "ldc-shop"
       },
@@ -25735,16 +25775,6 @@
       "dimensions": {
         "datetime": "2026-03-21T18:15:05Z",
         "scriptName": "emby"
-      },
-      "sum": {
-        "errors": 0,
-        "requests": 1
-      }
-    },
-    {
-      "dimensions": {
-        "datetime": "2026-03-23T04:53:19Z",
-        "scriptName": "ldc-shop"
       },
       "sum": {
         "errors": 0,
@@ -26063,8 +26093,8 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-02-28T05:25:19Z",
-        "scriptName": "subscription-manager"
+        "datetime": "2026-03-23T01:23:19Z",
+        "scriptName": "ldc-shop"
       },
       "sum": {
         "errors": 0,
@@ -26073,8 +26103,8 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-03-23T01:23:19Z",
-        "scriptName": "ldc-shop"
+        "datetime": "2026-02-28T05:25:19Z",
+        "scriptName": "subscription-manager"
       },
       "sum": {
         "errors": 0,
@@ -26363,16 +26393,6 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-03-07T04:00:26Z",
-        "scriptName": "subscription-manager"
-      },
-      "sum": {
-        "errors": 0,
-        "requests": 1
-      }
-    },
-    {
-      "dimensions": {
         "datetime": "2026-03-23T07:54:18Z",
         "scriptName": "ldc-shop"
       },
@@ -26385,6 +26405,16 @@
       "dimensions": {
         "datetime": "2026-03-17T01:24:47Z",
         "scriptName": "ldc-shop"
+      },
+      "sum": {
+        "errors": 0,
+        "requests": 1
+      }
+    },
+    {
+      "dimensions": {
+        "datetime": "2026-03-07T04:00:26Z",
+        "scriptName": "subscription-manager"
       },
       "sum": {
         "errors": 0,
@@ -26483,7 +26513,7 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-03-18T19:26:07Z",
+        "datetime": "2026-02-28T08:01:41Z",
         "scriptName": "subscription-manager"
       },
       "sum": {
@@ -26493,7 +26523,7 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-02-28T08:01:41Z",
+        "datetime": "2026-03-18T19:26:07Z",
         "scriptName": "subscription-manager"
       },
       "sum": {
@@ -26544,6 +26574,16 @@
     {
       "dimensions": {
         "datetime": "2026-03-21T21:25:07Z",
+        "scriptName": "ldc-shop"
+      },
+      "sum": {
+        "errors": 0,
+        "requests": 1
+      }
+    },
+    {
+      "dimensions": {
+        "datetime": "2026-03-28T08:15:24Z",
         "scriptName": "ldc-shop"
       },
       "sum": {
@@ -26683,22 +26723,22 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-03-17T13:58:55Z",
-        "scriptName": "ldc-shop"
-      },
-      "sum": {
-        "errors": 0,
-        "requests": 2
-      }
-    },
-    {
-      "dimensions": {
         "datetime": "2026-03-22T22:29:19Z",
         "scriptName": "ldc-shop"
       },
       "sum": {
         "errors": 0,
         "requests": 1
+      }
+    },
+    {
+      "dimensions": {
+        "datetime": "2026-03-17T13:58:55Z",
+        "scriptName": "ldc-shop"
+      },
+      "sum": {
+        "errors": 0,
+        "requests": 2
       }
     },
     {
@@ -27153,7 +27193,7 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-03-20T06:37:49Z",
+        "datetime": "2026-03-24T05:54:13Z",
         "scriptName": "ldc-shop"
       },
       "sum": {
@@ -27163,7 +27203,7 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-03-24T05:54:13Z",
+        "datetime": "2026-03-20T06:37:49Z",
         "scriptName": "ldc-shop"
       },
       "sum": {
@@ -27903,8 +27943,8 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-03-04T14:11:16Z",
-        "scriptName": "subscription-manager"
+        "datetime": "2026-03-23T21:44:42Z",
+        "scriptName": "private-config"
       },
       "sum": {
         "errors": 0,
@@ -27913,8 +27953,8 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-03-23T21:44:42Z",
-        "scriptName": "private-config"
+        "datetime": "2026-03-04T14:11:16Z",
+        "scriptName": "subscription-manager"
       },
       "sum": {
         "errors": 0,
@@ -29163,22 +29203,22 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-02-27T12:47:13Z",
-        "scriptName": "subscription-manager"
-      },
-      "sum": {
-        "errors": 0,
-        "requests": 1
-      }
-    },
-    {
-      "dimensions": {
         "datetime": "2026-03-08T18:14:11Z",
         "scriptName": "emby"
       },
       "sum": {
         "errors": 0,
         "requests": 32
+      }
+    },
+    {
+      "dimensions": {
+        "datetime": "2026-02-27T12:47:13Z",
+        "scriptName": "subscription-manager"
+      },
+      "sum": {
+        "errors": 0,
+        "requests": 1
       }
     },
     {
@@ -29233,8 +29273,8 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-02-28T02:17:30Z",
-        "scriptName": "emby"
+        "datetime": "2026-03-24T21:42:30Z",
+        "scriptName": "private-config"
       },
       "sum": {
         "errors": 0,
@@ -29243,8 +29283,8 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-03-24T21:42:30Z",
-        "scriptName": "private-config"
+        "datetime": "2026-02-28T02:17:30Z",
+        "scriptName": "emby"
       },
       "sum": {
         "errors": 0,
@@ -29423,6 +29463,16 @@
     },
     {
       "dimensions": {
+        "datetime": "2026-03-02T21:34:49Z",
+        "scriptName": "subscription-manager"
+      },
+      "sum": {
+        "errors": 0,
+        "requests": 1
+      }
+    },
+    {
+      "dimensions": {
         "datetime": "2026-03-21T07:24:14Z",
         "scriptName": "ldc-shop"
       },
@@ -29433,8 +29483,8 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-03-02T21:34:49Z",
-        "scriptName": "subscription-manager"
+        "datetime": "2026-03-22T05:13:23Z",
+        "scriptName": "ldc-shop"
       },
       "sum": {
         "errors": 0,
@@ -29449,16 +29499,6 @@
       "sum": {
         "errors": 0,
         "requests": 10
-      }
-    },
-    {
-      "dimensions": {
-        "datetime": "2026-03-22T05:13:23Z",
-        "scriptName": "ldc-shop"
-      },
-      "sum": {
-        "errors": 0,
-        "requests": 1
       }
     },
     {
@@ -29483,7 +29523,7 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-03-17T09:09:48Z",
+        "datetime": "2026-03-21T07:26:14Z",
         "scriptName": "ldc-shop"
       },
       "sum": {
@@ -29493,7 +29533,7 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-03-21T07:26:14Z",
+        "datetime": "2026-03-17T09:09:48Z",
         "scriptName": "ldc-shop"
       },
       "sum": {
@@ -29573,8 +29613,8 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-03-02T10:52:08Z",
-        "scriptName": "subscription-manager"
+        "datetime": "2026-03-21T02:33:42Z",
+        "scriptName": "ldc-shop"
       },
       "sum": {
         "errors": 0,
@@ -29583,8 +29623,8 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-03-21T02:33:42Z",
-        "scriptName": "ldc-shop"
+        "datetime": "2026-03-02T10:52:08Z",
+        "scriptName": "subscription-manager"
       },
       "sum": {
         "errors": 0,
@@ -29663,7 +29703,7 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-03-20T09:44:42Z",
+        "datetime": "2026-03-25T03:39:07Z",
         "scriptName": "ldc-shop"
       },
       "sum": {
@@ -29673,7 +29713,7 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-03-25T03:39:07Z",
+        "datetime": "2026-03-20T09:44:42Z",
         "scriptName": "ldc-shop"
       },
       "sum": {
@@ -31533,16 +31573,6 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-03-25T11:38:38Z",
-        "scriptName": "ldc-shop"
-      },
-      "sum": {
-        "errors": 0,
-        "requests": 1
-      }
-    },
-    {
-      "dimensions": {
         "datetime": "2026-02-28T16:18:28Z",
         "scriptName": "subscription-manager"
       },
@@ -31554,6 +31584,16 @@
     {
       "dimensions": {
         "datetime": "2026-03-26T21:02:26Z",
+        "scriptName": "ldc-shop"
+      },
+      "sum": {
+        "errors": 0,
+        "requests": 1
+      }
+    },
+    {
+      "dimensions": {
+        "datetime": "2026-03-25T11:38:38Z",
         "scriptName": "ldc-shop"
       },
       "sum": {
@@ -31913,7 +31953,7 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-03-26T04:19:52Z",
+        "datetime": "2026-03-27T23:45:49Z",
         "scriptName": "ldc-shop"
       },
       "sum": {
@@ -31923,7 +31963,7 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-03-27T23:45:49Z",
+        "datetime": "2026-03-26T04:19:52Z",
         "scriptName": "ldc-shop"
       },
       "sum": {
@@ -32143,8 +32183,8 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-03-10T12:17:22Z",
-        "scriptName": "subscription-manager"
+        "datetime": "2026-03-23T01:03:19Z",
+        "scriptName": "ldc-shop"
       },
       "sum": {
         "errors": 0,
@@ -32153,8 +32193,8 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-03-23T01:03:19Z",
-        "scriptName": "ldc-shop"
+        "datetime": "2026-03-10T12:17:22Z",
+        "scriptName": "subscription-manager"
       },
       "sum": {
         "errors": 0,
@@ -32293,7 +32333,7 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-03-16T18:45:44Z",
+        "datetime": "2026-03-25T04:15:07Z",
         "scriptName": "ldc-shop"
       },
       "sum": {
@@ -32303,7 +32343,7 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-03-25T04:15:07Z",
+        "datetime": "2026-03-16T18:45:44Z",
         "scriptName": "ldc-shop"
       },
       "sum": {
@@ -32643,7 +32683,7 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-03-22T02:54:20Z",
+        "datetime": "2026-03-20T01:11:16Z",
         "scriptName": "ldc-shop"
       },
       "sum": {
@@ -32653,7 +32693,7 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-03-20T01:11:16Z",
+        "datetime": "2026-03-22T02:54:20Z",
         "scriptName": "ldc-shop"
       },
       "sum": {
@@ -32943,7 +32983,7 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-03-19T23:30:23Z",
+        "datetime": "2026-03-28T01:55:54Z",
         "scriptName": "ldc-shop"
       },
       "sum": {
@@ -32953,7 +32993,7 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-03-28T01:55:54Z",
+        "datetime": "2026-03-19T23:30:23Z",
         "scriptName": "ldc-shop"
       },
       "sum": {
@@ -33145,6 +33185,16 @@
       "dimensions": {
         "datetime": "2026-03-27T10:19:23Z",
         "scriptName": "ldc-shop"
+      },
+      "sum": {
+        "errors": 0,
+        "requests": 1
+      }
+    },
+    {
+      "dimensions": {
+        "datetime": "2026-03-28T08:00:25Z",
+        "scriptName": "subscription-manager-new"
       },
       "sum": {
         "errors": 0,
@@ -33573,7 +33623,7 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-03-24T04:39:13Z",
+        "datetime": "2026-03-20T06:28:49Z",
         "scriptName": "ldc-shop"
       },
       "sum": {
@@ -33583,7 +33633,7 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-03-20T06:28:49Z",
+        "datetime": "2026-03-24T04:39:13Z",
         "scriptName": "ldc-shop"
       },
       "sum": {
@@ -33603,8 +33653,8 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-03-18T19:42:58Z",
-        "scriptName": "ldc-shop"
+        "datetime": "2026-03-04T20:20:09Z",
+        "scriptName": "subscription-manager"
       },
       "sum": {
         "errors": 0,
@@ -33613,8 +33663,8 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-03-04T20:20:09Z",
-        "scriptName": "subscription-manager"
+        "datetime": "2026-03-18T19:42:58Z",
+        "scriptName": "ldc-shop"
       },
       "sum": {
         "errors": 0,
@@ -33773,7 +33823,7 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-03-01T19:30:03Z",
+        "datetime": "2026-03-10T12:53:12Z",
         "scriptName": "subscription-manager"
       },
       "sum": {
@@ -33783,7 +33833,7 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-03-10T12:53:12Z",
+        "datetime": "2026-03-01T19:30:03Z",
         "scriptName": "subscription-manager"
       },
       "sum": {
@@ -34953,8 +35003,8 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-03-01T19:38:45Z",
-        "scriptName": "subscription-manager"
+        "datetime": "2026-03-04T00:40:49Z",
+        "scriptName": "emby"
       },
       "sum": {
         "errors": 0,
@@ -34963,8 +35013,8 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-03-04T00:40:49Z",
-        "scriptName": "emby"
+        "datetime": "2026-03-01T19:38:45Z",
+        "scriptName": "subscription-manager"
       },
       "sum": {
         "errors": 0,
@@ -35273,8 +35323,8 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-03-23T12:14:18Z",
-        "scriptName": "ldc-shop"
+        "datetime": "2026-03-10T15:24:48Z",
+        "scriptName": "subscription-manager"
       },
       "sum": {
         "errors": 0,
@@ -35283,8 +35333,8 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-03-10T15:24:48Z",
-        "scriptName": "subscription-manager"
+        "datetime": "2026-03-23T12:14:18Z",
+        "scriptName": "ldc-shop"
       },
       "sum": {
         "errors": 0,
@@ -35533,8 +35583,8 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-03-02T12:25:53Z",
-        "scriptName": "subscription-manager-new"
+        "datetime": "2026-03-26T02:26:52Z",
+        "scriptName": "ldc-shop"
       },
       "sum": {
         "errors": 0,
@@ -35543,8 +35593,8 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-03-26T02:26:52Z",
-        "scriptName": "ldc-shop"
+        "datetime": "2026-03-02T12:25:53Z",
+        "scriptName": "subscription-manager-new"
       },
       "sum": {
         "errors": 0,
@@ -35663,7 +35713,7 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-03-25T16:37:38Z",
+        "datetime": "2026-03-22T00:06:20Z",
         "scriptName": "ldc-shop"
       },
       "sum": {
@@ -35673,7 +35723,7 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-03-22T00:06:20Z",
+        "datetime": "2026-03-25T16:37:38Z",
         "scriptName": "ldc-shop"
       },
       "sum": {
@@ -35853,22 +35903,22 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-03-01T13:33:38Z",
-        "scriptName": "emby"
-      },
-      "sum": {
-        "errors": 0,
-        "requests": 8
-      }
-    },
-    {
-      "dimensions": {
         "datetime": "2026-03-16T10:55:42Z",
         "scriptName": "ldc-shop"
       },
       "sum": {
         "errors": 0,
         "requests": 4
+      }
+    },
+    {
+      "dimensions": {
+        "datetime": "2026-03-01T13:33:38Z",
+        "scriptName": "emby"
+      },
+      "sum": {
+        "errors": 0,
+        "requests": 8
       }
     },
     {
@@ -36063,7 +36113,7 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-03-04T14:37:19Z",
+        "datetime": "2026-03-02T12:23:02Z",
         "scriptName": "subscription-manager"
       },
       "sum": {
@@ -36073,7 +36123,7 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-03-02T12:23:02Z",
+        "datetime": "2026-03-04T14:37:19Z",
         "scriptName": "subscription-manager"
       },
       "sum": {
@@ -36123,22 +36173,22 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-03-01T12:25:17Z",
-        "scriptName": "emby"
-      },
-      "sum": {
-        "errors": 0,
-        "requests": 1
-      }
-    },
-    {
-      "dimensions": {
         "datetime": "2026-03-02T12:23:39Z",
         "scriptName": "subscription-manager-new"
       },
       "sum": {
         "errors": 0,
         "requests": 54
+      }
+    },
+    {
+      "dimensions": {
+        "datetime": "2026-03-01T12:25:17Z",
+        "scriptName": "emby"
+      },
+      "sum": {
+        "errors": 0,
+        "requests": 1
       }
     },
     {
@@ -36403,7 +36453,7 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-03-02T18:34:03Z",
+        "datetime": "2026-03-05T21:36:38Z",
         "scriptName": "subscription-manager"
       },
       "sum": {
@@ -36423,7 +36473,7 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-03-05T21:36:38Z",
+        "datetime": "2026-03-02T18:34:03Z",
         "scriptName": "subscription-manager"
       },
       "sum": {
@@ -37323,8 +37373,8 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-03-07T13:00:18Z",
-        "scriptName": "subscription-manager"
+        "datetime": "2026-03-26T17:47:26Z",
+        "scriptName": "ldc-shop"
       },
       "sum": {
         "errors": 0,
@@ -37333,8 +37383,8 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-03-26T17:47:26Z",
-        "scriptName": "ldc-shop"
+        "datetime": "2026-03-07T13:00:18Z",
+        "scriptName": "subscription-manager"
       },
       "sum": {
         "errors": 0,
@@ -37553,22 +37603,22 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-03-14T04:52:49Z",
-        "scriptName": "emby"
-      },
-      "sum": {
-        "errors": 0,
-        "requests": 8
-      }
-    },
-    {
-      "dimensions": {
         "datetime": "2026-03-23T13:10:19Z",
         "scriptName": "ldc-shop"
       },
       "sum": {
         "errors": 0,
         "requests": 1
+      }
+    },
+    {
+      "dimensions": {
+        "datetime": "2026-03-14T04:52:49Z",
+        "scriptName": "emby"
+      },
+      "sum": {
+        "errors": 0,
+        "requests": 8
       }
     },
     {
@@ -37803,8 +37853,8 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-03-05T16:56:14Z",
-        "scriptName": "subscription-manager"
+        "datetime": "2026-03-02T06:48:11Z",
+        "scriptName": "emby"
       },
       "sum": {
         "errors": 0,
@@ -37813,8 +37863,8 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-03-02T06:48:11Z",
-        "scriptName": "emby"
+        "datetime": "2026-03-05T16:56:14Z",
+        "scriptName": "subscription-manager"
       },
       "sum": {
         "errors": 0,
@@ -38463,8 +38513,8 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-02-26T11:58:01Z",
-        "scriptName": "subscription-manager"
+        "datetime": "2026-03-17T07:57:48Z",
+        "scriptName": "ldc-shop"
       },
       "sum": {
         "errors": 0,
@@ -38493,8 +38543,8 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-03-17T07:57:48Z",
-        "scriptName": "ldc-shop"
+        "datetime": "2026-02-26T11:58:01Z",
+        "scriptName": "subscription-manager"
       },
       "sum": {
         "errors": 0,
@@ -39153,7 +39203,7 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-03-21T12:57:16Z",
+        "datetime": "2026-03-25T05:08:07Z",
         "scriptName": "ldc-shop"
       },
       "sum": {
@@ -39163,7 +39213,7 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-03-25T05:08:07Z",
+        "datetime": "2026-03-21T12:57:16Z",
         "scriptName": "ldc-shop"
       },
       "sum": {
@@ -39343,8 +39393,8 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-03-19T17:58:16Z",
-        "scriptName": "ldc-shop"
+        "datetime": "2026-02-28T12:05:25Z",
+        "scriptName": "subscription-manager"
       },
       "sum": {
         "errors": 0,
@@ -39353,8 +39403,8 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-02-28T12:05:25Z",
-        "scriptName": "subscription-manager"
+        "datetime": "2026-03-19T17:58:16Z",
+        "scriptName": "ldc-shop"
       },
       "sum": {
         "errors": 0,
@@ -40313,7 +40363,7 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-03-22T18:37:11Z",
+        "datetime": "2026-03-20T01:49:48Z",
         "scriptName": "ldc-shop"
       },
       "sum": {
@@ -40323,7 +40373,7 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-03-20T01:49:48Z",
+        "datetime": "2026-03-22T18:37:11Z",
         "scriptName": "ldc-shop"
       },
       "sum": {
@@ -40583,22 +40633,22 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-03-21T10:07:14Z",
-        "scriptName": "ldc-shop"
-      },
-      "sum": {
-        "errors": 0,
-        "requests": 1
-      }
-    },
-    {
-      "dimensions": {
         "datetime": "2026-03-02T06:42:36Z",
         "scriptName": "private-config"
       },
       "sum": {
         "errors": 0,
         "requests": 5
+      }
+    },
+    {
+      "dimensions": {
+        "datetime": "2026-03-21T10:07:14Z",
+        "scriptName": "ldc-shop"
+      },
+      "sum": {
+        "errors": 0,
+        "requests": 1
       }
     },
     {
@@ -40613,22 +40663,22 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-02-26T13:33:52Z",
-        "scriptName": "subscription-manager"
-      },
-      "sum": {
-        "errors": 0,
-        "requests": 1
-      }
-    },
-    {
-      "dimensions": {
         "datetime": "2026-03-17T14:01:37Z",
         "scriptName": "ldc-shop"
       },
       "sum": {
         "errors": 3,
         "requests": 3
+      }
+    },
+    {
+      "dimensions": {
+        "datetime": "2026-02-26T13:33:52Z",
+        "scriptName": "subscription-manager"
+      },
+      "sum": {
+        "errors": 0,
+        "requests": 1
       }
     },
     {
@@ -40663,22 +40713,22 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-03-17T13:34:49Z",
-        "scriptName": "ldc-shop"
-      },
-      "sum": {
-        "errors": 0,
-        "requests": 1
-      }
-    },
-    {
-      "dimensions": {
         "datetime": "2026-03-01T11:40:37Z",
         "scriptName": "emby"
       },
       "sum": {
         "errors": 0,
         "requests": 17
+      }
+    },
+    {
+      "dimensions": {
+        "datetime": "2026-03-17T13:34:49Z",
+        "scriptName": "ldc-shop"
+      },
+      "sum": {
+        "errors": 0,
+        "requests": 1
       }
     },
     {
@@ -41573,7 +41623,7 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-03-24T02:19:13Z",
+        "datetime": "2026-03-24T01:29:13Z",
         "scriptName": "ldc-shop"
       },
       "sum": {
@@ -41583,7 +41633,7 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-03-24T01:29:13Z",
+        "datetime": "2026-03-24T02:19:13Z",
         "scriptName": "ldc-shop"
       },
       "sum": {
@@ -41903,8 +41953,8 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-03-04T14:44:57Z",
-        "scriptName": "subscription-manager"
+        "datetime": "2026-03-18T02:27:51Z",
+        "scriptName": "ldc-shop"
       },
       "sum": {
         "errors": 0,
@@ -41933,8 +41983,8 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-03-18T02:27:51Z",
-        "scriptName": "ldc-shop"
+        "datetime": "2026-03-04T14:44:57Z",
+        "scriptName": "subscription-manager"
       },
       "sum": {
         "errors": 0,
@@ -42223,8 +42273,8 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-03-02T08:42:34Z",
-        "scriptName": "subscription-manager"
+        "datetime": "2026-03-19T08:19:09Z",
+        "scriptName": "ldc-shop"
       },
       "sum": {
         "errors": 0,
@@ -42233,8 +42283,8 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-03-19T08:19:09Z",
-        "scriptName": "ldc-shop"
+        "datetime": "2026-03-02T08:42:34Z",
+        "scriptName": "subscription-manager"
       },
       "sum": {
         "errors": 0,
@@ -42333,7 +42383,7 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-03-18T20:13:58Z",
+        "datetime": "2026-03-23T19:38:33Z",
         "scriptName": "ldc-shop"
       },
       "sum": {
@@ -42343,7 +42393,7 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-03-23T19:38:33Z",
+        "datetime": "2026-03-18T20:13:58Z",
         "scriptName": "ldc-shop"
       },
       "sum": {
@@ -42453,22 +42503,22 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-03-20T16:43:42Z",
-        "scriptName": "ldc-shop"
-      },
-      "sum": {
-        "errors": 0,
-        "requests": 1
-      }
-    },
-    {
-      "dimensions": {
         "datetime": "2026-03-17T11:31:09Z",
         "scriptName": "ldc-shop"
       },
       "sum": {
         "errors": 0,
         "requests": 2
+      }
+    },
+    {
+      "dimensions": {
+        "datetime": "2026-03-20T16:43:42Z",
+        "scriptName": "ldc-shop"
+      },
+      "sum": {
+        "errors": 0,
+        "requests": 1
       }
     },
     {
@@ -42983,8 +43033,8 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-02-26T13:43:34Z",
-        "scriptName": "subscription-manager"
+        "datetime": "2026-03-18T16:09:58Z",
+        "scriptName": "ldc-shop"
       },
       "sum": {
         "errors": 0,
@@ -42993,8 +43043,8 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-03-18T16:09:58Z",
-        "scriptName": "ldc-shop"
+        "datetime": "2026-02-26T13:43:34Z",
+        "scriptName": "subscription-manager"
       },
       "sum": {
         "errors": 0,
@@ -43253,8 +43303,8 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-03-26T23:16:31Z",
-        "scriptName": "ldc-shop"
+        "datetime": "2026-03-22T04:00:35Z",
+        "scriptName": "subscription-manager"
       },
       "sum": {
         "errors": 0,
@@ -43263,8 +43313,8 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-03-22T04:00:35Z",
-        "scriptName": "subscription-manager"
+        "datetime": "2026-03-26T23:16:31Z",
+        "scriptName": "ldc-shop"
       },
       "sum": {
         "errors": 0,
@@ -43293,7 +43343,7 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-03-27T05:39:23Z",
+        "datetime": "2026-03-22T00:59:20Z",
         "scriptName": "ldc-shop"
       },
       "sum": {
@@ -43303,7 +43353,7 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-03-22T00:59:20Z",
+        "datetime": "2026-03-27T05:39:23Z",
         "scriptName": "ldc-shop"
       },
       "sum": {
@@ -43423,7 +43473,7 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-03-25T04:58:07Z",
+        "datetime": "2026-03-28T04:54:49Z",
         "scriptName": "ldc-shop"
       },
       "sum": {
@@ -43433,7 +43483,7 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-03-28T04:54:49Z",
+        "datetime": "2026-03-25T04:58:07Z",
         "scriptName": "ldc-shop"
       },
       "sum": {
@@ -43573,7 +43623,7 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-03-24T17:50:17Z",
+        "datetime": "2026-03-16T14:08:45Z",
         "scriptName": "ldc-shop"
       },
       "sum": {
@@ -43583,7 +43633,7 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-03-16T14:08:45Z",
+        "datetime": "2026-03-24T17:50:17Z",
         "scriptName": "ldc-shop"
       },
       "sum": {
@@ -44973,7 +45023,7 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-03-05T16:37:12Z",
+        "datetime": "2026-03-04T18:41:02Z",
         "scriptName": "subscription-manager"
       },
       "sum": {
@@ -44983,7 +45033,7 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-03-04T18:41:02Z",
+        "datetime": "2026-03-05T16:37:12Z",
         "scriptName": "subscription-manager"
       },
       "sum": {
@@ -47003,22 +47053,22 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-03-07T11:19:55Z",
-        "scriptName": "emby"
-      },
-      "sum": {
-        "errors": 0,
-        "requests": 1
-      }
-    },
-    {
-      "dimensions": {
         "datetime": "2026-03-08T15:12:35Z",
         "scriptName": "emby"
       },
       "sum": {
         "errors": 0,
         "requests": 45
+      }
+    },
+    {
+      "dimensions": {
+        "datetime": "2026-03-07T11:19:55Z",
+        "scriptName": "emby"
+      },
+      "sum": {
+        "errors": 0,
+        "requests": 1
       }
     },
     {
@@ -47043,7 +47093,7 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-03-25T09:33:38Z",
+        "datetime": "2026-03-23T11:01:18Z",
         "scriptName": "ldc-shop"
       },
       "sum": {
@@ -47053,7 +47103,7 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-03-23T11:01:18Z",
+        "datetime": "2026-03-25T09:33:38Z",
         "scriptName": "ldc-shop"
       },
       "sum": {
@@ -47203,7 +47253,7 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-03-27T19:14:38Z",
+        "datetime": "2026-03-25T23:25:39Z",
         "scriptName": "ldc-shop"
       },
       "sum": {
@@ -47213,7 +47263,7 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-03-25T23:25:39Z",
+        "datetime": "2026-03-27T19:14:38Z",
         "scriptName": "ldc-shop"
       },
       "sum": {
@@ -48073,16 +48123,6 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-03-01T21:21:30Z",
-        "scriptName": "emby"
-      },
-      "sum": {
-        "errors": 0,
-        "requests": 2
-      }
-    },
-    {
-      "dimensions": {
         "datetime": "2026-03-08T04:46:20Z",
         "scriptName": "emby"
       },
@@ -48099,6 +48139,16 @@
       "sum": {
         "errors": 0,
         "requests": 1
+      }
+    },
+    {
+      "dimensions": {
+        "datetime": "2026-03-01T21:21:30Z",
+        "scriptName": "emby"
+      },
+      "sum": {
+        "errors": 0,
+        "requests": 2
       }
     },
     {
@@ -49073,6 +49123,16 @@
     },
     {
       "dimensions": {
+        "datetime": "2026-03-28T08:07:24Z",
+        "scriptName": "ldc-shop"
+      },
+      "sum": {
+        "errors": 0,
+        "requests": 1
+      }
+    },
+    {
+      "dimensions": {
         "datetime": "2026-03-02T13:05:34Z",
         "scriptName": "subscription-manager"
       },
@@ -49133,7 +49193,7 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-03-18T13:34:51Z",
+        "datetime": "2026-03-18T16:57:58Z",
         "scriptName": "ldc-shop"
       },
       "sum": {
@@ -49143,7 +49203,7 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-03-18T16:57:58Z",
+        "datetime": "2026-03-18T13:34:51Z",
         "scriptName": "ldc-shop"
       },
       "sum": {
@@ -49543,8 +49603,8 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-03-17T23:33:16Z",
-        "scriptName": "ldc-shop"
+        "datetime": "2026-03-05T14:41:04Z",
+        "scriptName": "subscription-manager"
       },
       "sum": {
         "errors": 0,
@@ -49553,8 +49613,8 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-03-05T14:41:04Z",
-        "scriptName": "subscription-manager"
+        "datetime": "2026-03-17T23:33:16Z",
+        "scriptName": "ldc-shop"
       },
       "sum": {
         "errors": 0,
@@ -49583,7 +49643,7 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-03-20T10:43:42Z",
+        "datetime": "2026-03-18T00:21:51Z",
         "scriptName": "ldc-shop"
       },
       "sum": {
@@ -49593,7 +49653,7 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-03-18T00:21:51Z",
+        "datetime": "2026-03-20T10:43:42Z",
         "scriptName": "ldc-shop"
       },
       "sum": {
@@ -49654,6 +49714,16 @@
     {
       "dimensions": {
         "datetime": "2026-03-22T14:46:11Z",
+        "scriptName": "ldc-shop"
+      },
+      "sum": {
+        "errors": 0,
+        "requests": 1
+      }
+    },
+    {
+      "dimensions": {
+        "datetime": "2026-03-28T07:54:24Z",
         "scriptName": "ldc-shop"
       },
       "sum": {
@@ -49773,6 +49843,16 @@
     },
     {
       "dimensions": {
+        "datetime": "2026-03-28T08:13:24Z",
+        "scriptName": "ldc-shop"
+      },
+      "sum": {
+        "errors": 0,
+        "requests": 1
+      }
+    },
+    {
+      "dimensions": {
         "datetime": "2026-02-27T15:52:43Z",
         "scriptName": "subscription-manager"
       },
@@ -49823,7 +49903,7 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-03-10T13:26:28Z",
+        "datetime": "2026-02-27T16:31:37Z",
         "scriptName": "subscription-manager"
       },
       "sum": {
@@ -49833,7 +49913,7 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-02-27T16:31:37Z",
+        "datetime": "2026-03-10T13:26:28Z",
         "scriptName": "subscription-manager"
       },
       "sum": {
@@ -50123,7 +50203,7 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-03-02T19:44:32Z",
+        "datetime": "2026-02-27T14:57:32Z",
         "scriptName": "subscription-manager"
       },
       "sum": {
@@ -50133,7 +50213,7 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-02-27T14:57:32Z",
+        "datetime": "2026-03-02T19:44:32Z",
         "scriptName": "subscription-manager"
       },
       "sum": {
@@ -50173,8 +50253,8 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-03-22T14:53:11Z",
-        "scriptName": "ldc-shop"
+        "datetime": "2026-03-05T21:24:53Z",
+        "scriptName": "subscription-manager"
       },
       "sum": {
         "errors": 0,
@@ -50183,8 +50263,8 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-03-05T21:24:53Z",
-        "scriptName": "subscription-manager"
+        "datetime": "2026-03-22T14:53:11Z",
+        "scriptName": "ldc-shop"
       },
       "sum": {
         "errors": 0,
@@ -50383,7 +50463,7 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-03-18T08:45:51Z",
+        "datetime": "2026-03-27T00:31:31Z",
         "scriptName": "ldc-shop"
       },
       "sum": {
@@ -50393,7 +50473,7 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-03-27T00:31:31Z",
+        "datetime": "2026-03-18T08:45:51Z",
         "scriptName": "ldc-shop"
       },
       "sum": {
@@ -50493,7 +50573,7 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-03-22T03:10:20Z",
+        "datetime": "2026-03-27T08:29:23Z",
         "scriptName": "ldc-shop"
       },
       "sum": {
@@ -50503,7 +50583,7 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-03-27T08:29:23Z",
+        "datetime": "2026-03-22T03:10:20Z",
         "scriptName": "ldc-shop"
       },
       "sum": {
@@ -50773,7 +50853,7 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-03-24T12:17:16Z",
+        "datetime": "2026-03-19T09:16:09Z",
         "scriptName": "ldc-shop"
       },
       "sum": {
@@ -50783,7 +50863,7 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-03-19T09:16:09Z",
+        "datetime": "2026-03-24T12:17:16Z",
         "scriptName": "ldc-shop"
       },
       "sum": {
@@ -50973,8 +51053,8 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-03-27T07:56:23Z",
-        "scriptName": "ldc-shop"
+        "datetime": "2026-02-28T08:43:08Z",
+        "scriptName": "private-config"
       },
       "sum": {
         "errors": 0,
@@ -50983,8 +51063,8 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-02-28T08:43:08Z",
-        "scriptName": "private-config"
+        "datetime": "2026-03-27T07:56:23Z",
+        "scriptName": "ldc-shop"
       },
       "sum": {
         "errors": 0,
@@ -51103,22 +51183,22 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-03-02T14:39:11Z",
-        "scriptName": "subscription-manager"
-      },
-      "sum": {
-        "errors": 0,
-        "requests": 1
-      }
-    },
-    {
-      "dimensions": {
         "datetime": "2026-03-11T10:31:18Z",
         "scriptName": "emby"
       },
       "sum": {
         "errors": 0,
         "requests": 2
+      }
+    },
+    {
+      "dimensions": {
+        "datetime": "2026-03-02T14:39:11Z",
+        "scriptName": "subscription-manager"
+      },
+      "sum": {
+        "errors": 0,
+        "requests": 1
       }
     },
     {
@@ -51743,8 +51823,8 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-03-02T19:38:23Z",
-        "scriptName": "subscription-manager"
+        "datetime": "2026-03-18T09:00:54Z",
+        "scriptName": "subscription-manager-new"
       },
       "sum": {
         "errors": 0,
@@ -51763,8 +51843,8 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-03-18T09:00:54Z",
-        "scriptName": "subscription-manager-new"
+        "datetime": "2026-03-02T19:38:23Z",
+        "scriptName": "subscription-manager"
       },
       "sum": {
         "errors": 0,
@@ -52403,7 +52483,7 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-03-18T08:55:51Z",
+        "datetime": "2026-03-19T12:29:09Z",
         "scriptName": "ldc-shop"
       },
       "sum": {
@@ -52423,7 +52503,7 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-03-19T12:29:09Z",
+        "datetime": "2026-03-18T08:55:51Z",
         "scriptName": "ldc-shop"
       },
       "sum": {
@@ -53243,8 +53323,8 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-03-01T06:39:46Z",
-        "scriptName": "emby"
+        "datetime": "2026-03-24T09:24:13Z",
+        "scriptName": "ldc-shop"
       },
       "sum": {
         "errors": 0,
@@ -53253,8 +53333,8 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-03-24T09:24:13Z",
-        "scriptName": "ldc-shop"
+        "datetime": "2026-03-01T06:39:46Z",
+        "scriptName": "emby"
       },
       "sum": {
         "errors": 0,
@@ -53343,8 +53423,8 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-03-26T10:36:52Z",
-        "scriptName": "ldc-shop"
+        "datetime": "2026-03-18T09:04:41Z",
+        "scriptName": "subscription-manager"
       },
       "sum": {
         "errors": 0,
@@ -53363,8 +53443,8 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-03-18T09:04:41Z",
-        "scriptName": "subscription-manager"
+        "datetime": "2026-03-26T10:36:52Z",
+        "scriptName": "ldc-shop"
       },
       "sum": {
         "errors": 0,
@@ -53383,7 +53463,7 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-02-28T14:48:06Z",
+        "datetime": "2026-03-10T18:12:49Z",
         "scriptName": "subscription-manager"
       },
       "sum": {
@@ -53393,7 +53473,7 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-03-10T18:12:49Z",
+        "datetime": "2026-02-28T14:48:06Z",
         "scriptName": "subscription-manager"
       },
       "sum": {
@@ -53673,6 +53753,16 @@
     },
     {
       "dimensions": {
+        "datetime": "2026-02-26T21:03:00Z",
+        "scriptName": "private-config"
+      },
+      "sum": {
+        "errors": 0,
+        "requests": 16
+      }
+    },
+    {
+      "dimensions": {
         "datetime": "2026-03-09T20:19:15Z",
         "scriptName": "subscription-manager"
       },
@@ -53689,16 +53779,6 @@
       "sum": {
         "errors": 0,
         "requests": 23
-      }
-    },
-    {
-      "dimensions": {
-        "datetime": "2026-02-26T21:03:00Z",
-        "scriptName": "private-config"
-      },
-      "sum": {
-        "errors": 0,
-        "requests": 16
       }
     },
     {
@@ -53923,8 +54003,8 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-03-22T21:05:11Z",
-        "scriptName": "ldc-shop"
+        "datetime": "2026-02-28T05:01:50Z",
+        "scriptName": "subscription-manager"
       },
       "sum": {
         "errors": 0,
@@ -53933,8 +54013,8 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-02-28T05:01:50Z",
-        "scriptName": "subscription-manager"
+        "datetime": "2026-03-22T21:05:11Z",
+        "scriptName": "ldc-shop"
       },
       "sum": {
         "errors": 0,
@@ -54323,8 +54403,8 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-03-25T02:20:07Z",
-        "scriptName": "ldc-shop"
+        "datetime": "2026-03-17T21:44:27Z",
+        "scriptName": "private-config"
       },
       "sum": {
         "errors": 0,
@@ -54333,8 +54413,8 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-03-17T21:44:27Z",
-        "scriptName": "private-config"
+        "datetime": "2026-03-25T02:20:07Z",
+        "scriptName": "ldc-shop"
       },
       "sum": {
         "errors": 0,
@@ -54783,7 +54863,7 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-03-28T01:13:49Z",
+        "datetime": "2026-03-18T14:23:58Z",
         "scriptName": "ldc-shop"
       },
       "sum": {
@@ -54803,7 +54883,7 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-03-18T14:23:58Z",
+        "datetime": "2026-03-28T01:13:49Z",
         "scriptName": "ldc-shop"
       },
       "sum": {
@@ -55213,8 +55293,8 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-03-04T13:35:32Z",
-        "scriptName": "subscription-manager"
+        "datetime": "2026-03-18T02:57:51Z",
+        "scriptName": "ldc-shop"
       },
       "sum": {
         "errors": 0,
@@ -55223,8 +55303,8 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-03-18T02:57:51Z",
-        "scriptName": "ldc-shop"
+        "datetime": "2026-03-04T13:35:32Z",
+        "scriptName": "subscription-manager"
       },
       "sum": {
         "errors": 0,
@@ -55363,16 +55443,6 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-03-26T10:49:52Z",
-        "scriptName": "ldc-shop"
-      },
-      "sum": {
-        "errors": 0,
-        "requests": 1
-      }
-    },
-    {
-      "dimensions": {
         "datetime": "2026-03-19T13:26:09Z",
         "scriptName": "ldc-shop"
       },
@@ -55385,6 +55455,16 @@
       "dimensions": {
         "datetime": "2026-03-16T08:00:39Z",
         "scriptName": "subscription-manager"
+      },
+      "sum": {
+        "errors": 0,
+        "requests": 1
+      }
+    },
+    {
+      "dimensions": {
+        "datetime": "2026-03-26T10:49:52Z",
+        "scriptName": "ldc-shop"
       },
       "sum": {
         "errors": 0,
@@ -55683,8 +55763,8 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-03-20T20:01:42Z",
-        "scriptName": "ldc-shop"
+        "datetime": "2026-03-04T13:42:24Z",
+        "scriptName": "subscription-manager-new"
       },
       "sum": {
         "errors": 0,
@@ -55693,8 +55773,8 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-03-04T13:42:24Z",
-        "scriptName": "subscription-manager-new"
+        "datetime": "2026-03-20T20:01:42Z",
+        "scriptName": "ldc-shop"
       },
       "sum": {
         "errors": 0,
@@ -56023,12 +56103,12 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-03-18T14:03:42Z",
-        "scriptName": "ldc-shop"
+        "datetime": "2026-03-10T11:57:54Z",
+        "scriptName": "subscription-manager"
       },
       "sum": {
         "errors": 0,
-        "requests": 2
+        "requests": 1
       }
     },
     {
@@ -56043,12 +56123,12 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-03-10T11:57:54Z",
-        "scriptName": "subscription-manager"
+        "datetime": "2026-03-18T14:03:42Z",
+        "scriptName": "ldc-shop"
       },
       "sum": {
         "errors": 0,
-        "requests": 1
+        "requests": 2
       }
     },
     {
@@ -56143,7 +56223,7 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-03-10T14:53:02Z",
+        "datetime": "2026-03-02T18:25:54Z",
         "scriptName": "subscription-manager"
       },
       "sum": {
@@ -56153,7 +56233,7 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-03-02T18:25:54Z",
+        "datetime": "2026-03-10T14:53:02Z",
         "scriptName": "subscription-manager"
       },
       "sum": {
@@ -56683,8 +56763,8 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-03-23T07:39:18Z",
-        "scriptName": "ldc-shop"
+        "datetime": "2026-02-27T13:25:57Z",
+        "scriptName": "emby"
       },
       "sum": {
         "errors": 0,
@@ -56693,8 +56773,8 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-02-27T13:25:57Z",
-        "scriptName": "emby"
+        "datetime": "2026-03-23T07:39:18Z",
+        "scriptName": "ldc-shop"
       },
       "sum": {
         "errors": 0,
@@ -56813,7 +56893,7 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-03-24T20:16:16Z",
+        "datetime": "2026-03-16T13:07:46Z",
         "scriptName": "ldc-shop"
       },
       "sum": {
@@ -56823,7 +56903,7 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-03-16T13:07:46Z",
+        "datetime": "2026-03-24T20:16:16Z",
         "scriptName": "ldc-shop"
       },
       "sum": {
@@ -57113,8 +57193,8 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-03-24T20:48:16Z",
-        "scriptName": "ldc-shop"
+        "datetime": "2026-03-14T09:00:47Z",
+        "scriptName": "subscription-manager"
       },
       "sum": {
         "errors": 0,
@@ -57123,8 +57203,8 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-03-14T09:00:47Z",
-        "scriptName": "subscription-manager"
+        "datetime": "2026-03-24T20:48:16Z",
+        "scriptName": "ldc-shop"
       },
       "sum": {
         "errors": 0,
@@ -57253,16 +57333,6 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-02-28T04:40:55Z",
-        "scriptName": "subscription-manager"
-      },
-      "sum": {
-        "errors": 0,
-        "requests": 1
-      }
-    },
-    {
-      "dimensions": {
         "datetime": "2026-03-10T15:33:00Z",
         "scriptName": "subscription-manager"
       },
@@ -57275,6 +57345,16 @@
       "dimensions": {
         "datetime": "2026-03-20T04:55:51Z",
         "scriptName": "ldc-shop"
+      },
+      "sum": {
+        "errors": 0,
+        "requests": 1
+      }
+    },
+    {
+      "dimensions": {
+        "datetime": "2026-02-28T04:40:55Z",
+        "scriptName": "subscription-manager"
       },
       "sum": {
         "errors": 0,
@@ -57423,8 +57503,8 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-03-23T09:13:18Z",
-        "scriptName": "ldc-shop"
+        "datetime": "2026-03-09T12:27:24Z",
+        "scriptName": "emby"
       },
       "sum": {
         "errors": 0,
@@ -57443,8 +57523,8 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-03-09T12:27:24Z",
-        "scriptName": "emby"
+        "datetime": "2026-03-23T09:13:18Z",
+        "scriptName": "ldc-shop"
       },
       "sum": {
         "errors": 0,
@@ -57593,7 +57673,7 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-03-26T00:13:39Z",
+        "datetime": "2026-03-27T09:12:23Z",
         "scriptName": "ldc-shop"
       },
       "sum": {
@@ -57603,7 +57683,7 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-03-27T09:12:23Z",
+        "datetime": "2026-03-26T00:13:39Z",
         "scriptName": "ldc-shop"
       },
       "sum": {
@@ -58493,8 +58573,8 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-02-27T11:30:11Z",
-        "scriptName": "subscription-manager"
+        "datetime": "2026-03-20T17:43:42Z",
+        "scriptName": "ldc-shop"
       },
       "sum": {
         "errors": 0,
@@ -58503,8 +58583,8 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-03-20T17:43:42Z",
-        "scriptName": "ldc-shop"
+        "datetime": "2026-02-27T11:30:11Z",
+        "scriptName": "subscription-manager"
       },
       "sum": {
         "errors": 0,
@@ -58573,8 +58653,8 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-03-23T06:17:19Z",
-        "scriptName": "ldc-shop"
+        "datetime": "2026-03-08T04:00:18Z",
+        "scriptName": "subscription-manager-new"
       },
       "sum": {
         "errors": 0,
@@ -58583,8 +58663,8 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-03-08T04:00:18Z",
-        "scriptName": "subscription-manager-new"
+        "datetime": "2026-03-23T06:17:19Z",
+        "scriptName": "ldc-shop"
       },
       "sum": {
         "errors": 0,
@@ -58773,7 +58853,7 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-03-23T01:41:19Z",
+        "datetime": "2026-03-19T03:46:54Z",
         "scriptName": "ldc-shop"
       },
       "sum": {
@@ -58783,7 +58863,7 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-03-19T03:46:54Z",
+        "datetime": "2026-03-23T01:41:19Z",
         "scriptName": "ldc-shop"
       },
       "sum": {
@@ -58903,8 +58983,8 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-03-05T14:45:09Z",
-        "scriptName": "subscription-manager"
+        "datetime": "2026-03-20T00:33:16Z",
+        "scriptName": "ldc-shop"
       },
       "sum": {
         "errors": 0,
@@ -58923,8 +59003,8 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-03-20T00:33:16Z",
-        "scriptName": "ldc-shop"
+        "datetime": "2026-03-05T14:45:09Z",
+        "scriptName": "subscription-manager"
       },
       "sum": {
         "errors": 0,
@@ -59303,8 +59383,8 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-03-22T10:12:23Z",
-        "scriptName": "ldc-shop"
+        "datetime": "2026-03-02T15:34:46Z",
+        "scriptName": "subscription-manager"
       },
       "sum": {
         "errors": 0,
@@ -59313,8 +59393,8 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-03-02T15:34:46Z",
-        "scriptName": "subscription-manager"
+        "datetime": "2026-03-22T10:12:23Z",
+        "scriptName": "ldc-shop"
       },
       "sum": {
         "errors": 0,
@@ -59903,7 +59983,7 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-03-17T03:49:48Z",
+        "datetime": "2026-03-19T21:48:16Z",
         "scriptName": "ldc-shop"
       },
       "sum": {
@@ -59913,7 +59993,7 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-03-19T21:48:16Z",
+        "datetime": "2026-03-17T03:49:48Z",
         "scriptName": "ldc-shop"
       },
       "sum": {
@@ -59953,8 +60033,8 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-03-27T01:30:31Z",
-        "scriptName": "ldc-shop"
+        "datetime": "2026-02-28T17:08:19Z",
+        "scriptName": "subscription-manager"
       },
       "sum": {
         "errors": 0,
@@ -59963,8 +60043,8 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-02-28T17:08:19Z",
-        "scriptName": "subscription-manager"
+        "datetime": "2026-03-27T01:30:31Z",
+        "scriptName": "ldc-shop"
       },
       "sum": {
         "errors": 0,
@@ -59983,22 +60063,22 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-03-02T12:38:53Z",
-        "scriptName": "subscription-manager"
-      },
-      "sum": {
-        "errors": 0,
-        "requests": 1
-      }
-    },
-    {
-      "dimensions": {
         "datetime": "2026-03-07T12:32:05Z",
         "scriptName": "emby"
       },
       "sum": {
         "errors": 0,
         "requests": 2
+      }
+    },
+    {
+      "dimensions": {
+        "datetime": "2026-03-02T12:38:53Z",
+        "scriptName": "subscription-manager"
+      },
+      "sum": {
+        "errors": 0,
+        "requests": 1
       }
     },
     {
@@ -60963,16 +61043,6 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-03-05T19:56:04Z",
-        "scriptName": "subscription-manager"
-      },
-      "sum": {
-        "errors": 0,
-        "requests": 1
-      }
-    },
-    {
-      "dimensions": {
         "datetime": "2026-03-10T19:12:13Z",
         "scriptName": "subscription-manager"
       },
@@ -60985,6 +61055,16 @@
       "dimensions": {
         "datetime": "2026-03-26T05:21:52Z",
         "scriptName": "ldc-shop"
+      },
+      "sum": {
+        "errors": 0,
+        "requests": 1
+      }
+    },
+    {
+      "dimensions": {
+        "datetime": "2026-03-05T19:56:04Z",
+        "scriptName": "subscription-manager"
       },
       "sum": {
         "errors": 0,
@@ -61343,22 +61423,22 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-03-02T16:00:43Z",
-        "scriptName": "private-config"
-      },
-      "sum": {
-        "errors": 0,
-        "requests": 2
-      }
-    },
-    {
-      "dimensions": {
         "datetime": "2026-03-21T00:08:42Z",
         "scriptName": "ldc-shop"
       },
       "sum": {
         "errors": 0,
         "requests": 1
+      }
+    },
+    {
+      "dimensions": {
+        "datetime": "2026-03-02T16:00:43Z",
+        "scriptName": "private-config"
+      },
+      "sum": {
+        "errors": 0,
+        "requests": 2
       }
     },
     {
@@ -61403,22 +61483,22 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-03-17T13:58:49Z",
-        "scriptName": "ldc-shop"
-      },
-      "sum": {
-        "errors": 0,
-        "requests": 4
-      }
-    },
-    {
-      "dimensions": {
         "datetime": "2026-03-23T02:28:19Z",
         "scriptName": "ldc-shop"
       },
       "sum": {
         "errors": 0,
         "requests": 1
+      }
+    },
+    {
+      "dimensions": {
+        "datetime": "2026-03-17T13:58:49Z",
+        "scriptName": "ldc-shop"
+      },
+      "sum": {
+        "errors": 0,
+        "requests": 4
       }
     },
     {
@@ -61653,22 +61733,22 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-03-17T06:33:48Z",
-        "scriptName": "ldc-shop"
-      },
-      "sum": {
-        "errors": 0,
-        "requests": 1
-      }
-    },
-    {
-      "dimensions": {
         "datetime": "2026-03-09T22:01:03Z",
         "scriptName": "private-config"
       },
       "sum": {
         "errors": 0,
         "requests": 2
+      }
+    },
+    {
+      "dimensions": {
+        "datetime": "2026-03-17T06:33:48Z",
+        "scriptName": "ldc-shop"
+      },
+      "sum": {
+        "errors": 0,
+        "requests": 1
       }
     },
     {
@@ -61983,8 +62063,8 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-03-21T08:59:14Z",
-        "scriptName": "ldc-shop"
+        "datetime": "2026-03-14T06:23:43Z",
+        "scriptName": "emby"
       },
       "sum": {
         "errors": 0,
@@ -61993,8 +62073,8 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-03-14T06:23:43Z",
-        "scriptName": "emby"
+        "datetime": "2026-03-21T08:59:14Z",
+        "scriptName": "ldc-shop"
       },
       "sum": {
         "errors": 0,
@@ -62013,7 +62093,7 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-03-22T10:27:23Z",
+        "datetime": "2026-03-18T11:24:51Z",
         "scriptName": "ldc-shop"
       },
       "sum": {
@@ -62023,7 +62103,7 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-03-18T11:24:51Z",
+        "datetime": "2026-03-22T10:27:23Z",
         "scriptName": "ldc-shop"
       },
       "sum": {
@@ -62203,7 +62283,7 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-03-23T20:19:33Z",
+        "datetime": "2026-03-26T01:29:39Z",
         "scriptName": "ldc-shop"
       },
       "sum": {
@@ -62213,7 +62293,7 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-03-26T01:29:39Z",
+        "datetime": "2026-03-23T20:19:33Z",
         "scriptName": "ldc-shop"
       },
       "sum": {
@@ -62473,8 +62553,8 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-03-19T08:00:09Z",
-        "scriptName": "subscription-manager"
+        "datetime": "2026-03-27T16:17:38Z",
+        "scriptName": "ldc-shop"
       },
       "sum": {
         "errors": 0,
@@ -62483,8 +62563,8 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-03-27T16:17:38Z",
-        "scriptName": "ldc-shop"
+        "datetime": "2026-03-19T08:00:09Z",
+        "scriptName": "subscription-manager"
       },
       "sum": {
         "errors": 0,
@@ -62553,7 +62633,7 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-03-25T23:16:39Z",
+        "datetime": "2026-03-27T21:26:49Z",
         "scriptName": "ldc-shop"
       },
       "sum": {
@@ -62563,7 +62643,7 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-03-27T21:26:49Z",
+        "datetime": "2026-03-25T23:16:39Z",
         "scriptName": "ldc-shop"
       },
       "sum": {
@@ -62753,6 +62833,16 @@
     },
     {
       "dimensions": {
+        "datetime": "2026-03-23T04:45:22Z",
+        "scriptName": "ldc-shop"
+      },
+      "sum": {
+        "errors": 0,
+        "requests": 1
+      }
+    },
+    {
+      "dimensions": {
         "datetime": "2026-03-09T22:48:32Z",
         "scriptName": "private-config"
       },
@@ -62764,16 +62854,6 @@
     {
       "dimensions": {
         "datetime": "2026-03-22T00:25:20Z",
-        "scriptName": "ldc-shop"
-      },
-      "sum": {
-        "errors": 0,
-        "requests": 1
-      }
-    },
-    {
-      "dimensions": {
-        "datetime": "2026-03-23T04:45:22Z",
         "scriptName": "ldc-shop"
       },
       "sum": {
@@ -63893,6 +63973,16 @@
     },
     {
       "dimensions": {
+        "datetime": "2026-03-28T08:14:24Z",
+        "scriptName": "ldc-shop"
+      },
+      "sum": {
+        "errors": 0,
+        "requests": 1
+      }
+    },
+    {
+      "dimensions": {
         "datetime": "2026-02-26T11:59:32Z",
         "scriptName": "subscription-manager"
       },
@@ -64633,7 +64723,7 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-02-26T17:50:02Z",
+        "datetime": "2026-03-18T20:31:30Z",
         "scriptName": "subscription-manager"
       },
       "sum": {
@@ -64643,7 +64733,7 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-03-18T20:31:30Z",
+        "datetime": "2026-02-26T17:50:02Z",
         "scriptName": "subscription-manager"
       },
       "sum": {
@@ -65163,7 +65253,7 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-03-22T19:02:11Z",
+        "datetime": "2026-03-26T00:40:39Z",
         "scriptName": "ldc-shop"
       },
       "sum": {
@@ -65173,7 +65263,7 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-03-26T00:40:39Z",
+        "datetime": "2026-03-22T19:02:11Z",
         "scriptName": "ldc-shop"
       },
       "sum": {
@@ -65333,8 +65423,8 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-03-18T06:09:51Z",
-        "scriptName": "ldc-shop"
+        "datetime": "2026-03-20T17:28:26Z",
+        "scriptName": "emby"
       },
       "sum": {
         "errors": 0,
@@ -65343,8 +65433,8 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-03-20T17:28:26Z",
-        "scriptName": "emby"
+        "datetime": "2026-03-18T06:09:51Z",
+        "scriptName": "ldc-shop"
       },
       "sum": {
         "errors": 0,
@@ -66093,7 +66183,7 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-03-17T14:13:49Z",
+        "datetime": "2026-03-22T13:46:11Z",
         "scriptName": "ldc-shop"
       },
       "sum": {
@@ -66103,7 +66193,7 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-03-22T13:46:11Z",
+        "datetime": "2026-03-17T14:13:49Z",
         "scriptName": "ldc-shop"
       },
       "sum": {
@@ -66143,8 +66233,8 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-03-06T03:39:15Z",
-        "scriptName": "subscription-manager-new"
+        "datetime": "2026-03-17T12:41:49Z",
+        "scriptName": "ldc-shop"
       },
       "sum": {
         "errors": 0,
@@ -66163,8 +66253,8 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-03-17T12:41:49Z",
-        "scriptName": "ldc-shop"
+        "datetime": "2026-03-06T03:39:15Z",
+        "scriptName": "subscription-manager-new"
       },
       "sum": {
         "errors": 0,
@@ -66223,7 +66313,7 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-03-23T20:09:33Z",
+        "datetime": "2026-03-26T16:05:26Z",
         "scriptName": "ldc-shop"
       },
       "sum": {
@@ -66233,7 +66323,7 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-03-26T16:05:26Z",
+        "datetime": "2026-03-23T20:09:33Z",
         "scriptName": "ldc-shop"
       },
       "sum": {
@@ -66433,8 +66523,8 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-03-14T19:01:59Z",
-        "scriptName": "subscription-manager-new"
+        "datetime": "2026-03-26T23:50:06Z",
+        "scriptName": "ldc-shop"
       },
       "sum": {
         "errors": 0,
@@ -66443,8 +66533,8 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-03-26T23:50:06Z",
-        "scriptName": "ldc-shop"
+        "datetime": "2026-03-14T19:01:59Z",
+        "scriptName": "subscription-manager-new"
       },
       "sum": {
         "errors": 0,
@@ -67004,6 +67094,16 @@
     {
       "dimensions": {
         "datetime": "2026-03-28T04:37:49Z",
+        "scriptName": "ldc-shop"
+      },
+      "sum": {
+        "errors": 0,
+        "requests": 1
+      }
+    },
+    {
+      "dimensions": {
+        "datetime": "2026-03-28T08:22:24Z",
         "scriptName": "ldc-shop"
       },
       "sum": {
@@ -68513,7 +68613,7 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-03-02T16:34:00Z",
+        "datetime": "2026-02-28T14:52:39Z",
         "scriptName": "subscription-manager"
       },
       "sum": {
@@ -68523,7 +68623,7 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-02-28T14:52:39Z",
+        "datetime": "2026-03-02T16:34:00Z",
         "scriptName": "subscription-manager"
       },
       "sum": {
@@ -68613,8 +68713,8 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-03-07T12:15:46Z",
-        "scriptName": "emby"
+        "datetime": "2026-03-27T22:49:49Z",
+        "scriptName": "ldc-shop"
       },
       "sum": {
         "errors": 0,
@@ -68623,8 +68723,8 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-03-27T22:49:49Z",
-        "scriptName": "ldc-shop"
+        "datetime": "2026-03-07T12:15:46Z",
+        "scriptName": "emby"
       },
       "sum": {
         "errors": 0,
@@ -69033,8 +69133,8 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-02-28T04:35:49Z",
-        "scriptName": "subscription-manager"
+        "datetime": "2026-03-21T16:55:16Z",
+        "scriptName": "ldc-shop"
       },
       "sum": {
         "errors": 0,
@@ -69043,8 +69143,8 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-03-21T16:55:16Z",
-        "scriptName": "ldc-shop"
+        "datetime": "2026-02-28T04:35:49Z",
+        "scriptName": "subscription-manager"
       },
       "sum": {
         "errors": 0,
@@ -69263,7 +69363,7 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-03-17T03:10:47Z",
+        "datetime": "2026-03-19T18:19:16Z",
         "scriptName": "ldc-shop"
       },
       "sum": {
@@ -69273,7 +69373,7 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-03-19T18:19:16Z",
+        "datetime": "2026-03-17T03:10:47Z",
         "scriptName": "ldc-shop"
       },
       "sum": {
@@ -69773,8 +69873,8 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-02-26T10:19:03Z",
-        "scriptName": "subscription-manager"
+        "datetime": "2026-03-25T02:33:07Z",
+        "scriptName": "ldc-shop"
       },
       "sum": {
         "errors": 0,
@@ -69783,8 +69883,8 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-03-25T02:33:07Z",
-        "scriptName": "ldc-shop"
+        "datetime": "2026-02-26T10:19:03Z",
+        "scriptName": "subscription-manager"
       },
       "sum": {
         "errors": 0,
@@ -69903,7 +70003,7 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-03-22T23:20:19Z",
+        "datetime": "2026-03-18T13:30:51Z",
         "scriptName": "ldc-shop"
       },
       "sum": {
@@ -69913,7 +70013,7 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-03-18T13:30:51Z",
+        "datetime": "2026-03-22T23:20:19Z",
         "scriptName": "ldc-shop"
       },
       "sum": {
@@ -70173,7 +70273,7 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-03-27T08:09:23Z",
+        "datetime": "2026-03-19T00:08:54Z",
         "scriptName": "ldc-shop"
       },
       "sum": {
@@ -70193,7 +70293,7 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-03-19T00:08:54Z",
+        "datetime": "2026-03-27T08:09:23Z",
         "scriptName": "ldc-shop"
       },
       "sum": {
@@ -71283,8 +71383,8 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-03-01T21:56:28Z",
-        "scriptName": "emby"
+        "datetime": "2026-03-22T03:30:24Z",
+        "scriptName": "subscription-manager"
       },
       "sum": {
         "errors": 0,
@@ -71293,8 +71393,8 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-03-22T03:30:24Z",
-        "scriptName": "subscription-manager"
+        "datetime": "2026-03-01T21:56:28Z",
+        "scriptName": "emby"
       },
       "sum": {
         "errors": 0,
@@ -71353,7 +71453,7 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-03-17T08:38:48Z",
+        "datetime": "2026-03-20T03:29:48Z",
         "scriptName": "ldc-shop"
       },
       "sum": {
@@ -71363,7 +71463,7 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-03-20T03:29:48Z",
+        "datetime": "2026-03-17T08:38:48Z",
         "scriptName": "ldc-shop"
       },
       "sum": {
@@ -71383,8 +71483,8 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-03-19T17:17:16Z",
-        "scriptName": "ldc-shop"
+        "datetime": "2026-02-28T15:22:07Z",
+        "scriptName": "subscription-manager"
       },
       "sum": {
         "errors": 0,
@@ -71393,8 +71493,8 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-02-28T15:22:07Z",
-        "scriptName": "subscription-manager"
+        "datetime": "2026-03-19T17:17:16Z",
+        "scriptName": "ldc-shop"
       },
       "sum": {
         "errors": 0,
@@ -71493,22 +71593,22 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-03-02T10:25:35Z",
-        "scriptName": "emby"
-      },
-      "sum": {
-        "errors": 0,
-        "requests": 2
-      }
-    },
-    {
-      "dimensions": {
         "datetime": "2026-03-19T05:10:56Z",
         "scriptName": "ldc-shop"
       },
       "sum": {
         "errors": 0,
         "requests": 1
+      }
+    },
+    {
+      "dimensions": {
+        "datetime": "2026-03-02T10:25:35Z",
+        "scriptName": "emby"
+      },
+      "sum": {
+        "errors": 0,
+        "requests": 2
       }
     },
     {
@@ -71573,8 +71673,8 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-02-28T16:13:21Z",
-        "scriptName": "subscription-manager"
+        "datetime": "2026-03-23T20:08:33Z",
+        "scriptName": "ldc-shop"
       },
       "sum": {
         "errors": 0,
@@ -71583,8 +71683,8 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-03-23T20:08:33Z",
-        "scriptName": "ldc-shop"
+        "datetime": "2026-02-28T16:13:21Z",
+        "scriptName": "subscription-manager"
       },
       "sum": {
         "errors": 0,
@@ -71723,8 +71823,8 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-03-18T08:22:51Z",
-        "scriptName": "ldc-shop"
+        "datetime": "2026-02-28T06:17:55Z",
+        "scriptName": "subscription-manager"
       },
       "sum": {
         "errors": 0,
@@ -71733,8 +71833,8 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-02-28T06:17:55Z",
-        "scriptName": "subscription-manager"
+        "datetime": "2026-03-18T08:22:51Z",
+        "scriptName": "ldc-shop"
       },
       "sum": {
         "errors": 0,
@@ -73013,8 +73113,8 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-03-03T01:00:09Z",
-        "scriptName": "subscription-manager-new"
+        "datetime": "2026-03-21T06:26:14Z",
+        "scriptName": "ldc-shop"
       },
       "sum": {
         "errors": 0,
@@ -73023,8 +73123,8 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-03-21T06:26:14Z",
-        "scriptName": "ldc-shop"
+        "datetime": "2026-03-07T09:28:49Z",
+        "scriptName": "subscription-manager"
       },
       "sum": {
         "errors": 0,
@@ -73043,8 +73143,8 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-03-07T09:28:49Z",
-        "scriptName": "subscription-manager"
+        "datetime": "2026-03-03T01:00:09Z",
+        "scriptName": "subscription-manager-new"
       },
       "sum": {
         "errors": 0,
@@ -73453,7 +73553,7 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-03-20T05:14:49Z",
+        "datetime": "2026-03-18T01:04:51Z",
         "scriptName": "ldc-shop"
       },
       "sum": {
@@ -73463,7 +73563,7 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-03-18T01:04:51Z",
+        "datetime": "2026-03-20T05:14:49Z",
         "scriptName": "ldc-shop"
       },
       "sum": {
@@ -73953,7 +74053,7 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-03-26T03:03:52Z",
+        "datetime": "2026-03-23T03:23:19Z",
         "scriptName": "ldc-shop"
       },
       "sum": {
@@ -73963,7 +74063,7 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-03-23T03:23:19Z",
+        "datetime": "2026-03-26T03:03:52Z",
         "scriptName": "ldc-shop"
       },
       "sum": {
@@ -74113,7 +74213,7 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-02-28T06:13:50Z",
+        "datetime": "2026-02-27T13:50:06Z",
         "scriptName": "subscription-manager"
       },
       "sum": {
@@ -74123,7 +74223,7 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-02-27T13:50:06Z",
+        "datetime": "2026-02-28T06:13:50Z",
         "scriptName": "subscription-manager"
       },
       "sum": {
@@ -74453,8 +74553,8 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-03-17T19:19:49Z",
-        "scriptName": "ldc-shop"
+        "datetime": "2026-03-04T20:55:55Z",
+        "scriptName": "subscription-manager"
       },
       "sum": {
         "errors": 0,
@@ -74463,8 +74563,8 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-03-04T20:55:55Z",
-        "scriptName": "subscription-manager"
+        "datetime": "2026-03-17T19:19:49Z",
+        "scriptName": "ldc-shop"
       },
       "sum": {
         "errors": 0,
@@ -74923,8 +75023,8 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-03-04T14:01:33Z",
-        "scriptName": "subscription-manager"
+        "datetime": "2026-03-22T10:54:23Z",
+        "scriptName": "ldc-shop"
       },
       "sum": {
         "errors": 0,
@@ -74933,8 +75033,8 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-03-22T10:54:23Z",
-        "scriptName": "ldc-shop"
+        "datetime": "2026-03-04T14:01:33Z",
+        "scriptName": "subscription-manager"
       },
       "sum": {
         "errors": 0,
@@ -75453,7 +75553,7 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-03-21T14:25:16Z",
+        "datetime": "2026-03-16T11:09:45Z",
         "scriptName": "ldc-shop"
       },
       "sum": {
@@ -75463,7 +75563,7 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-03-16T11:09:45Z",
+        "datetime": "2026-03-21T14:25:16Z",
         "scriptName": "ldc-shop"
       },
       "sum": {
@@ -75563,22 +75663,22 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-03-16T20:16:47Z",
-        "scriptName": "ldc-shop"
-      },
-      "sum": {
-        "errors": 0,
-        "requests": 1
-      }
-    },
-    {
-      "dimensions": {
         "datetime": "2026-03-07T12:06:26Z",
         "scriptName": "emby"
       },
       "sum": {
         "errors": 0,
         "requests": 9
+      }
+    },
+    {
+      "dimensions": {
+        "datetime": "2026-03-16T20:16:47Z",
+        "scriptName": "ldc-shop"
+      },
+      "sum": {
+        "errors": 0,
+        "requests": 1
       }
     },
     {
@@ -75623,8 +75723,8 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-02-28T07:05:00Z",
-        "scriptName": "subscription-manager"
+        "datetime": "2026-03-22T07:44:23Z",
+        "scriptName": "ldc-shop"
       },
       "sum": {
         "errors": 0,
@@ -75633,8 +75733,8 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-03-22T07:44:23Z",
-        "scriptName": "ldc-shop"
+        "datetime": "2026-02-28T07:05:00Z",
+        "scriptName": "subscription-manager"
       },
       "sum": {
         "errors": 0,
@@ -75693,8 +75793,8 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-03-02T17:05:41Z",
-        "scriptName": "subscription-manager"
+        "datetime": "2026-03-27T03:09:23Z",
+        "scriptName": "ldc-shop"
       },
       "sum": {
         "errors": 0,
@@ -75703,8 +75803,8 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-03-27T03:09:23Z",
-        "scriptName": "ldc-shop"
+        "datetime": "2026-03-02T17:05:41Z",
+        "scriptName": "subscription-manager"
       },
       "sum": {
         "errors": 0,
@@ -76133,22 +76233,32 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-03-24T17:43:16Z",
-        "scriptName": "ldc-shop"
-      },
-      "sum": {
-        "errors": 0,
-        "requests": 10
-      }
-    },
-    {
-      "dimensions": {
         "datetime": "2026-03-22T12:57:23Z",
         "scriptName": "ldc-shop"
       },
       "sum": {
         "errors": 0,
         "requests": 1
+      }
+    },
+    {
+      "dimensions": {
+        "datetime": "2026-03-28T08:04:24Z",
+        "scriptName": "ldc-shop"
+      },
+      "sum": {
+        "errors": 0,
+        "requests": 1
+      }
+    },
+    {
+      "dimensions": {
+        "datetime": "2026-03-24T17:43:16Z",
+        "scriptName": "ldc-shop"
+      },
+      "sum": {
+        "errors": 0,
+        "requests": 10
       }
     },
     {
@@ -76253,8 +76363,8 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-03-18T07:25:41Z",
-        "scriptName": "ldc-shop"
+        "datetime": "2026-02-28T18:54:31Z",
+        "scriptName": "subscription-manager"
       },
       "sum": {
         "errors": 0,
@@ -76263,8 +76373,8 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-02-28T18:54:31Z",
-        "scriptName": "subscription-manager"
+        "datetime": "2026-03-18T07:25:41Z",
+        "scriptName": "ldc-shop"
       },
       "sum": {
         "errors": 0,
@@ -76383,8 +76493,8 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-03-01T19:57:34Z",
-        "scriptName": "emby"
+        "datetime": "2026-03-25T17:59:39Z",
+        "scriptName": "ldc-shop"
       },
       "sum": {
         "errors": 0,
@@ -76393,8 +76503,8 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-03-25T17:59:39Z",
-        "scriptName": "ldc-shop"
+        "datetime": "2026-03-01T19:57:34Z",
+        "scriptName": "emby"
       },
       "sum": {
         "errors": 0,
@@ -77313,22 +77423,22 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-03-26T23:49:31Z",
-        "scriptName": "ldc-shop"
-      },
-      "sum": {
-        "errors": 0,
-        "requests": 1
-      }
-    },
-    {
-      "dimensions": {
         "datetime": "2026-03-07T11:17:06Z",
         "scriptName": "emby"
       },
       "sum": {
         "errors": 0,
         "requests": 4
+      }
+    },
+    {
+      "dimensions": {
+        "datetime": "2026-03-26T23:49:31Z",
+        "scriptName": "ldc-shop"
+      },
+      "sum": {
+        "errors": 0,
+        "requests": 1
       }
     },
     {
@@ -77383,8 +77493,8 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-03-19T02:40:57Z",
-        "scriptName": "ldc-shop"
+        "datetime": "2026-02-26T18:00:46Z",
+        "scriptName": "subscription-manager"
       },
       "sum": {
         "errors": 0,
@@ -77393,8 +77503,8 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-02-26T18:00:46Z",
-        "scriptName": "subscription-manager"
+        "datetime": "2026-03-19T02:40:57Z",
+        "scriptName": "ldc-shop"
       },
       "sum": {
         "errors": 0,
@@ -78533,7 +78643,7 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-03-22T23:10:19Z",
+        "datetime": "2026-03-23T22:16:33Z",
         "scriptName": "ldc-shop"
       },
       "sum": {
@@ -78543,7 +78653,7 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-03-23T22:16:33Z",
+        "datetime": "2026-03-22T23:10:19Z",
         "scriptName": "ldc-shop"
       },
       "sum": {
@@ -78653,8 +78763,8 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-03-16T10:32:44Z",
-        "scriptName": "ldc-shop"
+        "datetime": "2026-03-03T16:00:44Z",
+        "scriptName": "subscription-manager-new"
       },
       "sum": {
         "errors": 0,
@@ -78683,8 +78793,8 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-03-03T16:00:44Z",
-        "scriptName": "subscription-manager-new"
+        "datetime": "2026-03-16T10:32:44Z",
+        "scriptName": "ldc-shop"
       },
       "sum": {
         "errors": 0,
@@ -78909,6 +79019,16 @@
       "sum": {
         "errors": 0,
         "requests": 52
+      }
+    },
+    {
+      "dimensions": {
+        "datetime": "2026-03-28T07:56:24Z",
+        "scriptName": "ldc-shop"
+      },
+      "sum": {
+        "errors": 0,
+        "requests": 1
       }
     },
     {
@@ -79353,8 +79473,8 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-03-02T07:17:42Z",
-        "scriptName": "private-config"
+        "datetime": "2026-03-21T18:52:16Z",
+        "scriptName": "ldc-shop"
       },
       "sum": {
         "errors": 0,
@@ -79363,8 +79483,8 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-03-21T18:52:16Z",
-        "scriptName": "ldc-shop"
+        "datetime": "2026-03-02T07:17:42Z",
+        "scriptName": "private-config"
       },
       "sum": {
         "errors": 0,
@@ -79463,22 +79583,22 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-03-17T14:00:57Z",
-        "scriptName": "ldc-shop"
-      },
-      "sum": {
-        "errors": 0,
-        "requests": 2
-      }
-    },
-    {
-      "dimensions": {
         "datetime": "2026-03-26T11:26:52Z",
         "scriptName": "ldc-shop"
       },
       "sum": {
         "errors": 0,
         "requests": 1
+      }
+    },
+    {
+      "dimensions": {
+        "datetime": "2026-03-17T14:00:57Z",
+        "scriptName": "ldc-shop"
+      },
+      "sum": {
+        "errors": 0,
+        "requests": 2
       }
     },
     {
@@ -79643,8 +79763,8 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-03-01T19:29:57Z",
-        "scriptName": "emby"
+        "datetime": "2026-03-04T13:58:30Z",
+        "scriptName": "subscription-manager"
       },
       "sum": {
         "errors": 0,
@@ -79653,8 +79773,8 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-03-04T13:58:30Z",
-        "scriptName": "subscription-manager"
+        "datetime": "2026-03-01T19:29:57Z",
+        "scriptName": "emby"
       },
       "sum": {
         "errors": 0,
@@ -79713,16 +79833,6 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-03-02T11:30:30Z",
-        "scriptName": "subscription-manager"
-      },
-      "sum": {
-        "errors": 0,
-        "requests": 1
-      }
-    },
-    {
-      "dimensions": {
         "datetime": "2026-03-17T14:00:30Z",
         "scriptName": "ldc-shop"
       },
@@ -79733,8 +79843,8 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-03-22T16:39:11Z",
-        "scriptName": "ldc-shop"
+        "datetime": "2026-03-02T11:30:30Z",
+        "scriptName": "subscription-manager"
       },
       "sum": {
         "errors": 0,
@@ -79745,6 +79855,16 @@
       "dimensions": {
         "datetime": "2026-03-24T09:17:02Z",
         "scriptName": "emby"
+      },
+      "sum": {
+        "errors": 0,
+        "requests": 1
+      }
+    },
+    {
+      "dimensions": {
+        "datetime": "2026-03-22T16:39:11Z",
+        "scriptName": "ldc-shop"
       },
       "sum": {
         "errors": 0,
@@ -79833,16 +79953,6 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-03-22T15:07:11Z",
-        "scriptName": "ldc-shop"
-      },
-      "sum": {
-        "errors": 0,
-        "requests": 1
-      }
-    },
-    {
-      "dimensions": {
         "datetime": "2026-02-27T11:24:00Z",
         "scriptName": "subscription-manager"
       },
@@ -79853,7 +79963,27 @@
     },
     {
       "dimensions": {
+        "datetime": "2026-03-22T15:07:11Z",
+        "scriptName": "ldc-shop"
+      },
+      "sum": {
+        "errors": 0,
+        "requests": 1
+      }
+    },
+    {
+      "dimensions": {
         "datetime": "2026-03-17T22:21:51Z",
+        "scriptName": "ldc-shop"
+      },
+      "sum": {
+        "errors": 0,
+        "requests": 1
+      }
+    },
+    {
+      "dimensions": {
+        "datetime": "2026-03-16T22:41:47Z",
         "scriptName": "ldc-shop"
       },
       "sum": {
@@ -79875,16 +80005,6 @@
       "dimensions": {
         "datetime": "2026-02-27T15:30:14Z",
         "scriptName": "subscription-manager"
-      },
-      "sum": {
-        "errors": 0,
-        "requests": 1
-      }
-    },
-    {
-      "dimensions": {
-        "datetime": "2026-03-16T22:41:47Z",
-        "scriptName": "ldc-shop"
       },
       "sum": {
         "errors": 0,
@@ -80143,7 +80263,7 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-03-27T07:04:23Z",
+        "datetime": "2026-03-23T20:35:33Z",
         "scriptName": "ldc-shop"
       },
       "sum": {
@@ -80153,7 +80273,7 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-03-23T20:35:33Z",
+        "datetime": "2026-03-27T07:04:23Z",
         "scriptName": "ldc-shop"
       },
       "sum": {
@@ -80453,8 +80573,8 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-03-02T10:26:03Z",
-        "scriptName": "subscription-manager"
+        "datetime": "2026-03-07T14:33:59Z",
+        "scriptName": "emby"
       },
       "sum": {
         "errors": 0,
@@ -80463,8 +80583,8 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-03-07T14:33:59Z",
-        "scriptName": "emby"
+        "datetime": "2026-03-02T10:26:03Z",
+        "scriptName": "subscription-manager"
       },
       "sum": {
         "errors": 0,
@@ -81673,7 +81793,7 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-03-02T22:49:26Z",
+        "datetime": "2026-03-18T18:01:45Z",
         "scriptName": "subscription-manager"
       },
       "sum": {
@@ -81693,7 +81813,7 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-03-18T18:01:45Z",
+        "datetime": "2026-03-02T22:49:26Z",
         "scriptName": "subscription-manager"
       },
       "sum": {
@@ -81713,7 +81833,7 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-03-25T01:21:07Z",
+        "datetime": "2026-03-18T19:59:58Z",
         "scriptName": "ldc-shop"
       },
       "sum": {
@@ -81723,7 +81843,7 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-03-18T19:59:58Z",
+        "datetime": "2026-03-25T01:21:07Z",
         "scriptName": "ldc-shop"
       },
       "sum": {
@@ -81973,8 +82093,8 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-03-22T04:12:20Z",
-        "scriptName": "ldc-shop"
+        "datetime": "2026-03-09T12:26:54Z",
+        "scriptName": "emby"
       },
       "sum": {
         "errors": 0,
@@ -81983,8 +82103,8 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-03-09T12:26:54Z",
-        "scriptName": "emby"
+        "datetime": "2026-03-22T04:12:20Z",
+        "scriptName": "ldc-shop"
       },
       "sum": {
         "errors": 0,
@@ -82173,8 +82293,8 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-03-20T18:00:43Z",
-        "scriptName": "subscription-manager"
+        "datetime": "2026-03-19T06:27:54Z",
+        "scriptName": "ldc-shop"
       },
       "sum": {
         "errors": 0,
@@ -82183,8 +82303,8 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-03-19T06:27:54Z",
-        "scriptName": "ldc-shop"
+        "datetime": "2026-03-20T18:00:43Z",
+        "scriptName": "subscription-manager"
       },
       "sum": {
         "errors": 0,
@@ -82243,7 +82363,7 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-03-18T11:31:45Z",
+        "datetime": "2026-03-18T20:36:58Z",
         "scriptName": "ldc-shop"
       },
       "sum": {
@@ -82273,7 +82393,7 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-03-18T20:36:58Z",
+        "datetime": "2026-03-18T11:31:45Z",
         "scriptName": "ldc-shop"
       },
       "sum": {
@@ -83483,8 +83603,8 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-03-02T15:00:35Z",
-        "scriptName": "subscription-manager"
+        "datetime": "2026-03-25T00:39:07Z",
+        "scriptName": "ldc-shop"
       },
       "sum": {
         "errors": 0,
@@ -83493,8 +83613,8 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-03-25T00:39:07Z",
-        "scriptName": "ldc-shop"
+        "datetime": "2026-03-02T15:00:35Z",
+        "scriptName": "subscription-manager"
       },
       "sum": {
         "errors": 0,
@@ -83523,22 +83643,22 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-03-10T13:55:09Z",
-        "scriptName": "subscription-manager"
-      },
-      "sum": {
-        "errors": 0,
-        "requests": 1
-      }
-    },
-    {
-      "dimensions": {
         "datetime": "2026-03-08T21:11:21Z",
         "scriptName": "emby"
       },
       "sum": {
         "errors": 0,
         "requests": 5
+      }
+    },
+    {
+      "dimensions": {
+        "datetime": "2026-03-10T13:55:09Z",
+        "scriptName": "subscription-manager"
+      },
+      "sum": {
+        "errors": 0,
+        "requests": 1
       }
     },
     {
@@ -83563,8 +83683,8 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-03-07T11:08:46Z",
-        "scriptName": "emby"
+        "datetime": "2026-03-25T21:58:39Z",
+        "scriptName": "ldc-shop"
       },
       "sum": {
         "errors": 0,
@@ -83573,8 +83693,8 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-03-25T21:58:39Z",
-        "scriptName": "ldc-shop"
+        "datetime": "2026-03-07T11:08:46Z",
+        "scriptName": "emby"
       },
       "sum": {
         "errors": 0,
@@ -83623,16 +83743,6 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-02-27T11:28:09Z",
-        "scriptName": "subscription-manager"
-      },
-      "sum": {
-        "errors": 0,
-        "requests": 1
-      }
-    },
-    {
-      "dimensions": {
         "datetime": "2026-03-16T20:38:47Z",
         "scriptName": "ldc-shop"
       },
@@ -83645,6 +83755,16 @@
       "dimensions": {
         "datetime": "2026-03-05T12:51:45Z",
         "scriptName": "subscription-manager-new"
+      },
+      "sum": {
+        "errors": 0,
+        "requests": 1
+      }
+    },
+    {
+      "dimensions": {
+        "datetime": "2026-02-27T11:28:09Z",
+        "scriptName": "subscription-manager"
       },
       "sum": {
         "errors": 0,
@@ -83863,16 +83983,6 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-03-05T12:51:42Z",
-        "scriptName": "subscription-manager-new"
-      },
-      "sum": {
-        "errors": 0,
-        "requests": 1
-      }
-    },
-    {
-      "dimensions": {
         "datetime": "2026-03-21T19:13:16Z",
         "scriptName": "ldc-shop"
       },
@@ -83883,8 +83993,8 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-02-28T04:58:46Z",
-        "scriptName": "subscription-manager"
+        "datetime": "2026-03-05T12:51:42Z",
+        "scriptName": "subscription-manager-new"
       },
       "sum": {
         "errors": 0,
@@ -83899,6 +84009,16 @@
       "sum": {
         "errors": 0,
         "requests": 283
+      }
+    },
+    {
+      "dimensions": {
+        "datetime": "2026-02-28T04:58:46Z",
+        "scriptName": "subscription-manager"
+      },
+      "sum": {
+        "errors": 0,
+        "requests": 1
       }
     },
     {
@@ -84613,8 +84733,8 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-02-28T11:15:55Z",
-        "scriptName": "subscription-manager"
+        "datetime": "2026-03-18T09:24:51Z",
+        "scriptName": "ldc-shop"
       },
       "sum": {
         "errors": 0,
@@ -84623,8 +84743,8 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-03-18T09:24:51Z",
-        "scriptName": "ldc-shop"
+        "datetime": "2026-02-28T11:15:55Z",
+        "scriptName": "subscription-manager"
       },
       "sum": {
         "errors": 0,
@@ -85013,8 +85133,8 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-03-27T12:22:38Z",
-        "scriptName": "ldc-shop"
+        "datetime": "2026-03-04T20:45:11Z",
+        "scriptName": "subscription-manager"
       },
       "sum": {
         "errors": 0,
@@ -85033,8 +85153,8 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-03-04T20:45:11Z",
-        "scriptName": "subscription-manager"
+        "datetime": "2026-03-27T12:22:38Z",
+        "scriptName": "ldc-shop"
       },
       "sum": {
         "errors": 0,
@@ -85303,8 +85423,8 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-03-12T08:01:03Z",
-        "scriptName": "subscription-manager-new"
+        "datetime": "2026-02-27T13:37:19Z",
+        "scriptName": "subscription-manager"
       },
       "sum": {
         "errors": 0,
@@ -85313,8 +85433,8 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-02-27T13:37:19Z",
-        "scriptName": "subscription-manager"
+        "datetime": "2026-03-12T08:01:03Z",
+        "scriptName": "subscription-manager-new"
       },
       "sum": {
         "errors": 0,
@@ -85523,8 +85643,8 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-03-05T21:28:59Z",
-        "scriptName": "subscription-manager"
+        "datetime": "2026-03-24T11:22:16Z",
+        "scriptName": "ldc-shop"
       },
       "sum": {
         "errors": 0,
@@ -85533,8 +85653,8 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-03-24T11:22:16Z",
-        "scriptName": "ldc-shop"
+        "datetime": "2026-03-05T21:28:59Z",
+        "scriptName": "subscription-manager"
       },
       "sum": {
         "errors": 0,
@@ -85593,8 +85713,8 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-03-10T13:37:44Z",
-        "scriptName": "subscription-manager"
+        "datetime": "2026-03-07T05:00:25Z",
+        "scriptName": "subscription-manager-new"
       },
       "sum": {
         "errors": 0,
@@ -85603,8 +85723,8 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-03-07T05:00:25Z",
-        "scriptName": "subscription-manager-new"
+        "datetime": "2026-03-10T13:37:44Z",
+        "scriptName": "subscription-manager"
       },
       "sum": {
         "errors": 0,
@@ -85743,16 +85863,6 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-03-10T15:37:37Z",
-        "scriptName": "subscription-manager"
-      },
-      "sum": {
-        "errors": 0,
-        "requests": 1
-      }
-    },
-    {
-      "dimensions": {
         "datetime": "2026-03-24T20:14:16Z",
         "scriptName": "ldc-shop"
       },
@@ -85765,6 +85875,16 @@
       "dimensions": {
         "datetime": "2026-03-24T09:12:13Z",
         "scriptName": "ldc-shop"
+      },
+      "sum": {
+        "errors": 0,
+        "requests": 1
+      }
+    },
+    {
+      "dimensions": {
+        "datetime": "2026-03-10T15:37:37Z",
+        "scriptName": "subscription-manager"
       },
       "sum": {
         "errors": 0,
@@ -85913,8 +86033,8 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-03-16T12:38:45Z",
-        "scriptName": "ldc-shop"
+        "datetime": "2026-02-28T14:16:17Z",
+        "scriptName": "subscription-manager"
       },
       "sum": {
         "errors": 0,
@@ -85923,8 +86043,8 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-02-28T14:16:17Z",
-        "scriptName": "subscription-manager"
+        "datetime": "2026-03-16T12:38:45Z",
+        "scriptName": "ldc-shop"
       },
       "sum": {
         "errors": 0,
@@ -86323,8 +86443,8 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-03-22T19:03:11Z",
-        "scriptName": "ldc-shop"
+        "datetime": "2026-02-27T14:04:23Z",
+        "scriptName": "subscription-manager"
       },
       "sum": {
         "errors": 0,
@@ -86333,8 +86453,8 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-02-27T14:04:23Z",
-        "scriptName": "subscription-manager"
+        "datetime": "2026-03-22T19:03:11Z",
+        "scriptName": "ldc-shop"
       },
       "sum": {
         "errors": 0,
@@ -86563,8 +86683,8 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-03-02T09:17:07Z",
-        "scriptName": "subscription-manager"
+        "datetime": "2026-03-17T14:00:23Z",
+        "scriptName": "ldc-shop"
       },
       "sum": {
         "errors": 0,
@@ -86573,8 +86693,8 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-03-17T14:00:23Z",
-        "scriptName": "ldc-shop"
+        "datetime": "2026-03-02T09:17:07Z",
+        "scriptName": "subscription-manager"
       },
       "sum": {
         "errors": 0,
@@ -86773,8 +86893,8 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-03-17T12:38:17Z",
-        "scriptName": "private-config"
+        "datetime": "2026-03-25T17:46:39Z",
+        "scriptName": "ldc-shop"
       },
       "sum": {
         "errors": 0,
@@ -86783,8 +86903,8 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-03-25T17:46:39Z",
-        "scriptName": "ldc-shop"
+        "datetime": "2026-03-17T12:38:17Z",
+        "scriptName": "private-config"
       },
       "sum": {
         "errors": 0,
@@ -87333,8 +87453,8 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-03-22T15:33:11Z",
-        "scriptName": "ldc-shop"
+        "datetime": "2026-03-05T16:11:36Z",
+        "scriptName": "subscription-manager"
       },
       "sum": {
         "errors": 0,
@@ -87343,8 +87463,8 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-03-05T16:11:36Z",
-        "scriptName": "subscription-manager"
+        "datetime": "2026-03-22T15:33:11Z",
+        "scriptName": "ldc-shop"
       },
       "sum": {
         "errors": 0,
@@ -87453,8 +87573,8 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-02-26T17:18:24Z",
-        "scriptName": "subscription-manager"
+        "datetime": "2026-03-22T17:05:11Z",
+        "scriptName": "ldc-shop"
       },
       "sum": {
         "errors": 0,
@@ -87463,8 +87583,8 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-03-22T17:05:11Z",
-        "scriptName": "ldc-shop"
+        "datetime": "2026-02-26T17:18:24Z",
+        "scriptName": "subscription-manager"
       },
       "sum": {
         "errors": 0,
@@ -88353,8 +88473,8 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-03-04T13:47:47Z",
-        "scriptName": "subscription-manager"
+        "datetime": "2026-03-24T00:27:33Z",
+        "scriptName": "ldc-shop"
       },
       "sum": {
         "errors": 0,
@@ -88363,8 +88483,8 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-03-24T00:27:33Z",
-        "scriptName": "ldc-shop"
+        "datetime": "2026-03-04T13:47:47Z",
+        "scriptName": "subscription-manager"
       },
       "sum": {
         "errors": 0,
@@ -88833,8 +88953,8 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-03-10T05:22:29Z",
-        "scriptName": "private-config"
+        "datetime": "2026-03-18T19:17:58Z",
+        "scriptName": "ldc-shop"
       },
       "sum": {
         "errors": 0,
@@ -88843,8 +88963,8 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-03-18T19:17:58Z",
-        "scriptName": "ldc-shop"
+        "datetime": "2026-02-27T12:49:16Z",
+        "scriptName": "subscription-manager"
       },
       "sum": {
         "errors": 0,
@@ -88873,7 +88993,17 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-02-27T12:49:16Z",
+        "datetime": "2026-03-10T05:22:29Z",
+        "scriptName": "private-config"
+      },
+      "sum": {
+        "errors": 0,
+        "requests": 1
+      }
+    },
+    {
+      "dimensions": {
+        "datetime": "2026-03-05T16:58:47Z",
         "scriptName": "subscription-manager"
       },
       "sum": {
@@ -88889,16 +89019,6 @@
       "sum": {
         "errors": 0,
         "requests": 8
-      }
-    },
-    {
-      "dimensions": {
-        "datetime": "2026-03-05T16:58:47Z",
-        "scriptName": "subscription-manager"
-      },
-      "sum": {
-        "errors": 0,
-        "requests": 1
       }
     },
     {
@@ -88933,16 +89053,6 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-03-21T00:17:42Z",
-        "scriptName": "ldc-shop"
-      },
-      "sum": {
-        "errors": 0,
-        "requests": 1
-      }
-    },
-    {
-      "dimensions": {
         "datetime": "2026-03-26T20:38:26Z",
         "scriptName": "ldc-shop"
       },
@@ -88955,6 +89065,16 @@
       "dimensions": {
         "datetime": "2026-03-15T21:01:02Z",
         "scriptName": "subscription-manager-new"
+      },
+      "sum": {
+        "errors": 0,
+        "requests": 1
+      }
+    },
+    {
+      "dimensions": {
+        "datetime": "2026-03-21T00:17:42Z",
+        "scriptName": "ldc-shop"
       },
       "sum": {
         "errors": 0,
@@ -89573,22 +89693,22 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-03-18T19:11:02Z",
-        "scriptName": "ldc-shop"
-      },
-      "sum": {
-        "errors": 0,
-        "requests": 1
-      }
-    },
-    {
-      "dimensions": {
         "datetime": "2026-03-11T02:29:28Z",
         "scriptName": "emby"
       },
       "sum": {
         "errors": 0,
         "requests": 39
+      }
+    },
+    {
+      "dimensions": {
+        "datetime": "2026-03-18T19:11:02Z",
+        "scriptName": "ldc-shop"
+      },
+      "sum": {
+        "errors": 0,
+        "requests": 1
       }
     },
     {
@@ -89743,7 +89863,7 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-03-10T10:38:00Z",
+        "datetime": "2026-03-07T08:32:33Z",
         "scriptName": "subscription-manager"
       },
       "sum": {
@@ -89753,7 +89873,7 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-03-07T08:32:33Z",
+        "datetime": "2026-03-10T10:38:00Z",
         "scriptName": "subscription-manager"
       },
       "sum": {
@@ -90293,22 +90413,22 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-03-01T02:10:07Z",
-        "scriptName": "private-config"
-      },
-      "sum": {
-        "errors": 0,
-        "requests": 22
-      }
-    },
-    {
-      "dimensions": {
         "datetime": "2026-03-22T14:51:11Z",
         "scriptName": "ldc-shop"
       },
       "sum": {
         "errors": 0,
         "requests": 1
+      }
+    },
+    {
+      "dimensions": {
+        "datetime": "2026-03-01T02:10:07Z",
+        "scriptName": "private-config"
+      },
+      "sum": {
+        "errors": 0,
+        "requests": 22
       }
     },
     {
@@ -91003,22 +91123,22 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-03-28T00:13:49Z",
-        "scriptName": "ldc-shop"
-      },
-      "sum": {
-        "errors": 0,
-        "requests": 1
-      }
-    },
-    {
-      "dimensions": {
         "datetime": "2026-03-17T11:22:20Z",
         "scriptName": "ldc-shop"
       },
       "sum": {
         "errors": 0,
         "requests": 2
+      }
+    },
+    {
+      "dimensions": {
+        "datetime": "2026-03-28T00:13:49Z",
+        "scriptName": "ldc-shop"
+      },
+      "sum": {
+        "errors": 0,
+        "requests": 1
       }
     },
     {
@@ -91213,8 +91333,8 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-03-21T17:28:16Z",
-        "scriptName": "ldc-shop"
+        "datetime": "2026-03-10T10:33:24Z",
+        "scriptName": "subscription-manager"
       },
       "sum": {
         "errors": 0,
@@ -91233,8 +91353,8 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-03-10T10:33:24Z",
-        "scriptName": "subscription-manager"
+        "datetime": "2026-03-21T17:28:16Z",
+        "scriptName": "ldc-shop"
       },
       "sum": {
         "errors": 0,
@@ -91503,7 +91623,7 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-03-23T19:52:33Z",
+        "datetime": "2026-03-17T06:29:48Z",
         "scriptName": "ldc-shop"
       },
       "sum": {
@@ -91513,7 +91633,7 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-03-17T06:29:48Z",
+        "datetime": "2026-03-23T19:52:33Z",
         "scriptName": "ldc-shop"
       },
       "sum": {
@@ -91673,22 +91793,22 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-03-21T09:21:14Z",
-        "scriptName": "ldc-shop"
-      },
-      "sum": {
-        "errors": 0,
-        "requests": 1
-      }
-    },
-    {
-      "dimensions": {
         "datetime": "2026-03-17T14:03:06Z",
         "scriptName": "ldc-shop"
       },
       "sum": {
         "errors": 0,
         "requests": 2
+      }
+    },
+    {
+      "dimensions": {
+        "datetime": "2026-03-21T09:21:14Z",
+        "scriptName": "ldc-shop"
+      },
+      "sum": {
+        "errors": 0,
+        "requests": 1
       }
     },
     {
@@ -92023,8 +92143,8 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-02-26T13:36:25Z",
-        "scriptName": "subscription-manager"
+        "datetime": "2026-03-18T14:07:58Z",
+        "scriptName": "ldc-shop"
       },
       "sum": {
         "errors": 0,
@@ -92033,8 +92153,8 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-03-18T14:07:58Z",
-        "scriptName": "ldc-shop"
+        "datetime": "2026-02-26T13:36:25Z",
+        "scriptName": "subscription-manager"
       },
       "sum": {
         "errors": 0,
@@ -92313,7 +92433,7 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-02-26T10:59:21Z",
+        "datetime": "2026-03-05T15:58:49Z",
         "scriptName": "subscription-manager"
       },
       "sum": {
@@ -92323,7 +92443,7 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-03-05T15:58:49Z",
+        "datetime": "2026-02-26T10:59:21Z",
         "scriptName": "subscription-manager"
       },
       "sum": {
@@ -92453,22 +92573,22 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-03-20T04:17:48Z",
-        "scriptName": "ldc-shop"
-      },
-      "sum": {
-        "errors": 0,
-        "requests": 1
-      }
-    },
-    {
-      "dimensions": {
         "datetime": "2026-03-18T19:39:30Z",
         "scriptName": "private-config"
       },
       "sum": {
         "errors": 0,
         "requests": 9
+      }
+    },
+    {
+      "dimensions": {
+        "datetime": "2026-03-20T04:17:48Z",
+        "scriptName": "ldc-shop"
+      },
+      "sum": {
+        "errors": 0,
+        "requests": 1
       }
     },
     {
@@ -93143,6 +93263,16 @@
     },
     {
       "dimensions": {
+        "datetime": "2026-03-28T08:21:24Z",
+        "scriptName": "ldc-shop"
+      },
+      "sum": {
+        "errors": 0,
+        "requests": 1
+      }
+    },
+    {
+      "dimensions": {
         "datetime": "2026-03-23T16:53:47Z",
         "scriptName": "ldc-shop"
       },
@@ -93283,22 +93413,22 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-03-05T16:32:05Z",
-        "scriptName": "subscription-manager"
-      },
-      "sum": {
-        "errors": 0,
-        "requests": 1
-      }
-    },
-    {
-      "dimensions": {
         "datetime": "2026-03-16T10:34:33Z",
         "scriptName": "ldc-shop"
       },
       "sum": {
         "errors": 0,
         "requests": 2
+      }
+    },
+    {
+      "dimensions": {
+        "datetime": "2026-03-05T16:32:05Z",
+        "scriptName": "subscription-manager"
+      },
+      "sum": {
+        "errors": 0,
+        "requests": 1
       }
     },
     {
@@ -93433,8 +93563,8 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-02-28T09:37:18Z",
-        "scriptName": "subscription-manager"
+        "datetime": "2026-03-25T23:52:39Z",
+        "scriptName": "ldc-shop"
       },
       "sum": {
         "errors": 0,
@@ -93443,8 +93573,8 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-03-25T23:52:39Z",
-        "scriptName": "ldc-shop"
+        "datetime": "2026-02-28T09:37:18Z",
+        "scriptName": "subscription-manager"
       },
       "sum": {
         "errors": 0,
@@ -94883,7 +95013,7 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-03-27T16:27:38Z",
+        "datetime": "2026-03-25T04:31:07Z",
         "scriptName": "ldc-shop"
       },
       "sum": {
@@ -94893,7 +95023,7 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-03-25T04:31:07Z",
+        "datetime": "2026-03-27T16:27:38Z",
         "scriptName": "ldc-shop"
       },
       "sum": {
@@ -95213,7 +95343,7 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-03-22T21:54:19Z",
+        "datetime": "2026-03-26T11:30:52Z",
         "scriptName": "ldc-shop"
       },
       "sum": {
@@ -95223,7 +95353,7 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-03-26T11:30:52Z",
+        "datetime": "2026-03-22T21:54:19Z",
         "scriptName": "ldc-shop"
       },
       "sum": {
@@ -95523,7 +95653,7 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-03-27T18:15:38Z",
+        "datetime": "2026-03-26T00:06:39Z",
         "scriptName": "ldc-shop"
       },
       "sum": {
@@ -95533,7 +95663,7 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-03-26T00:06:39Z",
+        "datetime": "2026-03-27T18:15:38Z",
         "scriptName": "ldc-shop"
       },
       "sum": {
@@ -96093,7 +96223,7 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-03-18T19:12:58Z",
+        "datetime": "2026-03-28T05:24:49Z",
         "scriptName": "ldc-shop"
       },
       "sum": {
@@ -96103,7 +96233,7 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-03-28T05:24:49Z",
+        "datetime": "2026-03-18T19:12:58Z",
         "scriptName": "ldc-shop"
       },
       "sum": {
@@ -96683,22 +96813,22 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-03-18T04:06:51Z",
-        "scriptName": "ldc-shop"
-      },
-      "sum": {
-        "errors": 0,
-        "requests": 1
-      }
-    },
-    {
-      "dimensions": {
         "datetime": "2026-03-18T02:29:17Z",
         "scriptName": "emby"
       },
       "sum": {
         "errors": 0,
         "requests": 2
+      }
+    },
+    {
+      "dimensions": {
+        "datetime": "2026-03-18T04:06:51Z",
+        "scriptName": "ldc-shop"
+      },
+      "sum": {
+        "errors": 0,
+        "requests": 1
       }
     },
     {
@@ -96903,8 +97033,8 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-03-17T15:51:49Z",
-        "scriptName": "ldc-shop"
+        "datetime": "2026-03-02T22:00:54Z",
+        "scriptName": "subscription-manager"
       },
       "sum": {
         "errors": 0,
@@ -96913,8 +97043,8 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-03-02T22:00:54Z",
-        "scriptName": "subscription-manager"
+        "datetime": "2026-03-17T15:51:49Z",
+        "scriptName": "ldc-shop"
       },
       "sum": {
         "errors": 0,
@@ -96943,8 +97073,8 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-03-23T06:51:18Z",
-        "scriptName": "ldc-shop"
+        "datetime": "2026-03-03T11:00:52Z",
+        "scriptName": "subscription-manager-new"
       },
       "sum": {
         "errors": 0,
@@ -96953,8 +97083,8 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-03-03T11:00:52Z",
-        "scriptName": "subscription-manager-new"
+        "datetime": "2026-03-23T06:51:18Z",
+        "scriptName": "ldc-shop"
       },
       "sum": {
         "errors": 0,
@@ -98053,7 +98183,7 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-03-24T10:33:16Z",
+        "datetime": "2026-03-17T00:21:47Z",
         "scriptName": "ldc-shop"
       },
       "sum": {
@@ -98063,7 +98193,7 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-03-17T00:21:47Z",
+        "datetime": "2026-03-24T10:33:16Z",
         "scriptName": "ldc-shop"
       },
       "sum": {
@@ -98673,22 +98803,22 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-03-13T15:13:49Z",
-        "scriptName": "emby"
-      },
-      "sum": {
-        "errors": 0,
-        "requests": 2
-      }
-    },
-    {
-      "dimensions": {
         "datetime": "2026-03-20T10:05:42Z",
         "scriptName": "ldc-shop"
       },
       "sum": {
         "errors": 0,
         "requests": 1
+      }
+    },
+    {
+      "dimensions": {
+        "datetime": "2026-03-13T15:13:49Z",
+        "scriptName": "emby"
+      },
+      "sum": {
+        "errors": 0,
+        "requests": 2
       }
     },
     {
@@ -98723,22 +98853,22 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-03-07T12:02:58Z",
-        "scriptName": "emby"
-      },
-      "sum": {
-        "errors": 0,
-        "requests": 3
-      }
-    },
-    {
-      "dimensions": {
         "datetime": "2026-02-26T13:55:18Z",
         "scriptName": "subscription-manager"
       },
       "sum": {
         "errors": 0,
         "requests": 1
+      }
+    },
+    {
+      "dimensions": {
+        "datetime": "2026-03-07T12:02:58Z",
+        "scriptName": "emby"
+      },
+      "sum": {
+        "errors": 0,
+        "requests": 3
       }
     },
     {
@@ -99143,6 +99273,16 @@
     },
     {
       "dimensions": {
+        "datetime": "2026-03-23T17:43:33Z",
+        "scriptName": "ldc-shop"
+      },
+      "sum": {
+        "errors": 0,
+        "requests": 1
+      }
+    },
+    {
+      "dimensions": {
         "datetime": "2026-03-09T16:01:08Z",
         "scriptName": "webui-health-check"
       },
@@ -99165,16 +99305,6 @@
       "dimensions": {
         "datetime": "2026-03-18T08:11:22Z",
         "scriptName": "emby"
-      },
-      "sum": {
-        "errors": 0,
-        "requests": 1
-      }
-    },
-    {
-      "dimensions": {
-        "datetime": "2026-03-23T17:43:33Z",
-        "scriptName": "ldc-shop"
       },
       "sum": {
         "errors": 0,
@@ -99453,8 +99583,8 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-03-25T23:15:39Z",
-        "scriptName": "ldc-shop"
+        "datetime": "2026-03-07T20:20:58Z",
+        "scriptName": "emby"
       },
       "sum": {
         "errors": 0,
@@ -99463,8 +99593,8 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-03-07T20:20:58Z",
-        "scriptName": "emby"
+        "datetime": "2026-03-25T23:15:39Z",
+        "scriptName": "ldc-shop"
       },
       "sum": {
         "errors": 0,
@@ -99513,8 +99643,8 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-03-13T13:00:43Z",
-        "scriptName": "subscription-manager-new"
+        "datetime": "2026-03-18T14:01:51Z",
+        "scriptName": "ldc-shop"
       },
       "sum": {
         "errors": 0,
@@ -99523,8 +99653,8 @@
     },
     {
       "dimensions": {
-        "datetime": "2026-03-18T14:01:51Z",
-        "scriptName": "ldc-shop"
+        "datetime": "2026-03-13T13:00:43Z",
+        "scriptName": "subscription-manager-new"
       },
       "sum": {
         "errors": 0,
@@ -99864,136 +99994,6 @@
     {
       "dimensions": {
         "datetime": "2026-03-21T11:52:16Z",
-        "scriptName": "ldc-shop"
-      },
-      "sum": {
-        "errors": 0,
-        "requests": 1
-      }
-    },
-    {
-      "dimensions": {
-        "datetime": "2026-03-01T21:36:15Z",
-        "scriptName": "emby"
-      },
-      "sum": {
-        "errors": 0,
-        "requests": 2
-      }
-    },
-    {
-      "dimensions": {
-        "datetime": "2026-02-28T15:12:22Z",
-        "scriptName": "subscription-manager"
-      },
-      "sum": {
-        "errors": 0,
-        "requests": 1
-      }
-    },
-    {
-      "dimensions": {
-        "datetime": "2026-03-01T06:42:25Z",
-        "scriptName": "emby"
-      },
-      "sum": {
-        "errors": 0,
-        "requests": 1
-      }
-    },
-    {
-      "dimensions": {
-        "datetime": "2026-03-25T01:59:07Z",
-        "scriptName": "ldc-shop"
-      },
-      "sum": {
-        "errors": 0,
-        "requests": 1
-      }
-    },
-    {
-      "dimensions": {
-        "datetime": "2026-03-16T12:58:45Z",
-        "scriptName": "ldc-shop"
-      },
-      "sum": {
-        "errors": 0,
-        "requests": 1
-      }
-    },
-    {
-      "dimensions": {
-        "datetime": "2026-03-05T13:53:32Z",
-        "scriptName": "subscription-manager"
-      },
-      "sum": {
-        "errors": 0,
-        "requests": 1
-      }
-    },
-    {
-      "dimensions": {
-        "datetime": "2026-03-07T07:23:03Z",
-        "scriptName": "emby"
-      },
-      "sum": {
-        "errors": 0,
-        "requests": 1
-      }
-    },
-    {
-      "dimensions": {
-        "datetime": "2026-03-10T16:21:09Z",
-        "scriptName": "subscription-manager"
-      },
-      "sum": {
-        "errors": 0,
-        "requests": 1
-      }
-    },
-    {
-      "dimensions": {
-        "datetime": "2026-03-21T05:37:14Z",
-        "scriptName": "ldc-shop"
-      },
-      "sum": {
-        "errors": 0,
-        "requests": 1
-      }
-    },
-    {
-      "dimensions": {
-        "datetime": "2026-03-02T20:14:41Z",
-        "scriptName": "subscription-manager"
-      },
-      "sum": {
-        "errors": 0,
-        "requests": 1
-      }
-    },
-    {
-      "dimensions": {
-        "datetime": "2026-03-10T14:25:22Z",
-        "scriptName": "subscription-manager"
-      },
-      "sum": {
-        "errors": 0,
-        "requests": 1
-      }
-    },
-    {
-      "dimensions": {
-        "datetime": "2026-03-22T04:23:04Z",
-        "scriptName": "subscription-manager"
-      },
-      "sum": {
-        "errors": 0,
-        "requests": 1
-      }
-    },
-    {
-      "dimensions": {
-        "datetime": "2026-03-18T11:18:51Z",
         "scriptName": "ldc-shop"
       },
       "sum": {
